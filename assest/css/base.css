@@ -1,0 +1,23 @@
+:root{
+    --while-color:#fff;
+    --back-color:#000;
+    --text-color:#333;
+    /* --primary-colo:; */
+    --border-color:#dbdbdb;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Định dạng ban đầu cho html */
+html{
+    /* HACK */
+    /* 1rem=10px*/
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    /* Sans-serif : tập hợp chủng font k chân */
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
