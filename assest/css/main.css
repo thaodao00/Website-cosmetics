@@ -1,0 +1,414 @@
+/** Common */
+h1{
+    color: #ff253a;
+}
+
+/** Đào Thị Thu Thảo - start */
+/*Header: begin*/
+#app{
+    overflow: hidden ;
+    position: relative;
+}
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: var(--black-color);
+    z-index: 9999;
+    padding: 30px 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    font-size: 3rem;
+    color: var(--while-color);
+    margin: 0 20px;
+}
+.navbar__list{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.navbar__item {
+    font-size: 1.4rem;
+    margin: 0 20px;
+}
+.navbar__item-link:hover{
+    opacity: 0.8;
+}
+.navbar__item-link{
+    color: var(--while-color);
+    text-decoration: none;
+}
+.login-link, .cart-link, .search-link, .nav-link{
+    color: var(--while-color);
+    font-size: 2rem;
+    margin-left: 15px;
+}
+.login-link:hover, .cart-link:hover, .search-link:hover, .nav-link:hover {
+    opacity: 0.8;
+}
+.footer{
+    margin-top: 80px;
+    background: var(--black-color);
+    overflow: hidden;
+}
+.footer-content{
+    padding: 100px 0;
+}
+.footer__contact, .footer__follow{
+    list-style-type: none;
+    text-align: center;
+}
+.footer__contact-link{
+    text-decoration: none;
+    color: var(--while-color);
+}
+.footer__contact--title{
+    color: var(--while-color);
+    font-size: 3rem;
+    margin: 30px 0;
+}
+.footer__contact-address, .footer__contact-email, .footer__contact-phone {
+    font-size: 1.6rem;
+    margin: 15px 0;
+}
+.footer__contact-img{
+    margin-top: 20px;
+}
+.footer__follow-text{
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    color: var(--while-color);
+}
+.facebook-link{
+    display: block;
+}
+.footer__follow-icon{
+    display: block;
+}
+.footer__follow-icon-link{
+    font-size: 2rem;
+    color: var(--while-color);
+    margin: 0 10px;
+    text-decoration: none;
+}
+.footer__follow-icon{
+    margin-top: 30px;
+}
+.footer__follow-icon-link:hover{
+    opacity: 0.8;
+}
+
+/** Đào Thị Thu Thảo - end */
+
+
+/** Nguyễn Hữu Kha - start */
+
+.product-slider {
+    width: 100%;
+    height: 330px;
+    display: inline-block;
+    position: relative;
+    z-index: 101;
+}
+
+.product-slider-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.product-slider__background {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 700px;
+    height: calc(100% - 2px);
+    margin: 1px 0;
+    vertical-align: middle;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-image: url("../img/product/slider.jpg");
+}
+
+.product-slider__title {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: var(--black-color);
+}
+
+.product-container {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    z-index: 100;
+}
+
+.product-container__inner {
+    padding: 77px 0 40px 0;
+}
+
+.product-frame {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    float: none;
+    margin: 21px 0 50px;
+}
+
+.product-content__text {
+    display: block;
+}
+
+.product-content__img-wrapper {
+    opacity: 1;
+    transition: opacity 0.25s ease-in-out 0s;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 35%;
+    margin: 0;
+    padding: 0 23px 0 0;
+    float: left;
+}
+
+.product-content__img {
+    background-image: url("../img/product/granary/filmeyeshadow.jpg");
+    width: 100%;
+    display: flex;
+    height: 389px;
+    background-repeat: no-repeat;
+    margin-left: 25%;
+}
+
+.product-content__text-wrapper {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 65%;
+    padding: 0 0 0 23px;
+    float: left;
+}
+
+.product-content__text__title {
+    display: block;
+    margin: 0 0 7px;
+    font-weight: 400;
+    word-wrap: break-word;
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: var(--black-color);
+}
+
+.product-price__old {
+    padding: 0;
+    margin-right: 8px;
+}
+
+.product-content__rating {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    line-height: 1.5;
+    margin: 13px 0 3px;
+}
+
+.product-content__rating-description {
+    position: relative;
+    top: 2px;
+    font-style: italic;
+    margin-left: 8px;
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--black-color);
+    font-family: Cormorant,serif;
+    text-decoration: none;
+    -webkit-transition: color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+}
+
+.product-content__rating-description:hover {
+    color: var(--gray-color);
+}
+
+.product-content__details-description {
+    position: relative;
+    display: block;
+    width: 70%;
+    vertical-align: middle;
+    color: var(--gray-color);
+    white-space: break-spaces;
+    top: -10px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    /*display: -webkit-box;*/
+    /*-webkit-box-orient: vertical;*/
+    /*-webkit-line-clamp: 1;*/
+}
+
+.product-content__quantity-vs-purchase {
+    display: flex;
+}
+
+.purchase-buttons {
+    margin-left: 40px;
+}
+
+.product-content__add-to-wishlist {
+    margin: 50px 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Cormorant,serif;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 24px;
+    color: var(--text-color);
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.product-content__add-to-wishlist:hover {
+    color: var(--gray-color);
+}
+
+.product-content__add-to-wishlist__icon {
+    margin-right: 10px;
+}
+
+.product-content__meta {
+    display: block;
+    width: 100%;
+    margin-top: 37px;
+}
+
+.meta__sku-wrapper,
+.meta__category-wrapper,
+.meta__tag-wrapper {
+    display: block;
+    margin: 1px 0;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.meta__sku,
+.meta__category,
+.meta__tag {
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.stay-in-touch {
+    animation: flyup ease-in-out 0.8s;
+}
+
+@keyframes flyup {
+    from {
+        transform: translateY(280px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.stay-in-touch__title {
+    width: 100%;
+}
+
+.stay-in-touch__title h2 {
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 0.2rem;
+    color: var(--black-color);
+    text-align: center;
+}
+
+.stay-in-touch__form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.stay-in-touch__form input {
+    width: 70%;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: 2px solid var(--border-color);
+    color: var(--text-color);
+    font-style: italic;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+    outline: none;
+    border-radius: 2px;
+}
+
+.stay-in-touch__form-description {
+    width: 100%;
+    margin: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: var(--text-color);
+    opacity: 0.7;
+    font-family: Cormorant, serif;
+}
+
+.stay-in-touch__prevent {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.stay-in-touch__prevent input {
+    margin-right: 8px;
+
+}
+
+.stay-in-touch__prevent label:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.stay-in-touch__prevent p {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.15rem;
+    color: var(--text-color);
+    opacity: 0.7;
+}
+
+/** Nguyễn Hữu Kha - end */
+
+/** Triệu Huệ Mẩn - start */
+
+/** Triệu Huệ Mẩn - end */
+
