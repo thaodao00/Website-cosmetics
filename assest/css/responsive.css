@@ -1,0 +1,10 @@
+/* Tablet and mobile */
+@media (max-width: 63.97em){
+}
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.97em){
+}
+
+/* Mobile */
+@media (max-width: 46.1875em){
+}
