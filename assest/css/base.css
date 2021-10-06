@@ -130,7 +130,7 @@ html{
     bottom: 30px;
     padding: 23px 33px;
     text-align: left;
-    box-shadow: 5px 10px 30px #d8d8d8;
+    box-shadow: 2px 2px 8px var(--gray-color);
     z-index: 110;
     background-color: var(--while-color);
     display: flex;
