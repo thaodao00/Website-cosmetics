@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="./assest/css/base.css">
+    <link rel="stylesheet" href="./assest/css/grid.css">
+    <link rel="stylesheet" href="./assest/css/main.css">
+    <link rel="stylesheet" href="./assest/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./assest/font/fontawesome-free-5.15.3-web/css/all.min.css">
+</head>
+<body>
+<div id="app">
+    <!--Header: begin-->
+    <header class="header">
+        <div class="grid wide ">
+            <div class="row navbar">
+                <div class="col l-2 m-2 c-6">
+                    <h1 class="logo"about=""> Cosmetics</h1>
+                </div>
+                <div class="col l-8 m-8 c-0">
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a href="./index.html" class="navbar__item-link">
+                                HOME
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__item-link" href="#">
+                                PRODUCTS
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__item-link" href="">
+                                ABOUT US
+                            </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a class="navbar__item-link" href="">
+                                CONTACT US
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-icon col l-2 m-2 c-0">
+                    <a class="search-link">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    <a class="cart-link">
+                        <i class="fa fa-cart-plus"></i>
+                    </a>
+                    <a class="login-link">
+                        <i class="fa fa-user"></i>
+                    </a>
+
+                </div>
+                <div class="nav-icon col l-0 m-0 c-6">
+                    <label for="nav-mobile__label">
+                        <i class="nav-link fas fa-bars"></i>
+                    </label>
+                    <input type="checkbox" hidden="" id="nav-mobile__label" class="navbar__check">
+                    <div class="nav-mobile">
+                        <label for="nav-mobile__label">
+                            <i class="icon-exit far fa-times-circle"></i>
+                        </label>
+                        <ul class="nav-mobile__list">
+                            <a href="./index.html" class="nav-mobile__link">
+                                <li class="nav-mobile__item">
+                                    Home
+                                </li>
+                            </a>
+                            <a href="#" class="nav-mobile__link">
+                                <li class="nav-mobile__item">
+                                    Products
+                                </li>
+                            </a>
+                            <a href=" "class="nav-mobile__link">
+                                <li class="nav-mobile__item">
+                                    About Us
+                                </li>
+                            </a>
+                            <a href=" " class="nav-mobile__link">
+                                <li class="nav-mobile__item">
+                                    Contact Us
+                                </li>
+                            </a>
+                            <button class="btn-login btn">
+                                <i class="icon-login fa fa-user"></i>
+                                Login
+                            </button>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <ul class="header__sort-bar">
+            <li class="header__sort-item">
+                <a href="" class="header__sort-link">Common</a>
+            </li>
+            <li class="header__sort-item header__sort-item--active">
+                <a href="" class="header__sort-link">New</a>
+            </li>
+            <li class="header__sort-item">
+                <a href="" class="header__sort-link">Lowest first</a>
+            </li>
+            <li class="header__sort-item">
+                <a href="" class="header__sort-link">Highest first</a>
+            </li>
+        </ul>
+    </header>
+    <!--Header: end-->
+    <!--Content: begin-->
+    <div class="content-products">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-2 m-2 c-0">
+                    <div class="product__items">
+                        <h3 class="product_item-title">
+                           CATEGORIES
+                        </h3>
+                        <ul class="product__items-list">
+                            <a href="" class="product__item-link">
+                                <li class="product__items-item">Applicators</li>
+                            </a>
+                            <a href="" class="product__item-link">
+                                <li class="product__items-item">Body Oil</li>
+                            </a>
+                            <a href="" class="product__item-link">
+                                <li class="product__items-item">Face Masks</li>
+                            </a>
+                            <a href="" class="product__item-link">
+                                <li class="product__items-item">Foundation</li>
+                            </a>
+                            <a href="" class="product__item-link">
+                                <li class="product__items-item">Perfumes</li>
+                            </a>
+                            <a href="" class="product__item-link">
+                                <li class="product__items-item">Skin</li>
+                            </a>
+                            <a href="" class="product__item-link">
+                                <li class="product__items-item">Solutions</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-10 m-10 c-12">
+                    <div class="home-filter hide-on-mobile-tablet">
+                        <span class="home-filter__lable">Sort by</span>
+                        <button class="home-filter__btn btn">Common</button>
+                        <button class="home-filter__btn btn btn--primary">New</button>
+                        <div class="select-input">
+                            <span class="select-input__lable">Price</span>
+                            <i class="select-input__icon fas fa-angle-down "></i>
+                            <ul class="select-input__list">
+                                <li class="select-input__item">
+                                    <a href="" class="select-input__link">Lowest first</a>
+                                </li>
+                                <li class="select-input__item">
+                                    <a href="" class="select-input__link">Highest first</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>/4
+                                </span>
+                            <div class="home-filter__page-control">
+                                <a href="" class="home-filter__page-btn home-filter__page-btn--disabled">
+                                    <i class="home-filter__page-icon fas fa-angle-left "></i>
+                                </a>
+                                <a href="" class="home-filter__page-btn ">
+                                    <i class="home-filter__page-icon fas fa-angle-right "></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="mobile-category">
+                        <ul class="mobile-category__list">
+                            <li class="mobile-category__item">
+                                <a href="" class="mobile-category__link">Applicators</a></a>
+                            </li>
+                            <li class="mobile-category__item">
+                                <a href="" class="mobile-category__link">Body Oil</a></a>
+                            </li>
+                            <li class="mobile-category__item">
+                                <a href="" class="mobile-category__link">Face Masks</a></a>
+                            </li>
+                            <li class="mobile-category__item">
+                                <a href="" class="mobile-category__link">Perfumes</a></a>
+                            </li>
+                            <li class="mobile-category__item">
+                                <a href="" class="mobile-category__link">Skin</a></a>
+                            </li> <li class="mobile-category__item">
+                            <a href="" class="mobile-category__link">Solutions</a></a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <br>
+                    <div class="row products">
+                        <a href="#" class="col l-2-4 m-4 c-6">
+                            <div class="product__item">
+                                <img class="product__item-img" src="./assest/img/product-featured-1.jpg">
+                                <h5 class="product__item-name">
+                                    Innisfee green tea
+                                </h5>
+                                <h3 class="product__item-price">
+                                    $15.00
+                                </h3>
+                                <div class="star-link">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+
+
+                            </div>
+                        </a>
+                        <a href="#" class="col l-2-4 m-4 c-6">
+                            <div class="product__item">
+                                <img class="product__item-img" src="./assest/img/product-featured-1.jpg">
+                                <h5 class="product__item-name">
+                                    Innisfee green tea
+                                </h5>
+                                <h3 class="product__item-price">
+                                    $15.00
+                                </h3>
+                                <div class="star-link">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+
+
+                            </div>
+                        </a>
+                        <a href="#" class="col l-2-4 m-4 c-6">
+                            <div class="product__item">
+                                <img class="product__item-img" src="./assest/img/product-featured-1.jpg">
+                                <h5 class="product__item-name">
+                                    Innisfee green tea
+                                </h5>
+                                <h3 class="product__item-price">
+                                    $15.00
+                                </h3>
+                                <div class="star-link">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+
+
+                            </div>
+                        </a>
+                        <a href="#" class="col l-2-4 m-4 c-6">
+                            <div class="product__item">
+                                <img class="product__item-img" src="./assest/img/product-featured-1.jpg">
+                                <h5 class="product__item-name">
+                                    Innisfee green tea
+                                </h5>
+                                <h3 class="product__item-price">
+                                    $15.00
+                                </h3>
+                                <div class="star-link">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+
+
+                            </div>
+                        </a>
+                        <a href="#" class="col l-2-4 m-4 c-6">
+                            <div class="product__item">
+                                <img class="product__item-img" src="./assest/img/product-featured-1.jpg">
+                                <h5 class="product__item-name">
+                                    Innisfee green tea
+                                </h5>
+                                <h3 class="product__item-price">
+                                    $15.00
+                                </h3>
+                                <div class="star-link">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+
+
+                            </div>
+                        </a>
+                        <a href="#" class="col l-2-4 m-4 c-6">
+                            <div class="product__item">
+                                <img class="product__item-img" src="./assest/img/product-featured-1.jpg">
+                                <h5 class="product__item-name">
+                                    Innisfee green tea
+                                </h5>
+                                <h3 class="product__item-price">
+                                    $15.00
+                                </h3>
+                                <div class="star-link">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                </div>
+
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer: begin-->
+    <div class="footer">
+        <div class="grid wide">
+            <div class="row footer-content">
+                <div class="col l-6 m-6 c-12">
+                    <ul class="footer__contact">
+                        <li class="footer__contact--title">
+                            CONTACT
+                        </li>
+                        <a class="footer__contact-link" href="">
+                            <li class="footer__contact-address">
+                                Address: Ho Chi Minh City
+                            </li>
+                        </a>
+                        <a class="footer__contact-link" href="">
+                            <li class="footer__contact-email">
+                                Email: @gmail.com
+                            </li>
+                        </a>
+                        <a class="footer__contact-link" href="">
+                            <li class="footer__contact-phone">
+                                Phone: +0363275624
+                            </li>
+                        </a>
+                        <img class="footer__contact-img" src="./assest/img/footer-tab-1.png" alt="">
+
+                    </ul>
+                </div>
+                <div class="col l-6 m-6 c-12">
+                    <ul class="footer__follow">
+                        <li class="footer__contact--title">
+                            COSMETICS
+                        </li>
+                        <p class="footer__follow-text">
+                            An oasis of online beauty built
+                            <br>
+                            specifically so your new cosmetics
+                            <br>
+                            site can take everyone’s breaths away.
+                        </p>
+                        <div class="footer__follow-icon">
+                            <a href="" class="footer__follow-icon-link">
+                                <i class="fab fa-internet-explorer"></i>
+                            </a>
+                            <a href="" class="footer__follow-icon-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="" class="footer__follow-icon-link">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                            <a href="" class="footer__follow-icon-link">
+                                <i class="fab fa-pinterest-square"></i>
+                            </a>
+
+                        </div>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--Footer: end-->
+    <!--Search mobile-->
+    <div class="search-mobile">
+        <div class="search-mobile__input">
+            <input class="search-mobile__input-text" placeholder="Search..." >
+            <i class="icon-search fas fa-search"></i>
+        </div>
+
+        <a class="cart-link">
+            <i class="fa fa-cart-plus"></i>
+        </a>
+    </div>
+</div>
+
+<!--    modal-->
+<div class="modal">
+    <div class="modal__icon-close">
+        <i class="fa fa-times" aria-hidden="true"></i>
+    </div>
+    <input type="text" class="modal__input" placeholder="Search...">
+
+    <!-- Search history -->
+    <div class="modal__history">
+        <h3 class="modal__history-history-heading">Search history</h3>
+        <ul class="modal__history-history-list">
+            <li class="modal__history-item">
+                <a href="">Body mist</a>
+            </li>
+            <li class="modal__history-item">
+                <a href="">Innisfee green tea</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="./assest/js/showHide.js"></script>
+</body>
+</html>
