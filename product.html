@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
     <title>Store</title>
     <link rel="stylesheet" href="./assest/font/fontawesome-free-5.15.3-web/css/all.min.css">
     <link rel="stylesheet" href="./assest/css/base.css">
@@ -59,9 +58,41 @@
 
                 </div>
                 <div class="nav-icon col l-0 m-0 c-6">
-                    <a class="nav-link">
-                        <i class="fas fa-bars"></i>
-                    </a>
+                    <label for="nav-mobile__label">
+                        <i class="nav-link fas fa-bars"></i>
+                    </label>
+                    <input type="checkbox" hidden="" id="nav-mobile__label" class="navbar__check">
+                    <div class="nav-mobile">
+                        <label for="nav-mobile__label">
+                            <i class="icon-exit far fa-times-circle"></i>
+                        </label>
+                        <ul class="nav-mobile__list">
+                            <a href="#" class="nav-mobile__link">
+                                <li class="nav-mobile__item">
+                                    Home
+                                </li>
+                            </a>
+                            <a href="./products.html" class="nav-mobile__link">
+                                <li class="nav-mobile__item">
+                                    Products
+                                </li>
+                            </a>
+                            <a href=" "class="nav-mobile__link">
+                                <li class="nav-mobile__item">
+                                    About Us
+                                </li>
+                            </a>
+                            <a href=" " class="nav-mobile__link">
+                                <li class="nav-mobile__item">
+                                    Contact Us
+                                </li>
+                            </a>
+                            <button class="btn-login btn">
+                                <i class="icon-login fa fa-user"></i>
+                                Login
+                            </button>
+                        </ul>
+                    </div>
                 </div>
 
             </div>
@@ -125,72 +156,12 @@
                             </a>
 
                             <div class="product-content__meta">
-
-                              
-<div class="product-slider">
-    <div class="product-slider-wrapper">
-        <div class="product-slider__background"></div>
-        <div class="product-slider__title ">SHOP</div>
-    </div>
-</div>
-
-<div class="product-container">
-    <div class="product-container__inner">
-        <div class="product-frame">
-            <div class="product-content">
-                <div class="product-content__img-wrapper">
-                    <a href="#" class="product-content__img"></a>
-                </div>
-
-                <div class="product-content__text-wrapper">
-                    <div class="product-content__text">
-                        <div class="product-content__text__title">film eyeshadow</div>
-
-                        <p class="product-price price">
-                            <span class="product-price__old del">$27.00</span>
-
-                            <span class="product-price__new">
-                                $23.00
-                            </span>
-                        </p>
-
-                        <div class="product-content__rating">
-                            <i class="fas fa-star star-rating"></i>
-                            <i class="fas fa-star star-rating"></i>
-                            <i class="fas fa-star star-rating"></i>
-                            <i class="fas fa-star star-rating"></i>
-                            <i class="fas fa-star star-rating"></i>
-
-                            <a href="#" class="product-content__rating-description">(1 customer review)</a>
-                        </div>
-
-                        <div class="product-content__details-description">
-                            <p>An dico accommodare ius, porro mnesarchum pro in. Cetero fierent urbanitas eam id, sed movet voluptua ut. Eu agam malorum nec. Eu has vide putent, dico option nominati no eam. Ea erant impetus consequuntur eos, velit congue vidisse eos ne. Est dicat doming te, inani eruditi iudicabit mei ea. Sed id prima soluta legimus.</p>
-                        </div>
-
-                        <div class="product-content__quantity-vs-purchase">
-                            <div class="quantity-buttons">
-                                <button class="quantity-buttons--minus">-</button>
-                                <div class="quantity-buttons--number">2</div>
-                                <button class="quantity-buttons--plus">+</button>
-                            </div>
-
-                            <div class="purchase-buttons buttons">Purchase</div>
-                        </div>
-
-                        <a href="#" class="product-content__add-to-wishlist">
-                            <i class="far fa-heart product-content__add-to-wishlist__icon"></i>
-                            Add to Wishlist
-                        </a>
-
-                        <div class="product-content__meta">
                             <span class="meta__sku-wrapper">
                                 SKU:
                                 <span class="meta__sku">049</span>
                             </span>
 
                                 <span class="meta__category-wrapper">
-                            <span class="meta__category-wrapper">
                                 Category:
                                 <span class="meta__category">skin solutions</span>
                             </span>
@@ -200,17 +171,12 @@
                                 <span class="meta__tag">Make up</span>
                             </span>
                             </div>
-                            <span class="meta__tag-wrapper">
-                                Tag:
-                                <span class="meta__tag">Make up</span>
-                            </span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-      
     </div>
     <!--Footer: begin-->
     <div class="footer">
@@ -232,7 +198,7 @@
                             </li>
                         </a>
                         <a class="footer__contact-link" href="">
-                            <li" class="footer__contact-phone">
+                            <li class="footer__contact-phone">
                             Phone: +0363275624
                             </li>
                         </a>
@@ -275,13 +241,6 @@
     </div>
     <!--Footer: end-->
 </div>
-
-                                                                  
-    </div>
-
-</div>
-
-
 <!-- Popup -->
 <div class="popup stay-in-touch">
 
