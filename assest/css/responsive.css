@@ -68,6 +68,17 @@
     .mobile-category{
         display: block;
     }
-
-
+    .navbar__check:checked ~.nav-mobile{
+        transform: translateX(0);
+    }
+    .search-mobile{
+        display: flex;
+    }
+    .cart-link{
+        color: black;
+        float: right;
+        font-size: 2rem;
+        padding: 0 20px;
+        margin-top: 6px;
+    }
 }
