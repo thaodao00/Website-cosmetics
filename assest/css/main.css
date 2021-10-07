@@ -897,9 +897,80 @@ h1{
     opacity: 0.7;
 }
 
+
+
 /** Nguyễn Hữu Kha - end */
 
 /** Triệu Huệ Mẩn - start */
+/*About us*/
+.about-page{
+
+}
+.about-page .about-container{
+    width: 960px;
+    max-width:calc(100% - 32px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-md-12 {
+    position: relative;
+    width: 100%;
+    padding: 0 15px;
+}
+.section-heading {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.section-heading .line-dec {
+    width: 30px;
+    height: 5px;
+    background-color: cornflowerblue;
+    margin-bottom: 12px;
+}
+.section-heading h2{
+    font-size: 22px;
+    font-weight: 700;
+}
+.col-md-6{
+    flex: 1 0;
+    padding: 0 15px;
+    width: 50%;
+}
+.col-md-6 .left-img{
+    width: 100%;
+}
+.about-page .right-content h3{
+    font-size: 17px;
+    font-weight: 700;
+}
+.about-page .right-content {
+    font-size: 14px;
+    line-height: 24px;
+    color: #4a4a4a;
+
+}
+.right-content .about-text a{
+    color: #4d70e3;
+    text-decoration: none;
+    font-size: 20px;
+    /*line-height: 40px;*/
+}
+.right-content .about-share{
+    margin-top: 20px;
+    border-top: 1px solid #cccccc;
+    padding: 15px 0;
+    font-size: 16px;
+}
+.about-page .right-content span a{
+    color: #cccccc;
+    font-size: 20px;
+}
+.about-page .right-content span a:hover {
+    background-color: #4d70e3;
+    
+}
+
+
 
 /** Triệu Huệ Mẩn - end */
 
