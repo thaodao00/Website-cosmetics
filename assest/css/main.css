@@ -900,7 +900,7 @@ h1{
 
 .product-content__tabs {
     width: 100%;
-    margin-top: 50px;
+    margin: 50px 20px 0;
 }
 
 .product-content__tabs-list {
@@ -909,7 +909,6 @@ h1{
     display: flex;
     justify-content: flex-start;
     list-style: none;
-    padding-left: 10px;
 }
 
 .product-content__tabs-item {
@@ -931,10 +930,91 @@ h1{
     /*animation: color linear 0.9s;*/
 }
 
-.product-content__tabs-item.active {
+.product-content__tabs-item.tabs-active {
     border: 1px solid var(--gray-color);
 }
 
+.product-content__tabs-content {
+    margin: 20px 0;
+}
+
+.product-content__tabs-content p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+    color: var(--gray-color);
+    white-space: break-spaces;
+    width: 90%;
+}
+
+.related-products {
+    margin: 50px 20px 0;
+}
+
+.related-products__title {
+    font-size: 24px;
+    color: var(--text-color);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.5;
+}
+
+.product-recommend-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.product-recommend {
+    width: 300px;
+    height: 550px;
+    text-decoration: none;
+    box-shadow: 1px 1px 3px var(--border-color);
+}
+
+.product-recommend:hover {
+    transform: translateY(-3px);
+}
+
+.product-recommend__img {
+    position: relative;
+    display: block;
+    width: 100%;
+    min-width: 200px;
+    height: 80%;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-image: url('../img/product/granary/kdream.jpg');
+}
+
+.product-recommend__info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.product-recommend__info-name {
+    width: 100%;
+    font-size: 16px;
+    color: var(--text-color);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.product-recommend__info-cost {
+    width: 100%;
+    font-size: 14px;
+    color: var(--text-color);
+    line-height: 3;
+}
 
 /** Nguyễn Hữu Kha - end */
 
