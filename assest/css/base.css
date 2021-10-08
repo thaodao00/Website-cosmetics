@@ -21,7 +21,7 @@ html{
     /* Sans-serif : tập hợp chủng font k chân */
     font-family: Lato,sans-serif;
     box-sizing: border-box;
-    white-space: nowrap;
+    /*white-space: nowrap;*/
 }
 
 /* Common */
