@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd399ca9-c65c-4840-b483-3b7f6ad9c9dc" name="Changes" comment="" />
+    <list default="true" id="cd399ca9-c65c-4840-b483-3b7f6ad9c9dc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/js/JSProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/assest/js/JSProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +45,7 @@
       <workItem from="1633514093886" duration="2491000" />
       <workItem from="1633522749562" duration="72000" />
       <workItem from="1633533571684" duration="657000" />
+      <workItem from="1633682269890" duration="4211000" />
     </task>
     <servers />
   </component>
