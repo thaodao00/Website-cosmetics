@@ -1095,7 +1095,7 @@ h1{
 /** Triệu Huệ Mẩn - start */
 /*About us*/
 .about-page{
-
+    margin-top: 20px;
 }
 .about-page .about-container{
     width: 960px;
