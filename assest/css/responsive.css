@@ -5,6 +5,7 @@
 
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1024px){
+
     .logo{
         font-size: 2rem;
         margin: 0 10px;
@@ -47,6 +48,12 @@
 
 /* Mobile */
 @media (max-width: 739px){
+    .header{
+        padding: 18px 0;
+    }
+    .slideshow-container{
+        margin-top: 56px;
+    }
     .logo, .footer__contact--title{
         font-size: 2rem;
     }
