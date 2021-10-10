@@ -181,5 +181,9 @@
         justify-content: center;
     }
 
+    .popup {
+        width: 90%;
+    }
+
     /* Nguyễn Hữu Kha end*/
 }
