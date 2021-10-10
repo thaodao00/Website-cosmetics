@@ -25,7 +25,7 @@
                 <div class="col l-8 m-8 c-0">
                     <ul class="navbar__list">
                         <li class="navbar__item">
-                            <a href="#" class="navbar__item-link">
+                            <a href="./index.html" class="navbar__item-link">
                                 HOME
                             </a>
                         </li>
@@ -35,7 +35,7 @@
                             </a>
                         </li>
                         <li class="navbar__item">
-                            <a class="navbar__item-link" href="">
+                            <a class="navbar__item-link" href="./about.html">
                                 ABOUT US
                             </a>
                         </li>
@@ -50,10 +50,10 @@
                     <a class="search-link">
                         <i class="fas fa-search"></i>
                     </a>
-                    <a class="login-link">
+                    <a class="cart-link">
                         <i class="fa fa-cart-plus"></i>
                     </a>
-                    <a class="cart-link">
+                    <a class="login-link">
                         <i class="fa fa-user"></i>
                     </a>
 
@@ -68,7 +68,7 @@
                             <i class="icon-exit far fa-times-circle"></i>
                         </label>
                         <ul class="nav-mobile__list">
-                            <a href="#" class="nav-mobile__link">
+                            <a href="./index.html" class="nav-mobile__link">
                                 <li class="nav-mobile__item">
                                     Home
                                 </li>
@@ -78,7 +78,7 @@
                                     Products
                                 </li>
                             </a>
-                            <a href=" "class="nav-mobile__link">
+                            <a href="./about.html"class="nav-mobile__link">
                                 <li class="nav-mobile__item">
                                     About Us
                                 </li>
@@ -296,11 +296,8 @@
             </div>
         </div>
     </div>
-                </div>
-            </div>
-        </div>
 
-    </div>
+
 
     <!--Footer: begin-->
     <div class="footer">
@@ -398,9 +395,137 @@
 
 </div>
 
+<!--    modal-->
+<div class="modal">
+    <div class="modal__icon-close">
+        <i class="fa fa-times" aria-hidden="true"></i>
+    </div>
+    <input type="text" class="modal__input" placeholder="Search...">
+
+    <!-- Search history -->
+    <div class="modal__history">
+        <h3 class="modal__history-history-heading">Search history</h3>
+        <ul class="modal__history-history-list">
+            <li class="modal__history-item">
+                <a href="">Body mist</a>
+            </li>
+            <li class="modal__history-item">
+                <a href="">Innisfee green tea</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--modal account-->
+<div class="modal-account">
+    <div class="modal__overlay"></div>
+    <div class="modal__body">
+        <!--Register form -->
+        <div class="register-form">
+            <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng Ký</h3>
+                        <span class="login-from__btn auth-form__switch-btn">Đăng nhập</span>
+
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="mail" class="auth-form__input" placeholder="Nhập email của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+
+                    </div>
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng ký, bạn đồng ý với Cosmetics về
+                            <a href="" class="auth-form__text-link">
+                                Điều khoản dịch vụ
+                            </a>&
+                            <a href="" class="auth-form__text-link">
+                                Chính sách bảo mật
+                            </a>
+                        </p>
+                    </div>
+                    <div class="auth-form__controls">
+                        <button class="btn btn--nomal auth-form__controls-back ">
+                            TRỞ LẠI
+                        </button>
+                        <button class="btn btn--primary">
+                            ĐĂNG KÝ
+                        </button>
+                    </div>
+                </div>
+                <div class="auth-form_socials">
+                    <a href="" class="auth-form_socials--face btn  btn--size-s btn--width-icon">
+                        <i class="auth-form_socials-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__social-title">
+                                    Kết nối với Facebook</span>
+                    </a>
+                    <a href="" class="auth-form_socials-icon auth-form_socials--google btn btn--size-s btn--width-icon">
+                        <i class="icon-gg fab fa-google-plus-square"></i>
+                        <span class="auth-form__social-title">
+                                    Kết nối với Google</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--Login form -->
+        <div class="login-form">
+            <div class="auth-form ">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng nhập</h3>
+                        <span class="register-from__btn auth-form__switch-btn">Đăng ký</span>
+
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="mail" class="auth-form__input" placeholder="Nhập email của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                        </div>
 
 
+                    </div>
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link auth-form__help-link--forgot">Quên mật khẩu</a>
+                            <span class="auth-form__help-separate"></span>
+                            <a href="" class="auth-form__help-link">Cần Trợ giúp?</a>
+                        </div>
+                    </div>
+                    <div class="auth-form__controls">
+                        <button class="btn btn--nomal auth-form__controls-back ">
+                            TRỞ LẠI
+                        </button>
+                        <button class="btn btn--primary">
+                            Đăng nhập
+                        </button>
+                    </div>
+                </div>
+                <div class="auth-form_socials">
+                    <a href="" class="auth-form_socials--face btn  btn--size-s btn--width-icon">
+                        <i class="auth-form_socials-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__social-title">
+                                    Kết nối với Facebook</span>
+                    </a>
+                    <a href="" class="auth-form_socials-icon auth-form_socials--google btn btn--size-s btn--width-icon">
+                        <i class="icon-gg fab fa-google-plus-square"></i>
+                        <span class="auth-form__social-title">
+                                    Kết nối với Google</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <script src="./assest/js/JSProduct.js"></script>
-
+<script type="module" src="./assest/js/showHide.js"></script>
 </body>
 </html>
