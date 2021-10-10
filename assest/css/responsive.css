@@ -3,6 +3,10 @@
 }
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1024px){
+<<<<<<< Updated upstream
+=======
+    /*Đào Thị Thu THảo: Begin*/
+>>>>>>> Stashed changes
     .logo{
         font-size: 2rem;
         margin: 0 10px;
@@ -23,11 +27,37 @@
     .home-filter__page-num{
         margin-right: 6px;
     }
+<<<<<<< Updated upstream
+=======
+    /*Đào Thị Thu THảo: End*/
+
+    /* Nguyễn Hữu Kha begin */
+
+    .product-content__details-description {
+        width: 90%;
+    }
+
+    .product-recommend-wrapper {
+        justify-content: flex-start;
+    }
+
+    /* Nguyễn Hữu Kha end */
+>>>>>>> Stashed changes
 }
 
 
 /* Mobile */
 @media (max-width: 739px){
+<<<<<<< Updated upstream
+=======
+    /*Đào Thị Thu THảo: Begin*/
+    .header{
+        padding: 18px 0;
+    }
+    .slideshow-container{
+        margin-top: 56px;
+    }
+>>>>>>> Stashed changes
     .logo, .footer__contact--title{
         font-size: 2rem;
     }
@@ -81,4 +111,113 @@
         padding: 0 20px;
         margin-top: 6px;
     }
+<<<<<<< Updated upstream
+=======
+    /*Account*/
+    .auth-form{
+        width: 320px;
+    }
+    .auth-form_socials {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .auth-form__controls {
+        margin-top: 15px;
+    }
+    .auth-form_socials--google{
+        margin-top: 10px;
+    }
+
+    .icon-gg{
+        margin-left: -15px;
+    }
+    .modal-account{
+        background: var(--black-color);
+        z-index: 501;
+    }
+    /*Đào Thị Thu THảo: End*/
+
+    /* Nguyễn Hữu Kha begin */
+
+    .product-container__inner {
+        padding-top: 16px;
+    }
+
+    .product-slider__title {
+        display: none;
+    }
+
+    .product-content__rating {
+        margin: 0;
+    }
+
+    .product-content__img-wrapper {
+        margin-left: 0;
+    }
+
+  .product-content__text-wrapper {
+      margin-left: 5%;
+  }
+
+    .product-content__text__title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .popup {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .popup-overlay {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: var(--black-color);
+        opacity: 0.4;
+        z-index: 110;
+    }
+
+    .product-content__img-wrapper {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .product-content__text-wrapper {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .product-content__details-description {
+        width: 95%;
+        text-align: left;
+    }
+
+    .tabs-content__description {
+        width: 95%;
+    }
+
+    .tabs-content__review input,
+    .tabs-content__review textarea {
+        width: 95%;
+    }
+
+    .related-products__title {
+        text-align: center;
+    }
+
+    .product-recommend-wrapper {
+        justify-content: center;
+    }
+
+    /* Nguyễn Hữu Kha end*/
+>>>>>>> Stashed changes
 }
