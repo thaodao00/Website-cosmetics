@@ -108,6 +108,29 @@
         padding: 0 20px;
         margin-top: 6px;
     }
+    /*Account*/
+    .auth-form{
+        width: 320px;
+    }
+    .auth-form_socials {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .auth-form__controls {
+        margin-top: 15px;
+    }
+    .auth-form_socials--google{
+        margin-top: 10px;
+    }
+
+    .icon-gg{
+        margin-left: -15px;
+    }
+    .modal-account{
+        background: var(--black-color);
+        z-index: 501;
+    }
 
     /* Nguyễn Hữu Kha begin */
 
