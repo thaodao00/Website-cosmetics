@@ -16,6 +16,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -25,10 +32,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+<<<<<<< Updated upstream
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/The Band" />
+=======
+    <property name="last_opened_file_path" value="E:/Website/Shopee" />
+>>>>>>> Stashed changes
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -56,8 +68,12 @@
       <workItem from="1633514093886" duration="2491000" />
       <workItem from="1633522749562" duration="72000" />
       <workItem from="1633533571684" duration="657000" />
+<<<<<<< Updated upstream
       <workItem from="1633682269890" duration="4323000" />
       <workItem from="1633693886189" duration="8065000" />
+=======
+      <workItem from="1633534239053" duration="653000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
