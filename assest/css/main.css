@@ -3,7 +3,7 @@ h1{
     color: #ff253a;
 }
 
-/** Đào Thị Thu Thảo - start */
+/**--------------------Đào Thị Thu Thảo - start-----------------*/
 /*Header: begin*/
 #app{
     overflow: hidden ;
@@ -27,7 +27,7 @@ h1{
 }
 .logo{
     font-size: 3rem;
-    color: var(--while-color);
+    color: var(--white-color);
     margin: 0 20px;
 }
 .navbar__list{
@@ -43,11 +43,11 @@ h1{
     opacity: 0.8;
 }
 .navbar__item-link{
-    color: var(--while-color);
+    color: var(--white-color);
     text-decoration: none;
 }
 .login-link, .cart-link, .search-link, .nav-link{
-    color: var(--while-color);
+    color: var(--white-color);
     font-size: 2rem;
     margin-left: 15px;
 }
@@ -92,7 +92,7 @@ h1{
 /*modal*/
 .modal__icon-close{
     font-size: 3rem;
-    color: var(--while-color);
+    color: var(--white-color);
     float: right;
     margin-right: 90px;
     margin-top: 60px;
@@ -101,7 +101,7 @@ h1{
     outline: none;
     border: none;
     background: transparent;
-    color: var(--while-color);
+    color: var(--white-color);
     margin-left: 20%;
     width: 60%;
     font-size: 3.5rem;
@@ -174,10 +174,10 @@ h1{
 }
 .footer__contact-link{
     text-decoration: none;
-    color: var(--while-color);
+    color: var(--white-color);
 }
 .footer__contact--title{
-    color: var(--while-color);
+    color: var(--white-color);
     font-size: 3rem;
     margin: 30px 0;
 }
@@ -191,7 +191,7 @@ h1{
 .footer__follow-text{
     font-size: 1.6rem;
     line-height: 2.8rem;
-    color: var(--while-color);
+    color: var(--white-color);
 }
 .facebook-link{
     display: block;
@@ -201,7 +201,7 @@ h1{
 }
 .footer__follow-icon-link{
     font-size: 2rem;
-    color: var(--while-color);
+    color: var(--white-color);
     margin: 0 10px;
     text-decoration: none;
 }
@@ -218,7 +218,7 @@ h1{
     left: 0;
     right: 0;
     padding: 5px 0;
-    background: var(--while-color);
+    background: var(--white-color);
     display: none;
 }
 .search-mobile__input{
@@ -247,7 +247,7 @@ h1{
     border: 2px solid black;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    background: var(--while-color);
+    background: var(--white-color);
 }
 /*Products.html*/
 /*Header sort mobile*/
@@ -264,7 +264,7 @@ h1{
     border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
     align-items: center;
-    background: var(--while-color);
+    background: var(--white-color);
     display: none;
 }
 .header__sort-item{
@@ -283,7 +283,7 @@ h1{
     margin-right: 10px;
 }
 .header__sort-item--active .header__sort-link{
-    color: var(--while-color);
+    color: var(--white-color);
     background: var(--black-color);
     z-index: 4;
 }
@@ -306,7 +306,7 @@ h1{
     bottom: 0;
     width: 50%;
     z-index: 10;
-    background: var(--while-color);
+    background: var(--white-color);
     transform: translateX(100%);
 }
 .nav-mobile__list{
@@ -357,7 +357,7 @@ h1{
 }
 .mobile-category__link{
     text-decoration: none;
-    color: var(--while-color);
+    color: var(--white-color);
     font-size: 1.3rem;
     line-height: 2rem;
     text-align: center;
@@ -381,15 +381,15 @@ h1{
 }
 .mobile-category__item:nth-of-type(3n + 1) .mobile-category__link{
     background-color: #646161;
-    color: var(--while-color);
+    color: var(--white-color);
 }
 .mobile-category__item:nth-of-type(3n + 2) .mobile-category__link{
-    color: var(--while-color);
+    color: var(--white-color);
     background-color: #3b3b3b;
 }
 .mobile-category__item:nth-of-type(3n + 3) .mobile-category__link{
     background-color: #493636;
-    color: var(--while-color);
+    color: var(--white-color);
 }
 /*products*/
 .product__items{
@@ -448,7 +448,7 @@ h1{
     display: flex;
     text-decoration: none;
 
-    background-color: var(--while-color);
+    background-color: var(--white-color);
     flex: 1;
 }
 .home-filter__page-num{
@@ -458,13 +458,13 @@ h1{
 }
 .home-filter__page-current{
     background: var(--black-color);
-    color: var(--while-color);
+    color: var(--white-color);
 }
 .home-filter__page-control{
     display: flex;
     border: 3px;
     overflow: hidden;
-    background-color: var(--while-color);
+    background-color: var(--white-color);
     width:72px;
     height: 36px;
 }
@@ -487,7 +487,7 @@ h1{
 .select-input {
     height: 34px;
     padding: 0 12px;
-    background-color: var(--while-color);
+    background-color: var(--white-color);
     min-width: 100px;
     border-radius: 5px;
     align-items: center;
@@ -504,7 +504,7 @@ h1{
     left: 0;
     right: 0;
     top: 25px;
-    background-color: var(--while-color);
+    background-color: var(--white-color);
     border-radius: 2px;
     list-style: none;
     padding: 10px 16px;
@@ -530,7 +530,7 @@ h1{
 }
 /* Button style */
 .btn.btn--primary{
-    color: var(--while-color);
+    color: var(--white-color);
     background-color: var(--black-color);
 }
 /* Search history */
@@ -541,7 +541,7 @@ h1{
     margin-right: 20% ;
     margin-left: 20%;
     border-radius: 2px;
-    background-color: var(--while-color);
+    background-color: var(--white-color);
     border: 1px solid #ccc;
     display: none;
     overflow: hidden;
@@ -601,7 +601,7 @@ h1{
 /*Authen modal */
 .auth-form{
     width: 500px;
-    background-color: var(--while-color);
+    background-color: var(--white-color);
     overflow: hidden;
     z-index: 20;
     margin: auto;
@@ -688,7 +688,7 @@ h1{
     background-color: #3A5A98;
 }
 .auth-form_socials--face, .auth-form_socials-icon{
-    color: var(--while-color);
+    color: var(--white-color);
 
 }
 .auth-form_socials--google{
@@ -722,12 +722,12 @@ h1{
 .login-form{
     display: none;
 }
-/** Đào Thị Thu Thảo - end */
+/**-------------------Đào Thị Thu Thảo - end-------------------*/
 
 
-/** Nguyễn Hữu Kha - start */
+/**-------------------Nguyễn Hữu Kha - start--------------------*/
 
-/* Slider begin */
+/* Product page */
 .product-slider {
     width: 100%;
     height: 330px;
@@ -1216,9 +1216,188 @@ h1{
     line-height: 3;
 }
 
-/** Nguyễn Hữu Kha - end */
+/* Cart - Nguyễn Hữu Kha */
 
-/** Triệu Huệ Mẩn - start */
+#cart {
+    margin-top: 82.4px;
+    font-family: Lato, sans-serif;
+}
+
+.cart__title {
+    width: 100%;
+    padding: 50px 10%;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.25rem;
+    color: var(--text-color);
+    background-color: #FBF9F9;
+    text-transform: uppercase;
+}
+
+.cart__body {
+    width: 100%;
+}
+
+.cart__body > .empty-cart {
+    width: 100%;
+    padding: 60px 10%;
+    margin: 120px 0;
+    display: none;
+}
+
+.empty-cart__title {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: var(--text-color);
+}
+
+.empty-cart__sub-title {
+    font-size: 18px;
+    font-style: italic;
+    color: var(--gray-color);
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+    line-height: 3;
+}
+
+.filled-cart {
+    width: 100%;
+    padding: 40px 10%;
+    margin: 20px 0;
+    background-color: #FBF9F9;
+}
+
+.filled-cart__title-bar {
+    width: 100%;
+    padding: 20px 5%;
+    background-color: var(--white-color);
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: var(--gray-color);
+    font-weight: 400;
+    border-radius: 2px;
+}
+
+.filled-cart__title-bar .select-all-products {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    margin-right: 20px;
+}
+
+.filled-cart .filled-cart__title-bar span:nth-child(2) {
+    width: 40%;
+    color: var(--text-color);
+    text-align: left;
+}
+
+.filled-cart__title-bar span {
+    width: 15%;
+    text-align: center;
+}
+
+.filled-cart__items-wrapper {
+    width: 100%;
+    padding: 40px 0;
+    margin-top: 20px;
+    background-color: var(--white-color);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.filled-cart__item {
+    width: 100%;
+    height: 60px;
+    padding: 16px;
+    margin: 32px 0;
+    display: flex;
+    align-items: center;
+}
+
+.filled-cart__item .select-product {
+    width: 12px;
+    height: 12px;
+    margin: 0 16px 0 5%;
+}
+
+.filled-cart__item-img {
+    /* padding-top: 100%; */
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/product/granary/kdream.jpg");
+    background-size: contain;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+    background-color: #FBF9FA;
+}
+
+.filled-cart__item-info {
+    width: 25%;
+    margin: 16px;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--text-color);
+    line-height: 1.6;
+    height: 3.2;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.filled-cart__item-price,
+.filled-cart__item-totalPrice {
+    width: 12.5%;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: var(--text-color);
+    line-height: 1.6;
+    height: 3.2;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.filled-cart__item-quantity {
+    width: 12.5%;
+    display: flex;
+    justify-content: center;
+}
+
+.quantity-buttons {
+    width: 100%;
+}
+
+.quantity-buttons--minus,
+.quantity-buttons--number,
+.quantity-buttons--plus {
+    height: 36px;
+    width: 48px;
+    font-size: 12px;
+    line-height: 34px;
+}
+
+.filled-cart__item-delete-button {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.filled-cart__item .filled-cart__item-delete-button .buttons {
+    padding: 4px 29px;
+}
+
+/**---------------Nguyễn Hữu Kha - end---------------------*/
+
+/**---------------Triệu Huệ Mẩn - start--------------------*/
 /*About us*/
 .about-page{
     margin-top: 20px;
@@ -1289,5 +1468,5 @@ h1{
 
 
 
-/** Triệu Huệ Mẩn - end */
+/**-------------------Triệu Huệ Mẩn - end-----------------------*/
 
