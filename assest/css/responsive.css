@@ -101,11 +101,11 @@
         display: flex;
     }
 
-    .cart-link{
+    .cart-link, .login-link{
         color: black;
         float: right;
         font-size: 2rem;
-        padding: 0 20px;
+        padding: 0 ;
         margin-top: 6px;
     }
     /*Account*/
@@ -128,7 +128,6 @@
         margin-left: -15px;
     }
     .modal-account{
-        background: var(--black-color);
         z-index: 501;
     }
 
