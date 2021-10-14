@@ -27,7 +27,7 @@ h1{
 }
 .logo{
     font-size: 3rem;
-    color: var(--white-color);
+    color: var(--while-color);
     margin: 0 20px;
 }
 .navbar__list{
@@ -43,11 +43,11 @@ h1{
     opacity: 0.8;
 }
 .navbar__item-link{
-    color: var(--white-color);
+    color: var(--while-color);
     text-decoration: none;
 }
 .login-link, .cart-link, .search-link, .nav-link{
-    color: var(--white-color);
+    color: var(--while-color);
     font-size: 2rem;
     margin-left: 15px;
 }
@@ -92,7 +92,7 @@ h1{
 /*modal*/
 .modal__icon-close{
     font-size: 3rem;
-    color: var(--white-color);
+    color: var(--while-color);
     float: right;
     margin-right: 90px;
     margin-top: 60px;
@@ -101,7 +101,7 @@ h1{
     outline: none;
     border: none;
     background: transparent;
-    color: var(--white-color);
+    color: var(--while-color);
     margin-left: 20%;
     width: 60%;
     font-size: 3.5rem;
@@ -113,11 +113,22 @@ h1{
 .content{
     margin-top: 80px;
 }
+#featured-items{
+    background: #efe8e8;
+}
 .content__title{
     font-size: 3rem;
-    margin-bottom: 40px;
+    padding: 40px 0;
     text-align: center;
     color: var(--black-color);
+    text-decoration: underline;
+    text-decoration-thickness: 0.5rem;
+    text-decoration-color: #b70921f7;
+    letter-spacing: 0.1rem;
+    -webkit-animation: text 700ms infinite;
+    -moz-animation: text 700ms infinite;
+    -o-animation: text 700ms infinite;
+    animation: text 700ms infinite;
 }
 .products a {
     text-decoration: none;
@@ -159,6 +170,78 @@ h1{
     font-size: 1rem;
     margin: 0 10px 10px 10px;
 }
+/*sale product*/
+#discount-items{
+    background: #efe8e8;
+}
+.product__item{
+    position: relative;
+    background: white;
+}
+.product__item--describe{
+    position: absolute;
+    margin-top: 10px;
+    left: -4px;
+    top: 0;
+    color: #b70921f7;
+    background-color: currentColor;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+.product__item--describe i{
+    font-size: 0.9rem;
+    margin: 0 2px 0 4px;
+
+}
+.product__item--describe span{
+    color: var(--while-color);
+
+}
+.product__item--describe::after{
+    content: "";
+    border-left: 3px solid transparent;
+    border-top: 3px solid currentColor;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    /* Giáº£m Ä‘á»™ sÃ¡ng */
+    filter: brightness(40%);
+
+}
+/*New product*/
+#new-items {
+    background: white;
+}
+
+/*Ovreview*/
+.overview{
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    padding: 0 15px;
+    background: white;
+    padding-bottom: 40px;
+}
+.overview__title{
+    padding-top: 40px;
+    font-size: 1.6rem;
+    width: 100%;
+
+}
+.overview__content{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    width: 100%;
+    margin-top: 10px;
+
+}
 /*Footer*/
 .footer{
     margin-top: 80px;
@@ -174,10 +257,10 @@ h1{
 }
 .footer__contact-link{
     text-decoration: none;
-    color: var(--white-color);
+    color: var(--while-color);
 }
 .footer__contact--title{
-    color: var(--white-color);
+    color: var(--while-color);
     font-size: 3rem;
     margin: 30px 0;
 }
@@ -191,7 +274,7 @@ h1{
 .footer__follow-text{
     font-size: 1.6rem;
     line-height: 2.8rem;
-    color: var(--white-color);
+    color: var(--while-color);
 }
 .facebook-link{
     display: block;
@@ -201,7 +284,7 @@ h1{
 }
 .footer__follow-icon-link{
     font-size: 2rem;
-    color: var(--white-color);
+    color: var(--while-color);
     margin: 0 10px;
     text-decoration: none;
 }
@@ -218,7 +301,7 @@ h1{
     left: 0;
     right: 0;
     padding: 5px 0;
-    background: var(--white-color);
+    background: var(--while-color);
     display: none;
     z-index: 100;
 }
@@ -248,7 +331,7 @@ h1{
     border: 2px solid black;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    background: var(--white-color);
+    background: var(--while-color);
 }
 /*Products.html*/
 /*Header sort mobile*/
@@ -265,7 +348,7 @@ h1{
     border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
     align-items: center;
-    background: var(--white-color);
+    background: var(--while-color);
     display: none;
 }
 .header__sort-item{
@@ -284,7 +367,7 @@ h1{
     margin-right: 10px;
 }
 .header__sort-item--active .header__sort-link{
-    color: var(--white-color);
+    color: var(--while-color);
     background: var(--black-color);
     z-index: 4;
 }
@@ -307,7 +390,7 @@ h1{
     bottom: 0;
     width: 50%;
     z-index: 10;
-    background: var(--white-color);
+    background: var(--while-color);
     transform: translateX(100%);
 }
 .nav-mobile__list{
@@ -358,7 +441,7 @@ h1{
 }
 .mobile-category__link{
     text-decoration: none;
-    color: var(--white-color);
+    color: var(--while-color);
     font-size: 1.3rem;
     line-height: 2rem;
     text-align: center;
@@ -382,15 +465,15 @@ h1{
 }
 .mobile-category__item:nth-of-type(3n + 1) .mobile-category__link{
     background-color: #646161;
-    color: var(--white-color);
+    color: var(--while-color);
 }
 .mobile-category__item:nth-of-type(3n + 2) .mobile-category__link{
-    color: var(--white-color);
+    color: var(--while-color);
     background-color: #3b3b3b;
 }
 .mobile-category__item:nth-of-type(3n + 3) .mobile-category__link{
     background-color: #493636;
-    color: var(--white-color);
+    color: var(--while-color);
 }
 /*products*/
 .product__items{
@@ -449,7 +532,7 @@ h1{
     display: flex;
     text-decoration: none;
 
-    background-color: var(--white-color);
+    background-color: var(--while-color);
     flex: 1;
 }
 .home-filter__page-num{
@@ -459,13 +542,13 @@ h1{
 }
 .home-filter__page-current{
     background: var(--black-color);
-    color: var(--white-color);
+    color: var(--while-color);
 }
 .home-filter__page-control{
     display: flex;
     border: 3px;
     overflow: hidden;
-    background-color: var(--white-color);
+    background-color: var(--while-color);
     width:72px;
     height: 36px;
 }
@@ -488,7 +571,7 @@ h1{
 .select-input {
     height: 34px;
     padding: 0 12px;
-    background-color: var(--white-color);
+    background-color: var(--while-color);
     min-width: 100px;
     border-radius: 5px;
     align-items: center;
@@ -505,7 +588,7 @@ h1{
     left: 0;
     right: 0;
     top: 25px;
-    background-color: var(--white-color);
+    background-color: var(--while-color);
     border-radius: 2px;
     list-style: none;
     padding: 10px 16px;
@@ -531,7 +614,7 @@ h1{
 }
 /* Button style */
 .btn.btn--primary{
-    color: var(--white-color);
+    color: var(--while-color);
     background-color: var(--black-color);
 }
 /* Search history */
@@ -542,7 +625,7 @@ h1{
     margin-right: 20% ;
     margin-left: 20%;
     border-radius: 2px;
-    background-color: var(--white-color);
+    background-color: var(--while-color);
     border: 1px solid #ccc;
     display: none;
     overflow: hidden;
@@ -602,7 +685,7 @@ h1{
 /*Authen modal */
 .auth-form{
     width: 500px;
-    background-color: var(--white-color);
+    background-color: var(--while-color);
     overflow: hidden;
     z-index: 20;
     margin: auto;
@@ -689,7 +772,7 @@ h1{
     background-color: #3A5A98;
 }
 .auth-form_socials--face, .auth-form_socials-icon{
-    color: var(--white-color);
+    color: var(--while-color);
 
 }
 .auth-form_socials--google{
@@ -1272,7 +1355,7 @@ h1{
 .filled-cart__title-bar {
     width: 100%;
     padding: 20px 5%;
-    background-color: var(--white-color);
+    background-color: var(--while-color);
     display: flex;
     align-items: center;
     font-size: 14px;
@@ -1304,7 +1387,7 @@ h1{
     width: 100%;
     padding: 40px 0;
     margin-top: 20px;
-    background-color: var(--white-color);
+    background-color: var(--while-color);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
