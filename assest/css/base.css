@@ -1,5 +1,5 @@
 :root{
-    --white-color: #fff;
+    --while-color: #fff;
     --black-color: #000;
     --gray-color: #808080;
     --text-color: #333;
@@ -23,7 +23,11 @@ html{
     box-sizing: border-box;
     /*white-space: nowrap;*/
 }
-
+@keyframes text {
+    0% { color: black; }
+    50% { color: rgba(252, 250, 246, 0.82); }
+    100% { color: black; }
+}
 /* Common */
     .price {
         position: relative;
@@ -75,7 +79,7 @@ html{
     .quantity-buttons--minus:hover,
     .quantity-buttons--plus:hover {
         background-color: var(--black-color);
-        color: var(--white-color);
+        color: var(--while-color);
     }
 
     .quantity-buttons--number {
@@ -106,7 +110,7 @@ html{
         letter-spacing: 0.1rem;
         border-radius: 0;
         outline: 0;
-        color: var(--white-color);
+        color: var(--while-color);
         background-color: var(--black-color);
         border: 1px solid var(--black-color);
         cursor: pointer;
@@ -132,7 +136,7 @@ html{
     text-align: left;
     box-shadow: 2px 2px 8px var(--gray-color);
     z-index: 110;
-    background-color: var(--white-color);
+    background-color: var(--while-color);
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -194,7 +198,7 @@ html{
     align-items: center;
     line-height: 1.6rem;
     display: inline-flex;
-    background-color: var(--white-color);
+    background-color: var(--while-color);
 
 }
 /* Fading animation */
