@@ -7,7 +7,7 @@
     <list default="true" id="cd399ca9-c65c-4840-b483-3b7f6ad9c9dc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assest/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assest/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assest/css/responsive.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +44,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.products.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="cart.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/website-cosmetics/website-cosmetics-Thao/cart.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/website-cosmetics/website-cosmetics-Thao/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="product.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/website-cosmetics/website-cosmetics-Thao/product.html" useBuiltInWebServerPort="true">
@@ -56,6 +59,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.products.html" />
         <item itemvalue="JavaScript Debug.cart.html" />
         <item itemvalue="JavaScript Debug.product.html" />
@@ -79,7 +83,8 @@
       <workItem from="1633693886189" duration="8065000" />
       <workItem from="1633534239053" duration="653000" />
       <workItem from="1634043218956" duration="8252000" />
-      <workItem from="1634214592617" duration="477000" />
+      <workItem from="1634214592617" duration="848000" />
+      <workItem from="1634215867405" duration="5116000" />
     </task>
     <servers />
   </component>
@@ -104,7 +109,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/assest/js/JSProduct.js</url>
           <line>12</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
