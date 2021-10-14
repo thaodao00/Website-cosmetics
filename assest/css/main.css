@@ -1386,13 +1386,13 @@ h1{
     margin-left: 8px;
 }
 
-.quantity-buttons {
+.filled-cart__item-quantity .quantity-buttons {
     width: 100%;
 }
 
-.quantity-buttons--minus,
-.quantity-buttons--number,
-.quantity-buttons--plus {
+.filled-cart__item-quantity .quantity-buttons--minus,
+.filled-cart__item-quantity .quantity-buttons--number,
+.filled-cart__item-quantity .quantity-buttons--plus {
     height: 36px;
     width: 48px;
     font-size: 12px;
