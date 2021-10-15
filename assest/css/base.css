@@ -1,5 +1,5 @@
 :root{
-    --while-color: #fff;
+    --white-color: #fff;
     --black-color: #000;
     --gray-color: #808080;
     --text-color: #333;
@@ -21,9 +21,13 @@ html{
     /* Sans-serif : tập hợp chủng font k chân */
     font-family: Lato,sans-serif;
     box-sizing: border-box;
-    white-space: nowrap;
+    /*white-space: nowrap;*/
 }
-
+@keyframes text {
+    0% { color: black; }
+    50% { color: rgba(252, 250, 246, 0.82); }
+    100% { color: black; }
+}
 /* Common */
     .price {
         position: relative;
@@ -75,7 +79,7 @@ html{
     .quantity-buttons--minus:hover,
     .quantity-buttons--plus:hover {
         background-color: var(--black-color);
-        color: var(--while-color);
+        color: var(--white-color);
     }
 
     .quantity-buttons--number {
@@ -106,7 +110,7 @@ html{
         letter-spacing: 0.1rem;
         border-radius: 0;
         outline: 0;
-        color: var(--while-color);
+        color: var(--white-color);
         background-color: var(--black-color);
         border: 1px solid var(--black-color);
         cursor: pointer;
@@ -130,9 +134,9 @@ html{
     bottom: 30px;
     padding: 23px 33px;
     text-align: left;
-    box-shadow: 5px 10px 30px #d8d8d8;
+    box-shadow: 2px 2px 8px var(--gray-color);
     z-index: 110;
-    background-color: var(--while-color);
+    background-color: var(--white-color);
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -168,7 +172,7 @@ html{
     background: var(--overplay);
     /*text-align: center;*/
     display: none;
-    z-index: 3;
+    z-index: 501;
 }
 .modal__open{
     display: block;
@@ -194,7 +198,7 @@ html{
     align-items: center;
     line-height: 1.6rem;
     display: inline-flex;
-    background-color: var(--while-color);
+    background-color: var(--white-color);
 
 }
 /* Fading animation */
@@ -208,4 +212,48 @@ html{
 @-webkit-keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+}
+/**/
+.modal-account{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /*display: flex;*/
+    animation: fadeIn linear 0.1s;
+    display: none;
+    z-index: 501;
+}
+.modal-account__open{
+    display: flex;
+}
+.modal-address__open{
+    display: flex;
+}
+.modal__overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+
+}
+.modal-address{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /*display: flex;*/
+    animation: fadeIn linear 0.1s;
+    display: none;
+    z-index: 501;
+}
+@keyframes growth{
+    from{
+        transform: scale(var(--growth-from));
+    }
+    to{
+        transform: scale(var(--growth-to));
+    }
 }

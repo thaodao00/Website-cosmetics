@@ -1,8 +1,11 @@
 /* Tablet and mobile */
 @media (max-width:1023px){
+
 }
+
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1024px){
+
     .logo{
         font-size: 2rem;
         margin: 0 10px;
@@ -10,6 +13,11 @@
     .navbar__item{
         font-size: 1.2rem;
         margin: 0 15px;
+    }
+    .login-link, .cart-link, .search-link, .nav-link {
+        color: var(--white-color);
+        font-size: 2rem;
+        margin-left: 7px;
     }
     .product_item-title{
         font-size: 1.2rem;
@@ -23,11 +31,29 @@
     .home-filter__page-num{
         margin-right: 6px;
     }
+
+    /* Nguyễn Hữu Kha begin */
+
+    .product-content__details-description {
+        width: 90%;
+    }
+
+    .product-recommend-wrapper {
+        justify-content: flex-start;
+    }
+
+    /* Nguyễn Hữu Kha end */
 }
 
 
 /* Mobile */
 @media (max-width: 739px){
+    .header{
+        padding: 18px 0;
+    }
+    .slideshow-container{
+        margin-top: 56px;
+    }
     .logo, .footer__contact--title{
         font-size: 2rem;
     }
@@ -53,7 +79,7 @@
     }
     .footer__contact{
         padding-bottom: 30px;
-        border-bottom: 1px solid var(--while-color) ;
+        border-bottom: 1px solid var(--white-color) ;
     }
     .footer-content {
         padding: 50px 0;
@@ -74,11 +100,196 @@
     .search-mobile{
         display: flex;
     }
-    .cart-link{
+
+    .cart-link, .login-link{
         color: black;
         float: right;
         font-size: 2rem;
-        padding: 0 20px;
+        padding: 0 ;
         margin-top: 6px;
     }
+    /*Account*/
+    .auth-form{
+        width: 320px;
+    }
+    .auth-form_socials {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .auth-form__controls {
+        margin-top: 15px;
+    }
+    .auth-form_socials--google{
+        margin-top: 10px;
+    }
+
+    .icon-gg{
+        margin-left: -15px;
+    }
+    .modal-account{
+        z-index: 501;
+    }
+
+    /* Nguyễn Hữu Kha begin */
+    .product-slider {
+        height: 250px;
+        margin-top: 55px;
+    }
+
+    .product-slider__background {
+        background-position: left;
+    }
+
+    .product-container__inner {
+        padding-top: 16px;
+    }
+
+    .product-slider__title {
+        display: none;
+    }
+
+    .product-content__rating {
+        margin: 0;
+    }
+
+    .product-content__img-wrapper {
+        margin-left: 0;
+    }
+
+    product-content__img {
+        height: 300px;
+    }
+
+    .product-content__text-wrapper {
+          padding-left: 3%;
+    }
+
+    .product-content__text__title {
+        text-align: left;
+        margin-bottom: 20px;
+        font-size: 26px;
+    }
+
+    .product-content__details-description p,
+    .tabs-content__description {
+        font-size: 14px;
+    }
+
+    .popup {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .popup-overlay {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: var(--black-color);
+        opacity: 0.4;
+        z-index: 110;
+    }
+
+    .product-content__img-wrapper {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .product-content__text-wrapper {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .product-content__details-description {
+        width: 95%;
+        text-align: left;
+    }
+
+    .tabs-content__description {
+        width: 95%;
+    }
+
+    .tabs-content__review input,
+    .tabs-content__review textarea {
+        width: 95%;
+    }
+
+    .related-products__title {
+        text-align: center;
+    }
+
+    .product-recommend-wrapper {
+        justify-content: center;
+    }
+
+    .popup {
+        width: 90%;
+        height: 230px;
+        padding: 10px 16px;
+    }
+
+    .product-content__tabs {
+        margin: 50px 0 0 3%;
+    }
+
+    .product-content__tabs-item {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .stay-in-touch__title h2 {
+        font-size: 24px;
+    }
+
+    .stay-in-touch__form {
+        margin-top: 10px;
+    }
+
+    .stay-in-touch__form button {
+        padding: 5px 10px;
+        line-height: 1.5;
+        border-radius: 2px;
+        font-size: 10px;
+    }
+
+    .stay-in-touch__form input {
+        padding: 5px 10px;
+    }
+
+    .close-wrapper i {
+        font-size: 12px;
+    }
+
+    .stay-in-touch__prevent {
+        margin: 0;
+    }
+
+    .stay-in-touch__prevent p {
+        font-size: 10px;
+    }
+
+    .quantity-buttons--plus,
+    .quantity-buttons--minus,
+    .quantity-buttons--number {
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+    }
+
+    .buttons {
+    padding: 6px 24px;
+    }
+
+    .related-products {
+        margin: 30px 10px 0;
+    }
+
+    /* Nguyễn Hữu Kha end*/
 }
