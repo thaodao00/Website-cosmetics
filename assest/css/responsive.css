@@ -15,7 +15,7 @@
         margin: 0 15px;
     }
     .login-link, .cart-link, .search-link, .nav-link {
-        color: var(--while-color);
+        color: var(--white-color);
         font-size: 2rem;
         margin-left: 7px;
     }
@@ -79,7 +79,7 @@
     }
     .footer__contact{
         padding-bottom: 30px;
-        border-bottom: 1px solid var(--while-color) ;
+        border-bottom: 1px solid var(--white-color) ;
     }
     .footer-content {
         padding: 50px 0;
@@ -132,7 +132,6 @@
     }
 
     /* Nguyễn Hữu Kha begin */
-
     .product-slider {
         height: 250px;
         margin-top: 55px;

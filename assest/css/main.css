@@ -27,7 +27,7 @@ h1{
 }
 .logo{
     font-size: 3rem;
-    color: var(--while-color);
+    color: var(--white-color);
     margin: 0 20px;
 }
 .navbar__list{
@@ -43,11 +43,11 @@ h1{
     opacity: 0.8;
 }
 .navbar__item-link{
-    color: var(--while-color);
+    color: var(--white-color);
     text-decoration: none;
 }
 .login-link, .cart-link, .search-link, .nav-link{
-    color: var(--while-color);
+    color: var(--white-color);
     font-size: 2rem;
     margin-left: 15px;
 }
@@ -92,7 +92,7 @@ h1{
 /*modal*/
 .modal__icon-close{
     font-size: 3rem;
-    color: var(--while-color);
+    color: var(--white-color);
     float: right;
     margin-right: 90px;
     margin-top: 60px;
@@ -101,7 +101,7 @@ h1{
     outline: none;
     border: none;
     background: transparent;
-    color: var(--while-color);
+    color: var(--white-color);
     margin-left: 20%;
     width: 60%;
     font-size: 3.5rem;
@@ -201,7 +201,7 @@ h1{
 
 }
 .product__item--describe span{
-    color: var(--while-color);
+    color: var(--white-color);
 
 }
 .product__item--describe::after{
@@ -257,10 +257,10 @@ h1{
 }
 .footer__contact-link{
     text-decoration: none;
-    color: var(--while-color);
+    color: var(--white-color);
 }
 .footer__contact--title{
-    color: var(--while-color);
+    color: var(--white-color);
     font-size: 3rem;
     margin: 30px 0;
 }
@@ -274,7 +274,7 @@ h1{
 .footer__follow-text{
     font-size: 1.6rem;
     line-height: 2.8rem;
-    color: var(--while-color);
+    color: var(--white-color);
 }
 .facebook-link{
     display: block;
@@ -284,7 +284,7 @@ h1{
 }
 .footer__follow-icon-link{
     font-size: 2rem;
-    color: var(--while-color);
+    color: var(--white-color);
     margin: 0 10px;
     text-decoration: none;
 }
@@ -301,7 +301,7 @@ h1{
     left: 0;
     right: 0;
     padding: 5px 0;
-    background: var(--while-color);
+    background: var(--white-color);
     display: none;
     z-index: 100;
 }
@@ -331,7 +331,7 @@ h1{
     border: 2px solid black;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    background: var(--while-color);
+    background: var(--white-color);
 }
 /*Products.html*/
 /*Header sort mobile*/
@@ -348,7 +348,7 @@ h1{
     border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
     align-items: center;
-    background: var(--while-color);
+    background: var(--white-color);
     display: none;
 }
 .header__sort-item{
@@ -367,7 +367,7 @@ h1{
     margin-right: 10px;
 }
 .header__sort-item--active .header__sort-link{
-    color: var(--while-color);
+    color: var(--white-color);
     background: var(--black-color);
     z-index: 4;
 }
@@ -390,7 +390,7 @@ h1{
     bottom: 0;
     width: 50%;
     z-index: 10;
-    background: var(--while-color);
+    background: var(--white-color);
     transform: translateX(100%);
 }
 .nav-mobile__list{
@@ -441,7 +441,7 @@ h1{
 }
 .mobile-category__link{
     text-decoration: none;
-    color: var(--while-color);
+    color: var(--white-color);
     font-size: 1.3rem;
     line-height: 2rem;
     text-align: center;
@@ -465,15 +465,15 @@ h1{
 }
 .mobile-category__item:nth-of-type(3n + 1) .mobile-category__link{
     background-color: #646161;
-    color: var(--while-color);
+    color: var(--white-color);
 }
 .mobile-category__item:nth-of-type(3n + 2) .mobile-category__link{
-    color: var(--while-color);
+    color: var(--white-color);
     background-color: #3b3b3b;
 }
 .mobile-category__item:nth-of-type(3n + 3) .mobile-category__link{
     background-color: #493636;
-    color: var(--while-color);
+    color: var(--white-color);
 }
 /*products*/
 .product__items{
@@ -532,7 +532,7 @@ h1{
     display: flex;
     text-decoration: none;
 
-    background-color: var(--while-color);
+    background-color: var(--white-color);
     flex: 1;
 }
 .home-filter__page-num{
@@ -542,13 +542,13 @@ h1{
 }
 .home-filter__page-current{
     background: var(--black-color);
-    color: var(--while-color);
+    color: var(--white-color);
 }
 .home-filter__page-control{
     display: flex;
     border: 3px;
     overflow: hidden;
-    background-color: var(--while-color);
+    background-color: var(--white-color);
     width:72px;
     height: 36px;
 }
@@ -571,7 +571,7 @@ h1{
 .select-input {
     height: 34px;
     padding: 0 12px;
-    background-color: var(--while-color);
+    background-color: var(--white-color);
     min-width: 100px;
     border-radius: 5px;
     align-items: center;
@@ -588,7 +588,7 @@ h1{
     left: 0;
     right: 0;
     top: 25px;
-    background-color: var(--while-color);
+    background-color: var(--white-color);
     border-radius: 2px;
     list-style: none;
     padding: 10px 16px;
@@ -614,7 +614,7 @@ h1{
 }
 /* Button style */
 .btn.btn--primary{
-    color: var(--while-color);
+    color: var(--white-color);
     background-color: var(--black-color);
 }
 /* Search history */
@@ -625,7 +625,7 @@ h1{
     margin-right: 20% ;
     margin-left: 20%;
     border-radius: 2px;
-    background-color: var(--while-color);
+    background-color: var(--white-color);
     border: 1px solid #ccc;
     display: none;
     overflow: hidden;
@@ -685,7 +685,7 @@ h1{
 /*Authen modal */
 .auth-form{
     width: 500px;
-    background-color: var(--while-color);
+    background-color: var(--white-color);
     overflow: hidden;
     z-index: 20;
     margin: auto;
@@ -772,7 +772,7 @@ h1{
     background-color: #3A5A98;
 }
 .auth-form_socials--face, .auth-form_socials-icon{
-    color: var(--while-color);
+    color: var(--white-color);
 
 }
 .auth-form_socials--google{
@@ -806,6 +806,161 @@ h1{
 .login-form{
     display: none;
 }
+/*Personallnformation.html*/
+.active-btn{
+    color: #b70921f7;
+}
+.nav__information-personal{
+    margin-left: 20px;
+    min-height:600px;
+}
+.nav__information-orders-list, .nav__information-personal-list, .nav__information-my-account-list{
+    list-style-type: none;
+    position: relative;
+}
+.nav__information-personal-item, .nav__information-personal-purchase{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.nav__information-personal-img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.nav__information-personal-name{
+    font-size: 1.6rem;
+    margin-left: 10px;
+}
+.nav__information-my-account-list{
+    position: relative;
+    display: none;
+}
+.nav__information-my-account-item{
+    font-size: 1.4rem;
+    padding-left: 33px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav__information-my-account-item:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.nav__information-my-account-list::after{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height:17px;
+    background: transparent;
+    display: block;
+
+}
+/*purchase-order*/
+.purchase-order{
+    font-size: 1.6rem;
+    width: 100%;
+}
+.nav__information-orders{
+
+}
+.nav__information-orders-list{
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    text-align: center;
+}
+.nav__information-orders-item{
+    padding: 20px 20px;
+}
+.nav__information-orders-content{
+    background: white;
+    margin: 20px 0;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.empty-cart-img{
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/5fafbb923393b712b96488590b8f781f.png);
+}
+.empty-cart-text{
+    margin-top: 20px;
+    font-size: 1.6rem;
+}
+/*My account*/
+.active-tab{
+    display: block !important;
+}
+.my-account__main{
+    min-height: 550px;
+    background: white;
+    margin-bottom: 20px;
+    display: none;
+}
+.my-account__top{
+    padding: 20px 40px;
+    border-bottom: 1px solid black;
+    height: 84px;
+}
+.my-account__top-title{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.my-account__top-text{
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+.my-account__form{
+    padding: 20px 40px;
+
+}
+.my-account__form-name{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+
+}
+.my-account__form-label{
+    font-size: 1.3rem;
+    text-align: right;
+    min-width: 112px;
+    font-weight: bold;
+
+}
+.my-account__form-content{
+    font-size: 1.3rem;
+    text-align: left;
+    margin-left: 20px;
+
+}
+.address .my-account__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-account__top-btn, .my-account__password-btn{
+    padding: 10px;
+    background: #b70921f7;
+    border: none;
+    color: var(--white-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.my-account__form-input{
+    padding:2px 5px ;
+    margin: 0 20px;
+}
+
 /**-------------------Đào Thị Thu Thảo - end-------------------*/
 
 
@@ -1358,7 +1513,7 @@ h1{
 .filled-cart__title-bar {
     width: 100%;
     padding: 20px 5%;
-    background-color: var(--while-color);
+    background-color: var(--white-color);
     display: flex;
     align-items: center;
     font-size: 14px;
@@ -1390,7 +1545,7 @@ h1{
     width: 100%;
     padding: 40px 0;
     margin-top: 20px;
-    background-color: var(--while-color);
+    background-color: var(--white-color);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
