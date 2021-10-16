@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd399ca9-c65c-4840-b483-3b7f6ad9c9dc" name="Changes" comment="" />
+    <list default="true" id="cd399ca9-c65c-4840-b483-3b7f6ad9c9dc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/JSCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/JSCart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/JSProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/JSProduct.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +55,7 @@
       <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\assest\img" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.product.html">
     <configuration name="cart.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/website-cosmetics/website-cosmetics-Thao/cart.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -62,10 +70,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.product.html" />
+        <item itemvalue="JavaScript Debug.cart.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.products.html" />
-        <item itemvalue="JavaScript Debug.cart.html" />
-        <item itemvalue="JavaScript Debug.product.html" />
       </list>
     </recent_temporary>
   </component>
@@ -91,8 +99,14 @@
       <workItem from="1634308667162" duration="1186000" />
       <workItem from="1634309897094" duration="1240000" />
       <workItem from="1634311265602" duration="449000" />
+
+      <workItem from="1634311771808" duration="235000" />
+      <workItem from="1634378337043" duration="548000" />
+      <workItem from="1634391413558" duration="8010000" />
+
       <workItem from="1634311771808" duration="705000" />
       <workItem from="1634401295734" duration="470000" />
+
     </task>
     <servers />
   </component>
@@ -111,6 +125,7 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -122,4 +137,5 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+
 </project>
