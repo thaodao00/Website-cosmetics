@@ -39,7 +39,66 @@
     }
 
     .product-recommend-wrapper {
-        justify-content: flex-start;
+        justify-content: space-evenly;
+    }
+
+    .cart__title {
+        padding: 36px 10%;
+    }
+
+    .filled-cart__items-wrapper {
+        padding: 24px 0;
+    }
+
+    .quantity-buttons--plus,
+    .quantity-buttons--minus,
+    .quantity-buttons--number {
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+    }
+
+    .buttons {
+        padding: 6px 24px;
+    }
+
+    .related-products {
+        margin: 30px 10px 0;
+    }
+
+    .filled-cart__item {
+        height: 60px;
+        padding: 10px;
+        margin: 32px 0;
+    }
+
+    .filled-cart__item-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .filled-cart__item-description {
+        width: calc(100% - 94px);
+        margin: 8px;
+        font-size: 13px;
+    }
+
+    .filled-cart__item-quantity .quantity-buttons--minus,
+    .filled-cart__item-quantity .quantity-buttons--number,
+    .filled-cart__item-quantity .quantity-buttons--plus {
+        height: 32px;
+        width: 36px;
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    .filled-cart__item-price,
+    .filled-cart__item-totalPrice {
+        font-size: 13px;
+    }
+
+    .filled-cart__item .filled-cart__item-delete-button .buttons {
+        padding: 4px 20px;
     }
 
     /* Nguyễn Hữu Kha end */
@@ -289,6 +348,15 @@
 
     .related-products {
         margin: 30px 10px 0;
+    }
+
+    /* Cart */
+    .cart__title {
+        padding: 24px 5%;
+    }
+
+    .filled-cart {
+        padding: 24px 5%;
     }
 
     /* Nguyễn Hữu Kha end*/

@@ -115,6 +115,7 @@ html{
         border: 1px solid var(--black-color);
         cursor: pointer;
         z-index: 3;
+        border-radius: 1px;
     }
 
     .buttons:hover {
