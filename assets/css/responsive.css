@@ -1,9 +1,9 @@
-/* Tablet and mobile */
+/* Tablet and mobile ---------------------------------------*/
 @media (max-width:1023px){
 
 }
 
-/* Tablet */
+/* Tablet ----------------------------------------------------*/
 @media (min-width: 740px) and (max-width: 1024px){
 
     .logo{
@@ -43,18 +43,22 @@
     }
 
     .cart__title {
-        padding: 36px 10%;
+        padding: 28px 10%;
     }
 
-    .filled-cart__items-wrapper {
-        padding: 24px 0;
+    .filled-cart__title-bar {
+        font-size: 13px;
+    }
+
+    .cart__title {
+        padding: 36px 10%;
     }
 
     .quantity-buttons--plus,
     .quantity-buttons--minus,
     .quantity-buttons--number {
         height: 40px;
-        line-height: 40px;
+        line-height: 38px;
         font-size: 14px;
     }
 
@@ -67,9 +71,7 @@
     }
 
     .filled-cart__item {
-        height: 60px;
         padding: 10px;
-        margin: 32px 0;
     }
 
     .filled-cart__item-img {
@@ -83,13 +85,22 @@
         font-size: 13px;
     }
 
+    .filled-cart__item-quantity {
+        width: 16%;
+    }
+
+    .filled-cart__item-price,
+    .filled-cart__item-totalPrice {
+        width: 8%;
+    }
+
     .filled-cart__item-quantity .quantity-buttons--minus,
     .filled-cart__item-quantity .quantity-buttons--number,
     .filled-cart__item-quantity .quantity-buttons--plus {
-        height: 32px;
+        height: 28px;
         width: 36px;
         font-size: 12px;
-        line-height: 30px;
+        line-height: 26px;
     }
 
     .filled-cart__item-price,
@@ -105,7 +116,7 @@
 }
 
 
-/* Mobile */
+/* Mobile ---------------------------------------------------*/
 @media (max-width: 739px){
     .header{
         padding: 18px 0;
@@ -235,8 +246,16 @@
         font-size: 14px;
     }
 
+    .stay-in-touch .close-wrapper {
+        display: none;
+    }
+
+    .stay-in-touch__title {
+        margin-top: 36px;
+    }
+
     .popup {
-        position: fixed;
+        position: absolute;
         left: 0;
         right: 0;
         top: 0;
@@ -250,8 +269,9 @@
         right: 0;
         top: 0;
         bottom: 0;
-        background-color: var(--black-color);
-        opacity: 0.4;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.4);
         z-index: 110;
     }
 
@@ -338,7 +358,7 @@
     .quantity-buttons--minus,
     .quantity-buttons--number {
         height: 40px;
-        line-height: 40px;
+        line-height: 38px;
         font-size: 14px;
     }
 
@@ -359,5 +379,85 @@
         padding: 24px 5%;
     }
 
-    /* Nguyễn Hữu Kha end*/
+    .filled-cart__title-bar {
+       display: none;
+    }
+
+    .filled-cart__item {
+        width: 100%;
+        padding: 16px;
+        align-items: center;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        box-shadow: 0 1px 3px var(--gray-color);
+    }
+
+    .filled-cart__item ~ .filled-cart__item {
+        margin-top: 16px;
+    }
+
+    .filled-cart__item .select-product {
+        display: none;
+    }
+
+    .filled-cart__item-info {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .filled-cart__item-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .filled-cart__item-description {
+        width: calc(100% - 80px);
+        font-size: 12px;
+    }
+
+    .filled-cart__item-price,
+    .filled-cart__item-totalPrice {
+        width: 20%;
+        font-size: 12px;
+    }
+
+    .filled-cart__item-price {
+        display: none;
+    }
+
+    .filled-cart__item-quantity {
+        width: 44%;
+        margin-left: 8px;
+    }
+
+    .filled-cart__item-quantity .quantity-buttons--minus,
+    .filled-cart__item-quantity .quantity-buttons--number,
+    .filled-cart__item-quantity .quantity-buttons--plus {
+        height: 30px;
+        width: 40px;
+        font-size: 12px;
+        line-height: 28px;
+    }
+
+    .filled-cart__item-delete-button {
+        display: none;
+    }
+
+    /* empty cart */
+    .cart__body > .empty-cart {
+        padding: 30px 5%;
+        margin: 60px 0;
+    }
+
+    .empty-cart__title {
+        font-size: 24px;
+    }
+
+    .empty-cart__sub-title {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+
+        /* Nguyễn Hữu Kha end */
 }
