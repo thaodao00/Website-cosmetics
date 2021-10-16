@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PersonalInformation</title>
-    <link rel="stylesheet" href="./assest/css/base.css">
-    <link rel="stylesheet" href="./assest/css/grid.css">
-    <link rel="stylesheet" href="./assest/css/main.css">
-    <link rel="stylesheet" href="./assest/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="./assest/font/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/font/fontawesome-free-5.15.3-web/css/all.min.css">
 </head>
 <body>
     <div id="app" style="background: #efe8e8">
@@ -96,15 +96,15 @@
         </header>
         <!--Header: end-->
         <!-- Content: begin-->
-        <div class="content-products" >
+        <div class="content-account" >
             <div class="grid wide">
                 <div class="row nav__information">
-                    <div class="col l-2">
+                    <div class="col l-2 m-12 c-12">
                         <div class="nav__information-personal">
                             <ul class="nav__information-personal-list">
                                 <li class="nav__information-personal-account">
                                     <div class="nav__information-personal-item" >
-                                        <img class="nav__information-personal-img" src="./assest/img/user.png" alt="">
+                                        <img class="nav__information-personal-img" src="assets/img/user.png" alt="">
                                         <h5 class="nav__information-personal-name">
                                             My account
                                         </h5>
@@ -122,7 +122,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav__information-personal-purchase">
-                                    <img class="nav__information-personal-img" src="./assest/img/don-mua.png" alt="">
+                                    <img class="nav__information-personal-img" src="assets/img/don-mua.png" alt="">
                                     <h5 class="nav__information-personal-name active-btn">
                                         Purchase order
                                     </h5>
@@ -130,10 +130,10 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col l-10 purchase-order">
+                    <div class="col l-10 m-12 c-12 purchase-order">
                         <div class="nav__information-orders">
                             <ul class="nav__information-orders-list">
-                                <li class="nav__information-orders-item" style="padding-left: 40px">
+                                <li class="nav__information-orders-item active-btn">
                                     All order
                                 </li>
                                 <li class="nav__information-orders-item">
@@ -143,25 +143,305 @@
                                     Delivering orders
                                 </li>
                                 <li class="nav__information-orders-item">
-                                    Successful order
+                                    Successful orders
                                 </li>
                                 <li class="nav__information-orders-item" style="padding-right: 40px">
-                                    Canceled order
+                                    Canceled orders
                                 </li>
                             </ul>
                         </div>
-                        <div class="nav__information-orders-content">
-                            <div class="nav__information-orders-content-item">
-                                <div class="empty-cart-img">
+                        <div class="nav__information-orders-content active-tab">
+                            <div class="nav__information-orders-content-item ">
+                                <div class="empty-order">
+                                    <div class="empty-order-img">
 
+                                    </div>
+                                    <div class="empty-order-text">
+                                        No orders :)
+                                    </div>
                                 </div>
-                                <div class="empty-cart-text">
-                                    No orders :)
+                            </div>
+                            <div class="nav__information-orders-content-item active-tab">
+                                <div class="nav__information-orders-content-item-product">
+                                    <div class="order-status">
+                                        Preparing order
+                                    </div>
+                                    <div class="orders-information">
+                                        <div class="orders-information__content">
+                                            <img class="orders-information__content-img" src="assets/img/product/granary/filmeyeshadow.jpg">
+                                            <div class="orders-information__content-overview">
+                                                <h4 class="orders-information__content-overview-title">
+                                                    Niacinamide 10% + Zinc 1% - The Ordinary
+                                                </h4>
+                                                <div class="orders-information__content-overview-amount">
+                                                    x1
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="orders-price">
+                                            56$
+                                        </div>
+                                    </div>
+                                    <div class="orders-information">
+                                        <div class="orders-information__content">
+                                            <img class="orders-information__content-img" src="assets/img/product/granary/filmeyeshadow.jpg">
+                                            <div class="orders-information__content-overview">
+                                                <h4 class="orders-information__content-overview-title">
+                                                    Niacinamide 10% + Zinc 1% - The Ordinary
+                                                </h4>
+                                                <div class="orders-information__content-overview-amount">
+                                                    x1
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="orders-price">
+                                            56$
+                                        </div>
+                                    </div>
+                                    <div class="order-total-amount">
+                                        <label class="order-total-amount__label" >Total amount:</label>
+                                        <div class="order-total-amount__number">
+                                            102$
+                                        </div>
+                                    </div>
+                                    <button class="order-review">Review</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav__information-orders-content">
+                            <div class="nav__information-orders-content-item ">
+                                <div class="empty-order">
+                                    <div class="empty-order-img">
+
+                                    </div>
+                                    <div class="empty-order-text">
+                                        No orders :)
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nav__information-orders-content-item active-tab">
+                                <div class="nav__information-orders-content-item-product">
+                                    <div class="order-status">
+                                        Preparing order
+                                    </div>
+                                    <div class="orders-information">
+                                        <div class="orders-information__content">
+                                            <img class="orders-information__content-img" src="assets/img/product/granary/filmeyeshadow.jpg">
+                                            <div class="orders-information__content-overview">
+                                                <h4 class="orders-information__content-overview-title">
+                                                    Niacinamide 10% + Zinc 1% - The Ordinary
+                                                </h4>
+                                                <div class="orders-information__content-overview-amount">
+                                                    x1
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="orders-price">
+                                            56$
+                                        </div>
+                                    </div>
+                                    <div class="orders-information">
+                                        <div class="orders-information__content">
+                                            <img class="orders-information__content-img" src="assets/img/product/granary/filmeyeshadow.jpg">
+                                            <div class="orders-information__content-overview">
+                                                <h4 class="orders-information__content-overview-title">
+                                                    Niacinamide 10% + Zinc 1% - The Ordinary
+                                                </h4>
+                                                <div class="orders-information__content-overview-amount">
+                                                    x1
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="orders-price">
+                                            56$
+                                        </div>
+                                    </div>
+                                    <div class="order-total-amount">
+                                        <label class="order-total-amount__label" >Total amount:</label>
+                                        <div class="order-total-amount__number">
+                                            102$
+                                        </div>
+                                    </div>
+                                    <button class="order-review">Review</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav__information-orders-content">
+                            <div class="nav__information-orders-content-item active-tab">
+                                <div class="empty-order">
+                                    <div class="empty-order-img">
+
+                                    </div>
+                                    <div class="empty-order-text">
+                                        No orders :)
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nav__information-orders-content-item ">
+                                <div class="nav__information-orders-content-item-product">
+                                    <div class="order-status">
+                                        Preparing order
+                                    </div>
+                                    <div class="orders-information">
+                                        <div class="orders-information__content">
+                                            <img class="orders-information__content-img" src="assets/img/product/granary/filmeyeshadow.jpg">
+                                            <div class="orders-information__content-overview">
+                                                <h4 class="orders-information__content-overview-title">
+                                                    Niacinamide 10% + Zinc 1% - The Ordinary
+                                                </h4>
+                                                <div class="orders-information__content-overview-amount">
+                                                    x1
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="orders-price">
+                                            56$
+                                        </div>
+                                    </div>
+                                    <div class="orders-information">
+                                        <div class="orders-information__content">
+                                            <img class="orders-information__content-img" src="assets/img/product/granary/filmeyeshadow.jpg">
+                                            <div class="orders-information__content-overview">
+                                                <h4 class="orders-information__content-overview-title">
+                                                    Niacinamide 10% + Zinc 1% - The Ordinary
+                                                </h4>
+                                                <div class="orders-information__content-overview-amount">
+                                                    x1
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="orders-price">
+                                            56$
+                                        </div>
+                                    </div>
+                                    <div class="order-total-amount">
+                                        <label class="order-total-amount__label" >Total amount:</label>
+                                        <div class="order-total-amount__number">
+                                            102$
+                                        </div>
+                                    </div>
+                                    <button class="order-review">Review</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav__information-orders-content">
+                            <div class="nav__information-orders-content-item active-tab">
+                                <div class="empty-order">
+                                    <div class="empty-order-img">
+
+                                    </div>
+                                    <div class="empty-order-text">
+                                        No orders :)
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nav__information-orders-content-item ">
+                                <div class="nav__information-orders-content-item-product">
+                                    <div class="order-status">
+                                        Preparing order
+                                    </div>
+                                    <div class="orders-information">
+                                        <div class="orders-information__content">
+                                            <img class="orders-information__content-img" src="assets/img/product/granary/filmeyeshadow.jpg">
+                                            <div class="orders-information__content-overview">
+                                                <h4 class="orders-information__content-overview-title">
+                                                    Niacinamide 10% + Zinc 1% - The Ordinary
+                                                </h4>
+                                                <div class="orders-information__content-overview-amount">
+                                                    x1
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="orders-price">
+                                            56$
+                                        </div>
+                                    </div>
+                                    <div class="orders-information">
+                                        <div class="orders-information__content">
+                                            <img class="orders-information__content-img" src="assets/img/product/granary/filmeyeshadow.jpg">
+                                            <div class="orders-information__content-overview">
+                                                <h4 class="orders-information__content-overview-title">
+                                                    Niacinamide 10% + Zinc 1% - The Ordinary
+                                                </h4>
+                                                <div class="orders-information__content-overview-amount">
+                                                    x1
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="orders-price">
+                                            56$
+                                        </div>
+                                    </div>
+                                    <div class="order-total-amount">
+                                        <label class="order-total-amount__label">Total amount:</label>
+                                        <div class="order-total-amount__number">
+                                            102$
+                                        </div>
+                                    </div>
+                                    <button class="order-review">Review</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav__information-orders-content">
+                            <div class="nav__information-orders-content-item active-tab">
+                                <div class="empty-order">
+                                    <div class="empty-order-img">
+
+                                    </div>
+                                    <div class="empty-order-text">
+                                        No orders :)
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nav__information-orders-content-item ">
+                                <div class="nav__information-orders-content-item-product">
+                                    <div class="order-status">
+                                        Preparing order
+                                    </div>
+                                    <div class="orders-information">
+                                        <div class="orders-information__content">
+                                            <img class="orders-information__content-img" src="assets/img/product/granary/filmeyeshadow.jpg">
+                                            <div class="orders-information__content-overview">
+                                                <h4 class="orders-information__content-overview-title">
+                                                    Niacinamide 10% + Zinc 1% - The Ordinary
+                                                </h4>
+                                                <div class="orders-information__content-overview-amount">
+                                                    x1
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="orders-price">
+                                            56$
+                                        </div>
+                                    </div>
+                                    <div class="orders-information">
+                                        <div class="orders-information__content">
+                                            <img class="orders-information__content-img" src="assets/img/product/granary/filmeyeshadow.jpg">
+                                            <div class="orders-information__content-overview">
+                                                <h4 class="orders-information__content-overview-title">
+                                                    Niacinamide 10% + Zinc 1% - The Ordinary
+                                                </h4>
+                                                <div class="orders-information__content-overview-amount">
+                                                    x1
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="orders-price">
+                                            56$
+                                        </div>
+                                    </div>
+                                    <div class="order-total-amount">
+                                        <label class="order-total-amount__label">Total amount:</label>
+                                        <div class="order-total-amount__number">
+                                            102$
+                                        </div>
+                                    </div>
+                                    <button class="order-review">Review</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col l-10 my-account" style="display:none">
+                    <div class="col l-10 m-12 c-12 my-account" style="display:none">
                         <div class="my-account__main active-tab ">
                             <div class="my-account__top">
                                 <h5 class="my-account__top-title">
@@ -177,6 +457,7 @@
                                         EMail
                                     </label>
                                     <div class="my-account__form-content">
+                                        thuthao5624@gmail.com
                                     </div>
                                 </div>
                                 <div class="my-account__form-name">
@@ -184,7 +465,7 @@
                                         Password
                                     </label>
                                     <div class="my-account__form-content">
-
+                                        *******************
                                     </div>
                                 </div>
                             </form>
@@ -293,7 +574,7 @@
                                     Phone: +0363275624
                                 </li>
                             </a>
-                            <img class="footer__contact-img" src="./assest/img/footer-tab-1.png" alt="">
+                            <img class="footer__contact-img" src="assets/img/footer-tab-1.png" alt="">
 
                         </ul>
                     </div>
@@ -651,7 +932,8 @@
             </div>
         </div>
     </div>
-    <script src="./assest/js/JSPersonalInfomation.js"></script>
-    <script src="./assest/js/showHide.js"></script>
+    <script src="assets/js/showHide.js"></script>
+    <script type="module" src="assets/js/JSPersonalInfomation.js"></script>
+
 </body>
 </html>

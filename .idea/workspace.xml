@@ -91,7 +91,9 @@
       <workItem from="1634309897094" duration="1240000" />
       <workItem from="1634311265602" duration="449000" />
       <workItem from="1634311771808" duration="548000" />
-      <workItem from="1634312484947" duration="692000" />
+      <workItem from="1634312484947" duration="1193000" />
+      <workItem from="1634346375836" duration="3959000" />
+      <workItem from="1634367898778" duration="10326000" />
     </task>
     <servers />
   </component>
@@ -114,7 +116,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/assest/js/JSProduct.js</url>
+          <url>file://$PROJECT_DIR$/assets/js/JSProduct.js</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

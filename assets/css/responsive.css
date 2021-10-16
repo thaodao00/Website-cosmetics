@@ -130,7 +130,53 @@
     .modal-account{
         z-index: 501;
     }
-
+    /**/
+    .content-account{
+        margin-top: 70px;
+    }
+    .nav__information-orders-list{
+        overflow-x: auto;
+    }
+    .nav__information-orders-list::-webkit-scrollbar{
+       display: none;
+    }
+    .nav__information-orders-item{
+        padding: 10px 20px;
+        font-size: 1.4rem;
+    }
+    .order-status{
+        padding: 15px 40px;
+        font-size: 1.4rem;
+    }
+    .order-review {
+        float: right;
+        font-size: 1.2rem;
+        padding: 10px 10px;
+        margin: 5px 40px;
+    }
+    .orders-information{
+        display: block;
+    }
+    .orders-price{
+        text-align: right;
+        padding-bottom: 5px;
+    }
+    .order-total-amount__label{
+        font-size: 1.4rem;
+    }
+    .orders-information__content-overview-title{
+        font-size: 1.4rem;
+    }
+    .order-total-amount{
+        padding: 13px 40px;
+    }
+    .my-account__form-label{
+        text-align: left;
+        min-width: 60px;
+    }
+    .my-account__top-title{
+        font-size: 1.4rem;
+    }
     /* Nguyễn Hữu Kha begin */
     .product-slider {
         height: 250px;

@@ -807,12 +807,15 @@ h1{
     display: none;
 }
 /*Personallnformation.html*/
+.content-account{
+    margin-top: 100px;
+}
 .active-btn{
     color: #b70921f7;
+    font-weight: 600;
 }
 .nav__information-personal{
     margin-left: 20px;
-    min-height:600px;
 }
 .nav__information-orders-list, .nav__information-personal-list, .nav__information-my-account-list{
     list-style-type: none;
@@ -823,6 +826,7 @@ h1{
     align-items: center;
     padding: 10px 0;
     cursor: pointer;
+    font-size: 1.2rem;
 }
 .nav__information-personal-img{
     height: 2.5rem;
@@ -879,12 +883,16 @@ h1{
     background: white;
     margin: 20px 0;
     min-height: 500px;
+    display: none;
+}
+.empty-order{
+    min-height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.empty-cart-img{
+.empty-order-img{
     background-position: 50%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -892,7 +900,7 @@ h1{
     height: 100px;
     background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/5fafbb923393b712b96488590b8f781f.png);
 }
-.empty-cart-text{
+.empty-order-text{
     margin-top: 20px;
     font-size: 1.6rem;
 }
@@ -960,7 +968,75 @@ h1{
     padding:2px 5px ;
     margin: 0 20px;
 }
+/*orders*/
+.nav__information-orders-content-item{
+    display: none;
+    margin-bottom: 20px;
+}
+.nav__information-orders-content-item-product{
+    margin-bottom: 20px;
+}
+.order-status{
+    width: 100%;
+    text-align: right;
+    padding: 20px 40px;
+    border-bottom: 1px solid var(--border-color);
+    color: #b70921f7;
+}
+.orders-information{
+    display: flex;
+    margin: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
 
+}
+.orders-information__content{
+    display: flex;
+    align-items: center;
+}
+.orders-information__content-img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid var(--border-color);
+    margin-bottom: 20px;
+}
+.orders-information__content-amount{
+    padding: 0 50px;
+}
+.orders-information__content-overview{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.orders-information__content-overview-title{
+    font-size: 1.6rem;
+}
+.orders-information__content-overview-amount{
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+.orders-price{
+    font-size: 1.6rem;
+}
+.order-total-amount{
+    display: inline-flex;
+    float: right;
+    padding: 20px 40px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.order-total-amount__number{
+    margin-left: 20px;
+}
+.order-review{
+    margin: 20px 40px;
+    border: none;
+    color: var(--white-color);
+    background: #b70921f7;
+    padding: 10px;
+    border-radius: 5px;
+}
 /**-------------------Đào Thị Thu Thảo - end-------------------*/
 
 
