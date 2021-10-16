@@ -48,6 +48,18 @@ backBtn.addEventListener('click',function (){
     modalAddress.style.display="none"
 })
 
+const statusOrder = $$('.nav__information-orders-item')
+const panesOrder =$$('.nav__information-orders-content')
 
+statusOrder.forEach((tab, index)=>{
+    const pane = panesOrder[index];
+    tab.onclick =function (){
+        $('.nav__information-orders-item.active-btn').classList.remove('active-btn')
+        $('.nav__information-orders-content.active-tab').classList.remove('active-tab')
+        tab.classList.add('active-btn')
+        this.classList.add('active-tab')
+        pane.classList.add('active-tab')
+    }
+})
 
 

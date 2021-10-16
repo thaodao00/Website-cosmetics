@@ -23,6 +23,8 @@ for(let i = 0; i < buttonNumbers.length; i++) {
             confirm("Do you want to remove this item from cart?")
             cartItems[i].style.display = "none";
         }
+
+        buttonNumbers[i].innerText > 0 ? buttonNumbers[i].innerText -= 1 : buttonNumbers[i] = 0;
     }
     buttonPlus[i].onclick = function () {
         buttonNumbers[i].innerText = Number(buttonNumbers[i].innerHTML) + 1;

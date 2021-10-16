@@ -1,4 +1,5 @@
 let close = document.querySelector('.close');
+
 let overlay = document.querySelector('.popup-overlay');
 
 document.querySelector('.popup').onclick = function (e) {
@@ -20,6 +21,16 @@ let quantityWantToBuy = document.querySelector('.quantity-buttons--number').inne
 
 document.querySelector('.quantity-buttons--minus').onclick = function() {
     quantityWantToBuy > 1 ? quantityWantToBuy -= 1 : quantityWantToBuy = 1;
+
+close.onclick = function() {
+    document.querySelector('.stay-in-touch').style.display = 'none';
+    document.querySelector('.popup-overlay').style.display = 'none';
+}
+
+let quantityWantToBuy = document.querySelector('.quantity-buttons--number').innerText;
+
+document.querySelector('.quantity-buttons--minus').onclick = function() {
+    quantityWantToBuy >1 ? quantityWantToBuy -= 1 : quantityWantToBuy = 1;
     document.querySelector('.quantity-buttons--number').innerText = quantityWantToBuy;
 }
 

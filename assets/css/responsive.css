@@ -1,9 +1,17 @@
+
 /* Tablet and mobile ---------------------------------------*/
+
+/* Tablet and mobile */
+
 @media (max-width:1023px){
 
 }
 
+
 /* Tablet ----------------------------------------------------*/
+
+/* Tablet */
+
 @media (min-width: 740px) and (max-width: 1024px){
 
     .logo{
@@ -39,6 +47,7 @@
     }
 
     .product-recommend-wrapper {
+
         justify-content: space-evenly;
     }
 
@@ -110,6 +119,7 @@
 
     .filled-cart__item .filled-cart__item-delete-button .buttons {
         padding: 4px 20px;
+        justify-content: flex-start;
     }
 
     /* Nguyễn Hữu Kha end */
@@ -117,6 +127,8 @@
 
 
 /* Mobile ---------------------------------------------------*/
+
+/* Mobile */
 @media (max-width: 739px){
     .header{
         padding: 18px 0;
@@ -201,6 +213,73 @@
         z-index: 501;
     }
 
+
+
+    /**/
+    .content-account{
+        margin-top: 70px;
+    }
+    .nav__information-orders-list{
+        overflow-x: auto;
+    }
+    .nav__information-orders-list::-webkit-scrollbar{
+       display: none;
+    }
+    .nav__information-orders-item{
+        padding: 10px 20px;
+        font-size: 1.4rem;
+    }
+    .order-status{
+        padding: 15px 40px;
+        font-size: 1.4rem;
+    }
+
+    .orders-information{
+        display: block;
+    }
+    .orders-price{
+        text-align: right;
+        padding-bottom: 5px;
+    }
+    .order-total-amount__label{
+        font-size: 1.4rem;
+    }
+    .orders-information__content-overview-title{
+        font-size: 1.4rem;
+    }
+    .order-total-amount{
+        padding: 13px 40px;
+    }
+    .my-account__form-label{
+        text-align: left;
+        min-width: 76px;
+    }
+    .my-account__top-title{
+        font-size: 1.4rem;
+    }
+    .my-account__form-input{
+        margin: 5px 0 0 0;
+    }
+    .my-account__form-change-password{
+        display: block;
+    }
+    .nav__information-orders-content{
+        margin: 10px 0 ;
+    }
+    .nav__information-personal-item, .nav__information-personal-purchase {
+        padding: 4px 0;
+    }
+    .nav__information-personal-name{
+        font-size: 1.4rem;
+    }
+    .nav__information-my-account-item {
+        font-size: 1.2rem;
+        padding: 5px 0 5px 33px ;
+    }
+    .my-account__top-text{
+        font-size: 1.2rem;
+    }
+
     /* Nguyễn Hữu Kha begin */
     .product-slider {
         height: 250px;
@@ -246,6 +325,7 @@
         font-size: 14px;
     }
 
+
     .stay-in-touch .close-wrapper {
         display: none;
     }
@@ -256,6 +336,10 @@
 
     .popup {
         position: absolute;
+
+    .popup {
+        position: fixed;
+
         left: 0;
         right: 0;
         top: 0;
@@ -269,12 +353,15 @@
         right: 0;
         top: 0;
         bottom: 0;
+
         align-items: center;
         justify-content: center;
         background-color: rgba(0, 0, 0, 0.4);
+
+        background-color: var(--black-color);
+        opacity: 0.4;
         z-index: 110;
     }
-
     .product-content__img-wrapper {
         width: 100%;
         margin-bottom: 30px;
@@ -359,6 +446,8 @@
     .quantity-buttons--number {
         height: 40px;
         line-height: 38px;
+
+        line-height: 40px;
         font-size: 14px;
     }
 
@@ -369,6 +458,7 @@
     .related-products {
         margin: 30px 10px 0;
     }
+
 
     /* Cart */
     .cart__title {
@@ -460,4 +550,6 @@
 
 
         /* Nguyễn Hữu Kha end */
+    /* Nguyễn Hữu Kha end*/
+
 }
