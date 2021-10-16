@@ -34,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assest/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -42,6 +42,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics" />
       <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\assest\js" />
       <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\assest\img" />
     </key>
@@ -90,7 +91,8 @@
       <workItem from="1634308667162" duration="1186000" />
       <workItem from="1634309897094" duration="1240000" />
       <workItem from="1634311265602" duration="449000" />
-      <workItem from="1634311771808" duration="235000" />
+      <workItem from="1634311771808" duration="705000" />
+      <workItem from="1634401295734" duration="470000" />
     </task>
     <servers />
   </component>
@@ -113,7 +115,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/assest/js/JSProduct.js</url>
+          <url>file://$PROJECT_DIR$/assets/js/JSProduct.js</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
