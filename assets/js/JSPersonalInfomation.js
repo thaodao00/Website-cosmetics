@@ -61,5 +61,26 @@ statusOrder.forEach((tab, index)=>{
         pane.classList.add('active-tab')
     }
 })
+const orderReviewBtn = $$('.order-review')
+orderReviewBtn.forEach((btn,index)=>{
+    btn.onclick = function () {
+        $('.modal-review').classList.add('modal-review__open')
+    }
+})
+const back= $('.back-btn')
+const modalReview = $('.modal-review')
+back.addEventListener('click', function (){
+    $('.modal-review').classList.remove('modal-review__open')
+})
+$('.modal-review').onclick = function (e){
+    this.classList.remove("modal-review__open")
+}
+const formReview = $('.review-form')
+formReview.addEventListener('click', function (e){
+    e.stopPropagation()
+})
+
+
+
 
 
