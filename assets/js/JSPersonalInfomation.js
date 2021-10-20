@@ -48,6 +48,39 @@ backBtn.addEventListener('click',function (){
     modalAddress.style.display="none"
 })
 
+const statusOrder = $$('.nav__information-orders-item')
+const panesOrder =$$('.nav__information-orders-content')
+
+statusOrder.forEach((tab, index)=>{
+    const pane = panesOrder[index];
+    tab.onclick =function (){
+        $('.nav__information-orders-item.active-btn').classList.remove('active-btn')
+        $('.nav__information-orders-content.active-tab').classList.remove('active-tab')
+        tab.classList.add('active-btn')
+        this.classList.add('active-tab')
+        pane.classList.add('active-tab')
+    }
+})
+const orderReviewBtn = $$('.order-review')
+orderReviewBtn.forEach((btn,index)=>{
+    btn.onclick = function () {
+        $('.modal-review').classList.add('modal-review__open')
+    }
+})
+const back= $('.back-btn')
+const modalReview = $('.modal-review')
+back.addEventListener('click', function (){
+    $('.modal-review').classList.remove('modal-review__open')
+})
+$('.modal-review').onclick = function (e){
+    this.classList.remove("modal-review__open")
+}
+const formReview = $('.review-form')
+formReview.addEventListener('click', function (e){
+    e.stopPropagation()
+})
+
+
 
 
 

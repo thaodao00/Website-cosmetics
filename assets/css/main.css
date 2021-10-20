@@ -225,9 +225,9 @@ h1{
     text-align: center;
     overflow: hidden;
     width: 100%;
-    padding: 0 15px;
     background: white;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 .overview__title{
     padding-top: 40px;
@@ -244,12 +244,12 @@ h1{
 }
 /*Footer*/
 .footer{
-    margin-top: 80px;
+    margin-top: 50px;
     background: var(--black-color);
     overflow: hidden;
 }
 .footer-content{
-    padding: 100px 0;
+    padding: 50px 0;
 }
 .footer__contact, .footer__follow{
     list-style-type: none;
@@ -261,11 +261,11 @@ h1{
 }
 .footer__contact--title{
     color: var(--white-color);
-    font-size: 3rem;
+    font-size: 2.2rem;
     margin: 30px 0;
 }
 .footer__contact-address, .footer__contact-email, .footer__contact-phone {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin: 15px 0;
 }
 .footer__contact-img{
@@ -293,6 +293,19 @@ h1{
 }
 .footer__follow-icon-link:hover{
     opacity: 0.8;
+}
+.footer--bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid var(--border-color) ;
+}
+.footer-bottom__text{
+    color: var(--white-color);
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 30px 0;
+
 }
 /*Search mobile*/
 .search-mobile{
@@ -757,6 +770,10 @@ auth-form__header {
     margin-right: 8px;
     border: 1px solid rgb(199, 190, 190);
 }
+.btnBlack{
+    margin-right: 8px;
+    border: 1px solid rgb(199, 190, 190);
+}
 .auth-form_socials{
     background-color: #f5f5f5;
     padding:12px 36px;
@@ -807,12 +824,24 @@ auth-form__header {
     display: none;
 }
 /*Personallnformation.html*/
+
 .active-btn{
     color: #b70921f7;
 }
+.nav__information-personal {
+    margin-left: 20px;
+}
+
+.content-account{
+    margin-top: 100px;
+}
+.active-btn{
+    color: #b70921f7;
+    font-weight: 600;
+}
 .nav__information-personal{
     margin-left: 20px;
-    min-height:600px;
+
 }
 .nav__information-orders-list, .nav__information-personal-list, .nav__information-my-account-list{
     list-style-type: none;
@@ -823,6 +852,8 @@ auth-form__header {
     align-items: center;
     padding: 10px 0;
     cursor: pointer;
+    font-size: 1.2rem;
+
 }
 .nav__information-personal-img{
     height: 2.5rem;
@@ -864,6 +895,9 @@ auth-form__header {
     width: 100%;
 }
 .nav__information-orders{
+    margin-right: 30px;
+}
+.nav__information-orders-content-item{
 
 }
 .nav__information-orders-list{
@@ -877,14 +911,17 @@ auth-form__header {
 }
 .nav__information-orders-content{
     background: white;
-    margin: 20px 0;
+    margin: 20px 30px 20px 0;
+    display: none;
+}
+.empty-order{
     min-height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.empty-cart-img{
+.empty-order-img{
     background-position: 50%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -892,7 +929,8 @@ auth-form__header {
     height: 100px;
     background-image: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/5fafbb923393b712b96488590b8f781f.png);
 }
-.empty-cart-text{
+.empty-order-text{
+
     margin-top: 20px;
     font-size: 1.6rem;
 }
@@ -905,6 +943,7 @@ auth-form__header {
     background: white;
     margin-bottom: 20px;
     display: none;
+    margin-right: 30px;
 }
 .my-account__top{
     padding: 20px 40px;
@@ -923,11 +962,19 @@ auth-form__header {
     padding: 20px 40px;
 
 }
-.my-account__form-name{
+
+.my-account__form-name {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+}
 
+
+
+.my-account__form-name, .my-account__form-change-password{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 
 }
 .my-account__form-label{
@@ -949,18 +996,113 @@ auth-form__header {
     align-items: center;
 }
 .my-account__top-btn, .my-account__password-btn{
-    padding: 10px;
-    background: #b70921f7;
+    padding: 6px;
+    background: var(--black-color);
     border: none;
     color: var(--white-color);
-    border-radius: 5px;
     cursor: pointer;
+    font-size: 1.2rem;
+    display: block;
+
 }
-.my-account__form-input{
-    padding:2px 5px ;
+.my-account__password-btn{
+    width: 70px;
+    margin-left: 42px;
+}
+.my-account__form-input {
+    padding: 2px 5px;
     margin: 0 20px;
 }
-
+/*orders*/
+.nav__information-orders-content-item{
+    display: none;
+    margin-bottom: 20px;
+    background: white;
+}
+.nav__information-orders-content-item-product{
+    margin-bottom: 20px;
+}
+.order-status{
+    width: 100%;
+    text-align: right;
+    padding: 20px 40px;
+    border-bottom: 1px solid var(--border-color);
+    color: #b70921f7;
+}
+.orders-purchase{
+    border-bottom: 1px solid var(--border-color);
+    display: block;
+    text-align: right;
+    padding-bottom: 20px;
+}
+.orders-information{
+    display: flex;
+    margin: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.orders-information__content{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.orders-information__content-img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid var(--border-color);
+}
+.orders-information__content-amount{
+    padding: 0 50px;
+}
+.orders-information__content-overview{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.orders-information__content-overview-title{
+    font-size: 1.6rem;
+}
+.orders-information__content-overview-amount{
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+.orders-price{
+    font-size: 1.6rem;
+}
+.order-total-amount{
+    display: flex;
+    justify-content: right;
+    padding: 20px 40px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.order-total-amount__number{
+    margin-left: 20px;
+}
+.order-review{
+    margin: 0 40px;
+    border: none;
+    color: var(--white-color);
+    background:var(--black-color);
+    padding: 10px;
+}
+    .auth-form__list{
+        padding: 20px 0;
+    }
+    #your-review{
+        font-size: 1.4rem;
+        padding: 15px;
+        outline: none;
+    }
+    .auth-form__group-star{
+        font-size: 2rem;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .back-btn{
+        border: 1px solid var(--border-color);
+        margin-right: 6px;
+    }
 /**-------------------Đào Thị Thu Thảo - end-------------------*/
 
 

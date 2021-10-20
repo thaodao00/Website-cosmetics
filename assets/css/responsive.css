@@ -1,11 +1,26 @@
+
 /* Tablet and mobile ---------------------------------------*/
+/* Tablet and mobile */
 @media (max-width:1023px){
-
+    .my-account__main{
+        margin-right: 0;
+    }
+    .nav__information-orders{
+        margin-right: 0;
+    }
+    .nav__information-orders-content{
+        margin-right: 0;
+    }
 }
-
 /* Tablet ----------------------------------------------------*/
-@media (min-width: 740px) and (max-width: 1024px){
 
+/* Tablet */
+
+@media (min-width: 740px) and (max-width: 1024px){
+    .footer__contact--title{
+        font-size: 1.8rem;
+        margin-bottom: 12px;
+    }
     .logo{
         font-size: 2rem;
         margin: 0 10px;
@@ -39,6 +54,7 @@
     }
 
     .product-recommend-wrapper {
+
         justify-content: space-evenly;
     }
 
@@ -133,6 +149,8 @@
 
 
 /* Mobile ---------------------------------------------------*/
+
+/* Mobile */
 @media (max-width: 739px){
     .header{
         padding: 18px 0;
@@ -140,8 +158,25 @@
     .slideshow-container{
         margin-top: 56px;
     }
-    .logo, .footer__contact--title{
+    .logo{
         font-size: 2rem;
+    }
+    .footer__contact--title{
+        font-size: 1.6rem;
+        margin-bottom: 12px;
+    }
+    .footer__contact-address, .footer__contact-email, .footer__contact-phone {
+        font-size: 1.4rem;
+        margin: 10px 0;
+    }
+    .footer__follow-text{
+        font-size: 1.4rem;
+    }
+    .footer__contact-img{
+        margin-top: 12px;
+    }
+    .footer__follow-icon{
+        margin-top: 15px;
     }
     .header-icon{
         display: none;
@@ -153,9 +188,9 @@
     .content{
         margin-top: 20px;
     }
-    .content__title{
-        font-size: 2rem;
-        margin: 15px 0;
+    .content__title {
+        font-size: 1.6rem;
+        padding: 15px 0;
     }
     .product__item{
         margin: 5px 5px;
@@ -163,12 +198,35 @@
     .footer{
         margin-top: 20px;
     }
-    .footer__contact{
+    .footer__contact, .footer__follow{
         padding-bottom: 30px;
         border-bottom: 1px solid var(--white-color) ;
     }
     .footer-content {
-        padding: 50px 0;
+        padding-bottom: 0;
+        padding-top: 10px;
+    }
+    .footer-bottom__text {
+        padding-bottom: 70px;
+        font-size: 1.4rem;
+    }
+    .overview{
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .overview__title {
+        padding-top: 30px;
+    }
+    .product__item--describe span{
+        font-size: 1.2rem;
+    }
+    /*Form login and register*/
+    .auth-form__heading {
+        font-size: 1.8rem;
+    }
+    .auth-form__input{
+        height: 35px;
+        font-size: 1.2rem;
     }
     /*    Products*/
     .header__sort-bar{
@@ -179,9 +237,16 @@
     }
     .mobile-category{
         display: block;
+        margin: 0;
+    }
+    .mobile-category__link{
+        font-size: 1.2rem;
     }
     .navbar__check:checked ~.nav-mobile{
         transform: translateX(0);
+    }
+    .product__item-name, .product__item-price{
+        font-size: 1.4rem;
     }
     .search-mobile{
         display: flex;
@@ -215,6 +280,90 @@
     }
     .modal-account{
         z-index: 501;
+    }
+
+
+
+    /**/
+    .content-account{
+        margin-top: 70px;
+    }
+
+    .nav__information-orders-list{
+        overflow-x: auto;
+
+    }
+    .nav__information-orders-list::-webkit-scrollbar{
+       display: none;
+    }
+    .nav__information-orders-item{
+        padding: 10px 20px;
+        font-size: 1.4rem;
+    }
+    .order-status{
+        padding: 15px 40px;
+        font-size: 1.4rem;
+    }
+
+    .orders-information{
+        display: block;
+    }
+    .orders-price{
+        text-align: right;
+        padding-bottom: 5px;
+    }
+    .order-total-amount__label{
+        font-size: 1.4rem;
+    }
+    .orders-information__content-overview-title{
+        font-size: 1.4rem;
+    }
+    .order-total-amount{
+        padding: 13px 40px;
+    }
+
+    .my-account__form-label{
+        text-align: left;
+        min-width: 76px;
+    }
+    .my-account__top-title{
+        font-size: 1.4rem;
+    }
+    .my-account__form-input{
+        margin: 5px 0 0 0;
+    }
+    .my-account__form-change-password{
+        display: inline-grid;
+        margin-bottom: 10px;
+    }
+    .nav__information-orders-content{
+        margin: 10px 0 ;
+    }
+    .nav__information-personal-item, .nav__information-personal-purchase {
+        padding: 4px 0;
+    }
+    .nav__information-personal-name{
+        font-size: 1.4rem;
+    }
+    .nav__information-my-account-item {
+        font-size: 1.2rem;
+        padding: 5px 0 5px 33px ;
+    }
+    .my-account__top-text{
+        font-size: 1.2rem;
+    }
+    .order-review{
+        font-size: 1.2rem;
+        padding: 6px;
+        border-radius: 0;
+        background: black;
+    }
+    .my-account__form{
+        display: flex;
+        flex-direction: column;
+    }
+    .my-account__password-btn{
+        margin-left: 0;
     }
 
     /* Nguyễn Hữu Kha begin */
@@ -262,6 +411,7 @@
         font-size: 14px;
     }
 
+
     .stay-in-touch .close-wrapper {
         display: none;
     }
@@ -271,14 +421,13 @@
     }
 
     .popup {
-        position: absolute;
+        position: fixed;
         left: 0;
         right: 0;
         top: 0;
         bottom: 0;
         margin: auto;
     }
-
     .popup-overlay {
         position: fixed;
         left: 0;
@@ -288,9 +437,10 @@
         align-items: center;
         justify-content: center;
         background-color: rgba(0, 0, 0, 0.4);
+        background-color: var(--black-color);
+        opacity: 0.4;
         z-index: 110;
     }
-
     .product-content__img-wrapper {
         width: 100%;
         margin-bottom: 30px;
@@ -375,6 +525,8 @@
     .quantity-buttons--number {
         height: 40px;
         line-height: 38px;
+
+        line-height: 40px;
         font-size: 14px;
     }
 
@@ -385,6 +537,7 @@
     .related-products {
         margin: 30px 10px 0;
     }
+
 
     /* Cart */
     .cart__title, .pay__title {
@@ -512,4 +665,6 @@
     }
 
         /* Nguyễn Hữu Kha end */
+    /* Nguyễn Hữu Kha end*/
+
 }
