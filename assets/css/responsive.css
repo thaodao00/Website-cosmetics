@@ -192,6 +192,21 @@
         font-size: 1.6rem;
         padding: 15px 0;
     }
+    .slide-content__right{
+        display: flex;
+    }
+    .slide-content__text h3{
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+    .slide-content__text p{
+        font-size: 1.4rem;
+        line-height: 2rem;
+        margin-top: 10px;
+    }
+    #featured-items{
+        padding-bottom: 20px;
+    }
     .product__item{
         margin: 5px 5px;
     }
@@ -245,7 +260,7 @@
     .navbar__check:checked ~.nav-mobile{
         transform: translateX(0);
     }
-    .product__item-name, .product__item-price{
+    .product__item-name, .product__item-price, .product__item-price-sale{
         font-size: 1.4rem;
     }
     .search-mobile{
