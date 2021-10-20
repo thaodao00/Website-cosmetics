@@ -42,15 +42,11 @@
         justify-content: space-evenly;
     }
 
-    .cart__title {
-        padding: 28px 10%;
-    }
-
-    .filled-cart__title-bar {
+    .filled-cart__title-bar, .pay__title-bar {
         font-size: 13px;
     }
 
-    .cart__title {
+    .cart__title, .pay__title {
         padding: 36px 10%;
     }
 
@@ -70,46 +66,66 @@
         margin: 30px 10px 0;
     }
 
-    .filled-cart__item {
+    .filled-cart__item, .pay__item {
         padding: 10px;
+        display: flex;
+        justify-content: space-around;
     }
 
-    .filled-cart__item-img {
+    .filled-cart__item-img, .pay__item-img {
         width: 80px;
         height: 80px;
     }
 
-    .filled-cart__item-description {
+    .filled-cart__item-description, .pay__item-description {
         width: calc(100% - 94px);
         margin: 8px;
         font-size: 13px;
     }
 
-    .filled-cart__item-quantity {
+    .filled-cart__item-quantity, .pay__item-quantity {
         width: 16%;
     }
 
     .filled-cart__item-price,
-    .filled-cart__item-totalPrice {
+    .filled-cart__item-totalPrice,
+    .pay__item-price,
+    .pay__item-totalPrice {
         width: 8%;
+        font-size: 13px;
     }
 
     .filled-cart__item-quantity .quantity-buttons--minus,
     .filled-cart__item-quantity .quantity-buttons--number,
-    .filled-cart__item-quantity .quantity-buttons--plus {
+    .filled-cart__item-quantity .quantity-buttons--plus,
+    .pay__item-quantity .quantity-buttons--minus,
+    .pay__item-quantity .quantity-buttons--number,
+    .pay__item-quantity .quantity-buttons--plus {
         height: 28px;
         width: 36px;
         font-size: 12px;
         line-height: 26px;
     }
 
-    .filled-cart__item-price,
-    .filled-cart__item-totalPrice {
-        font-size: 13px;
+    .filled-cart__item .filled-cart__item-delete-button .buttons,
+    .pay__item .pay__item-delete-button .buttons {
+        padding: 4px 20px;
     }
 
-    .filled-cart__item .filled-cart__item-delete-button .buttons {
-        padding: 4px 20px;
+    .pay__user-info {
+        padding: 24px 2%;
+    }
+
+    .pay__user-info__body-content span {
+        font-size: 14px;
+    }
+
+    .pay__user-info__body-content .pay__user-info__phone {
+         width: 15%;
+    }
+
+    .pay__user-info__body-change .buttons {
+        padding: 4px 18px;
     }
 
     /* Nguyễn Hữu Kha end */
@@ -371,28 +387,29 @@
     }
 
     /* Cart */
-    .cart__title {
+    .cart__title, .pay__title {
         padding: 24px 5%;
     }
 
-    .filled-cart {
+    .filled-cart, .pay__body {
         padding: 24px 5%;
     }
 
-    .filled-cart__title-bar {
+    .filled-cart__title-bar, .pay__title-bar {
        display: none;
     }
 
-    .filled-cart__item {
+    .filled-cart__item, .pay__item {
         width: 100%;
         padding: 16px;
         align-items: center;
         justify-content: flex-end;
         flex-wrap: wrap;
-        box-shadow: 0 1px 3px var(--gray-color);
+        box-shadow: 0 1px 3px var(--grey-color);
     }
 
-    .filled-cart__item ~ .filled-cart__item {
+    .filled-cart__item ~ .filled-cart__item,
+    .pay__item ~ .pay__item {
         margin-top: 16px;
     }
 
@@ -400,46 +417,51 @@
         display: none;
     }
 
-    .filled-cart__item-info {
+    .filled-cart__item-info, .pay__item-info {
         width: 100%;
         margin-bottom: 8px;
     }
 
-    .filled-cart__item-img {
+    .filled-cart__item-img, .pay__item-img {
         width: 80px;
         height: 80px;
     }
 
-    .filled-cart__item-description {
+    .filled-cart__item-description, .pay__item-description {
         width: calc(100% - 80px);
         font-size: 12px;
     }
 
     .filled-cart__item-price,
-    .filled-cart__item-totalPrice {
+    .filled-cart__item-totalPrice,
+    .pay__item-price,
+    .pay__item-totalPrice {
         width: 20%;
         font-size: 12px;
     }
 
-    .filled-cart__item-price {
+    .filled-cart__item-price, .pay__item-price {
         display: none;
     }
 
-    .filled-cart__item-quantity {
+    .filled-cart__item-quantity, .pay__item-quantity {
         width: 44%;
         margin-left: 8px;
     }
 
     .filled-cart__item-quantity .quantity-buttons--minus,
     .filled-cart__item-quantity .quantity-buttons--number,
-    .filled-cart__item-quantity .quantity-buttons--plus {
+    .filled-cart__item-quantity .quantity-buttons--plus,
+    .pay__item-quantity .quantity-buttons--minus,
+    .pay__item-quantity .quantity-buttons--number,
+    .pay__item-quantity .quantity-buttons--plus {
         height: 30px;
         width: 40px;
         font-size: 12px;
         line-height: 28px;
     }
 
-    .filled-cart__item-delete-button {
+    .filled-cart__item-delete-button, .pay__item-delete-button {
         display: none;
     }
 
@@ -458,6 +480,36 @@
         margin-bottom: 12px;
     }
 
+    .pay__user-info {
+        padding: 24px 5%;
+    }
+
+    .pay__user-info__body-content-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .pay__user-info__body-content {
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 12px 0;
+    }
+
+    .pay__user-info__body-content-wrapper .pay__user-info__body-content span {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+        line-height: 1.6;
+        -webkit-line-clamp: 2;
+    }
+
+    .pay__user-info__body-change {
+        width: 100%;
+    }
+
+    .pay__user-info__body-change .buttons {
+        padding: 4px 18px;
+        width: 100%;
+    }
 
         /* Nguyễn Hữu Kha end */
 }
