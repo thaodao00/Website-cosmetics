@@ -208,8 +208,12 @@ html{
     line-height: 1.6rem;
     display: inline-flex;
     background-color: var(--white-color);
-
 }
+
+.btn:hover {
+    opacity: 0.8;
+}
+
 /* Fading animation */
 .fade {
     -webkit-animation-name: fade;
