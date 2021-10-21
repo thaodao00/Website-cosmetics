@@ -53,6 +53,7 @@ h1{
 }
 .login-link:hover, .cart-link:hover, .search-link:hover, .nav-link:hover {
     opacity: 0.8;
+    cursor: pointer;
 }
 /*Slider*/
 /* Slideshow container */
@@ -652,13 +653,13 @@ h1{
     height: 34px;
     padding: 0 12px;
     background-color: var(--white-color);
-    min-width: 100px;
-    border-radius: 5px;
+    min-width: 110px;
+    border-radius: 2px;
     align-items: center;
     justify-content: space-between;
     display: flex;
     position: relative;
-
+    line-height: 1.5;
 }
 .select-input:hover .select-input__list {
     display: inline-block;
@@ -674,6 +675,7 @@ h1{
     padding: 10px 16px;
     display: NONE;
     z-index: 1;
+    box-shadow: 1px 1px 2px var(--grey-color);
 }
 .select-input__link {
     text-decoration: none;
@@ -872,7 +874,7 @@ select.auth-form__input:hover {
 }
 
 .auth-form__social-title{
-    margin: 0 36px;
+    margin: 0 18px;
     font-size: 1.4rem;
 }
 /* Login form */

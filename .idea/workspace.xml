@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd399ca9-c65c-4840-b483-3b7f6ad9c9dc" name="Changes" comment="" />
+    <list default="true" id="cd399ca9-c65c-4840-b483-3b7f6ad9c9dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/js/BaseJS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/showHide.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/showHide.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/pay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalInformation.html" beforeDir="false" afterPath="$PROJECT_DIR$/personalInformation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +60,7 @@
       <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\assest\img" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.pay.html">
+  <component name="RunManager" selected="JavaScript Debug.product.html">
     <configuration name="cart.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/website-cosmetics/website-cosmetics-Thao/cart.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -66,10 +78,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.pay.html" />
-        <item itemvalue="JavaScript Debug.cart.html" />
         <item itemvalue="JavaScript Debug.product.html" />
+        <item itemvalue="JavaScript Debug.cart.html" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.pay.html" />
         <item itemvalue="JavaScript Debug.products.html" />
       </list>
     </recent_temporary>
@@ -112,6 +124,7 @@
       <workItem from="1634803343317" duration="4598000" />
       <workItem from="1634737654937" duration="11200000" />
       <workItem from="1634819644893" duration="8850000" />
+      <workItem from="1634824251810" duration="3257000" />
     </task>
     <servers />
   </component>
