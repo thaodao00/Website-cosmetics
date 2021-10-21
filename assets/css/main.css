@@ -893,6 +893,9 @@ h1{
 .login-form{
     display: none;
 }
+.forgot-pass-form{
+    display: none;
+}
 /*Personallnformation.html*/
 
 .active-btn{
