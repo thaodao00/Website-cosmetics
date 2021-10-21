@@ -111,10 +111,60 @@ h1{
 }
 /*Content*/
 .content{
-    margin-top: 80px;
+    margin-top: 50px;
+}
+.slide-content__right{
+    display: flex;
+    flex-direction: column;
+}
+.slide-content__main{
+    position: relative;
+    overflow: hidden;
+}
+.slide-content__text {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(82, 80, 80, 0.52);
+    position: absolute;
+    bottom:50px;
+    text-align: center;
+    color: white;
+    padding: 25%;
+    box-sizing: border-box;
+    opacity: 0;
+    text-align: center;
+
+}
+.slide-content__text h3{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    animation: text 700ms infinite;
+    line-height: 3rem;
+}
+.slide-content__text p{
+    font-size: 1.8rem;
+    margin-top: 15px;
+    line-height: 2.5rem;
+}
+.slide-content__main:hover div.slide-content__text{
+    opacity: 1;
+    transform: translateY(50px);
+    transition:ease-in-out 0.1s;
+}
+
+.slide-content__main:hover img {
+    transform: scale(2);
+    transition: all ease-in-out 0.5s;
+
+}
+/*Slide content*/
+.slide-content__img{
+    width: 100%;
+    height: 100%;
 }
 #featured-items{
     background: #efe8e8;
+    padding-bottom: 50px;
 }
 .content__title{
     font-size: 3rem;
@@ -137,7 +187,8 @@ h1{
 }
 .product__item:hover{
     animation: fade ease 5s;
-    transform: translateY(-1px);
+    transform: translateY(-5px);
+    border: 1px solid #b91128;
 }
 .product__item{
     border-radius: 5px;
@@ -148,6 +199,8 @@ h1{
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .product__item-name{
     font-size: 1.5rem;
@@ -160,10 +213,23 @@ h1{
     text-overflow: ellipsis;
 
 }
+.product__item--prices{
+    display: flex;
+    justify-content: space-between;
+}
 .product__item-price{
     font-size: 1.6rem;
     margin: 10px 10px;
     color: #717171;
+
+}
+.sale-off.product__item-price{
+    text-decoration: line-through;
+}
+.product__item-price-sale{
+    font-size: 1.6rem;
+    margin: 10px 10px;
+    color: #b70921f7;
 
 }
 .star-link{
@@ -240,6 +306,7 @@ h1{
     line-height: 2rem;
     width: 100%;
     margin-top: 10px;
+    padding: 0 10px;
 
 }
 /*Footer*/
@@ -709,7 +776,7 @@ h1{
 .auth-form__container {
     padding: 0 32px;
 }
-auth-form__header {
+.auth-form__header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -765,6 +832,9 @@ select.auth-form__input:hover {
     margin-top: 64px;
     display: flex;
     justify-content: flex-end;
+}
+.auth-form__controls .buttons{
+    padding: 0 12px;
 }
 
 /*.auth-form__controls-back:focus ~ .modal-account{*/
@@ -832,6 +902,12 @@ select.auth-form__input:hover {
 
 .active-btn{
     color: #b70921f7;
+
+}
+.active-border{
+    border-radius: 0;
+    border: 1px solid #b70921f7 ;
+    font-weight: 600;
 }
 .nav__information-personal {
     margin-left: 20px;
@@ -1001,18 +1077,20 @@ select.auth-form__input:hover {
     align-items: center;
 }
 .my-account__top-btn, .my-account__password-btn{
-    padding: 6px;
+    padding: 10px;
     background: var(--black-color);
     border: none;
     color: var(--white-color);
     cursor: pointer;
     font-size: 1.2rem;
     display: block;
+    text-transform: uppercase;
+
 
 }
 .my-account__password-btn{
     width: 70px;
-    margin-left: 42px;
+    margin-left: 13px;
 }
 .my-account__form-input {
     padding: 2px 5px;

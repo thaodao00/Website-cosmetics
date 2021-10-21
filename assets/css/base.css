@@ -115,18 +115,24 @@ html{
         border: 1px solid var(--black-color);
         cursor: pointer;
         z-index: 3;
-
-        border-radius: 1px;
+        min-width: 100px;
 
     }
 
-    .buttons:hover {
+    .buttons:hover{
         color: #000;
         background-color: transparent;
         border: 1px solid #000;
         transition: color ease-in-out 0.1s;
         transition: background-color ease-in-out 0.1s;
     }
+.my-account__top-btn:hover{
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #000;
+    transition: color ease-in-out 0.1s;
+    transition: background-color ease-in-out 0.1s;
+}
 
     /** Pop up - start */
 .popup {
@@ -186,7 +192,7 @@ html{
     to {opacity: 1}
 }
 .btn{
-    min-width: 124px;
+    min-width: 100px;
     height: 34px;
     text-decoration: none;
     border: none;
