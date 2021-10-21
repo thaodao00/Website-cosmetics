@@ -68,6 +68,20 @@ for(const btn of backBtn){
     btn.addEventListener('click', hideAccount)
 }
 
+const close = $('.close');
+const overlay = $('.popup-overlay');
+const popup = $('.popup');
 
+popup.onclick = function (e) {
+    e.stopPropagation();
+}
 
+close.onclick = function(e) {
+    document.querySelector('.stay-in-touch').style.display = 'none';
+    overlay.style.display = 'none';
+}
 
+overlay.onclick = function() {
+    document.querySelector('.stay-in-touch').style.display = 'none';
+    overlay.style.display = 'none';
+}
