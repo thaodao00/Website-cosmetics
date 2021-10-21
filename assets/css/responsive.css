@@ -82,10 +82,14 @@
         margin: 30px 10px 0;
     }
 
-    .filled-cart__item, .pay__item {
+    .filled-cart__item {
         padding: 10px;
         display: flex;
         justify-content: space-around;
+    }
+
+    .pay__item {
+        padding: 10px 5% 10px 0;
     }
 
     .filled-cart__item-img, .pay__item-img {
@@ -99,32 +103,26 @@
         font-size: 13px;
     }
 
-    .filled-cart__item-quantity, .pay__item-quantity {
+    .filled-cart__item-quantity {
         width: 16%;
     }
 
     .filled-cart__item-price,
-    .filled-cart__item-totalPrice,
-    .pay__item-price,
-    .pay__item-totalPrice {
+    .filled-cart__item-totalPrice {
         width: 8%;
         font-size: 13px;
     }
 
     .filled-cart__item-quantity .quantity-buttons--minus,
     .filled-cart__item-quantity .quantity-buttons--number,
-    .filled-cart__item-quantity .quantity-buttons--plus,
-    .pay__item-quantity .quantity-buttons--minus,
-    .pay__item-quantity .quantity-buttons--number,
-    .pay__item-quantity .quantity-buttons--plus {
+    .filled-cart__item-quantity .quantity-buttons--plus {
         height: 28px;
         width: 36px;
         font-size: 12px;
         line-height: 26px;
     }
 
-    .filled-cart__item .filled-cart__item-delete-button .buttons,
-    .pay__item .pay__item-delete-button .buttons {
+    .filled-cart__item .filled-cart__item-delete-button .buttons {
         padding: 4px 20px;
     }
 
@@ -600,21 +598,19 @@
     .filled-cart__item-quantity, .pay__item-quantity {
         width: 44%;
         margin-left: 8px;
+        color: var(--grey-color);
     }
 
     .filled-cart__item-quantity .quantity-buttons--minus,
     .filled-cart__item-quantity .quantity-buttons--number,
-    .filled-cart__item-quantity .quantity-buttons--plus,
-    .pay__item-quantity .quantity-buttons--minus,
-    .pay__item-quantity .quantity-buttons--number,
-    .pay__item-quantity .quantity-buttons--plus {
+    .filled-cart__item-quantity .quantity-buttons--plus {
         height: 30px;
         width: 40px;
         font-size: 12px;
         line-height: 28px;
     }
 
-    .filled-cart__item-delete-button, .pay__item-delete-button {
+    .filled-cart__item-delete-button {
         display: none;
     }
 

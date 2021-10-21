@@ -742,6 +742,11 @@ auth-form__header {
 .auth-form__input:focus{
     border-color: #888;
 }
+
+select.auth-form__input:hover {
+    cursor: pointer;
+}
+
 .auth-form__aside{
     margin-top: 18px;
 }
@@ -1666,6 +1671,10 @@ auth-form__header {
     border-radius: 2px;
 }
 
+.pay__title-bar {
+    justify-content: space-around;
+}
+
 .filled-cart__title-bar .select-all-products {
     width: 16px;
     height: 16px;
@@ -1707,6 +1716,11 @@ auth-form__header {
     margin-bottom: 32px;
 }
 
+.pay__item {
+    padding: 16px 5% 16px 0;
+    justify-content: space-around;
+}
+
 .filled-cart__item .select-product {
     width: 12px;
     height: 12px;
@@ -1732,9 +1746,9 @@ auth-form__header {
     background-image: url("../img/product/granary/kdream.jpg");
     background-size: contain;
     background-position: center 0;
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     border-radius: 2px;
-    background-color: #FBF9FA;
+    /*background-color: #FBF9FA;*/
 }
 
 .filled-cart__item-description, .pay__item-description {
@@ -1768,54 +1782,43 @@ auth-form__header {
 }
 
 .pay__item-price,
-.pay__item-totalPrice {
-    width: 11%;
+.pay__item-totalPrice,
+.pay__item-quantity {
+    width: 15%;
+    text-align: center;
 }
 
-.filled-cart__item-totalPrice, .pay__item-totalPrice {
+.filled-cart__item-totalPrice {
     margin-left: 16px;
 }
 
-.filled-cart__item-quantity, .pay__item-quantity  {
+.filled-cart__item-quantity  {
     width: 15%;
     display: flex;
     justify-content: flex-end;
     margin-left: 8px;
 }
 
-.pay__item-quantity {
-    margin-left: 1%;
-}
-
-.filled-cart__item-quantity .quantity-buttons,
-.pay__item-quantity .quantity-buttons {
+.filled-cart__item-quantity .quantity-buttons {
     width: 100%;
 }
 
 .filled-cart__item-quantity .quantity-buttons--minus,
 .filled-cart__item-quantity .quantity-buttons--number,
-.filled-cart__item-quantity .quantity-buttons--plus,
-.pay__item-quantity .quantity-buttons--number,
-.pay__item-quantity .quantity-buttons--minus,
-.pay__item-quantity .quantity-buttons--plus {
+.filled-cart__item-quantity .quantity-buttons--plus {
     height: 36px;
     width: 48px;
     font-size: 12px;
     line-height: 34px;
 }
 
-.filled-cart__item-delete-button, .pay__item-delete-button {
+.filled-cart__item-delete-button {
     width: 17.5%;
     display: flex;
     justify-content: center;
 }
 
-.pay__item-delete-button {
-    width: 15%;
-}
-
-.filled-cart__item .filled-cart__item-delete-button .buttons,
-.pay__item-delete-button .buttons {
+.filled-cart__item .filled-cart__item-delete-button .buttons {
     padding: 4px 29px;
 }
 
