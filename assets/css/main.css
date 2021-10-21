@@ -188,6 +188,7 @@ h1{
 .product__item:hover{
     animation: fade ease 5s;
     transform: translateY(-5px);
+    border: 1px solid #b91128;
 }
 .product__item{
     border-radius: 5px;
@@ -198,6 +199,8 @@ h1{
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .product__item-name{
     font-size: 1.5rem;
@@ -209,6 +212,10 @@ h1{
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
 
+}
+.product__item--prices{
+    display: flex;
+    justify-content: space-between;
 }
 .product__item-price{
     font-size: 1.6rem;
@@ -222,7 +229,7 @@ h1{
 .product__item-price-sale{
     font-size: 1.6rem;
     margin: 10px 10px;
-    color: black;
+    color: #b70921f7;
 
 }
 .star-link{
@@ -299,6 +306,7 @@ h1{
     line-height: 2rem;
     width: 100%;
     margin-top: 10px;
+    padding: 0 10px;
 
 }
 /*Footer*/
@@ -768,7 +776,7 @@ h1{
 .auth-form__container {
     padding: 0 32px;
 }
-auth-form__header {
+.auth-form__header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -819,6 +827,9 @@ auth-form__header {
     margin-top: 64px;
     display: flex;
     justify-content: flex-end;
+}
+.auth-form__controls .buttons{
+    padding: 0 12px;
 }
 
 /*.auth-form__controls-back:focus ~ .modal-account{*/
@@ -886,6 +897,12 @@ auth-form__header {
 
 .active-btn{
     color: #b70921f7;
+
+}
+.active-border{
+    border-radius: 0;
+    border: 1px solid #b70921f7 ;
+    font-weight: 600;
 }
 .nav__information-personal {
     margin-left: 20px;
@@ -1055,18 +1072,20 @@ auth-form__header {
     align-items: center;
 }
 .my-account__top-btn, .my-account__password-btn{
-    padding: 6px;
+    padding: 10px;
     background: var(--black-color);
     border: none;
     color: var(--white-color);
     cursor: pointer;
     font-size: 1.2rem;
     display: block;
+    text-transform: uppercase;
+
 
 }
 .my-account__password-btn{
     width: 70px;
-    margin-left: 42px;
+    margin-left: 13px;
 }
 .my-account__form-input {
     padding: 2px 5px;
