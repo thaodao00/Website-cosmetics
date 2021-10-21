@@ -38,6 +38,8 @@ const registerFormBtn = $('.register-from__btn')
 const backBtn= $$('.auth-form__controls-back')
 const navMobile = $('.nav-mobile')
 const navBtnMobile = $('.nav-link')
+const forgotBtn = $('.auth-form__help-link')
+const forgotForm = $('.forgot-pass-form')
 function showAccount(){
     modalAccount.classList.add('modal-account__open')
 }
@@ -47,13 +49,8 @@ function hideAccount(){
 for(const iconUser of iconUsers) {
     iconUser.addEventListener('click', showAccount)
 }
-
 modalAccount.addEventListener('click',hideAccount)
-for(const authForm of authForms){
-    authForm.addEventListener('click', function (e){
-        e.stopPropagation()
-    })
-}
+
 loginFormBtn.addEventListener('click', function (){
     loginForm.style.display="block"
     registerForm.style.display="none"
@@ -64,10 +61,16 @@ registerFormBtn.addEventListener('click', function (){
     loginForm.style.display="none"
 
 })
+forgotBtn.addEventListener('click', function (){
+    loginForm.style.display="none"
+    forgotForm.style.display="block"
+})
+
 for(const btn of backBtn){
     btn.addEventListener('click', hideAccount)
 }
-
-
-
-
+for(const authForm of authForms){
+    authForm.addEventListener('click', function (e){
+        e.stopPropagation()
+    })
+}
