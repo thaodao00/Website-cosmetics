@@ -88,7 +88,10 @@ close.onclick = function(e) {
     overlay.style.display = 'none';
 }
 
-overlay.onclick = function() {
+overlay.onclick = function (){
     document.querySelector('.stay-in-touch').style.display = 'none';
     overlay.style.display = 'none';
 }
+}
+
+
