@@ -33,6 +33,7 @@
         color: var(--white-color);
         font-size: 2rem;
         margin-left: 7px;
+        text-decoration: none;
     }
     .product_item-title{
         font-size: 1.2rem;
