@@ -422,8 +422,11 @@
     .product-content__details-description p,
     .tabs-content__description {
         font-size: 14px;
+        margin-left: 10px;
     }
-
+    .tabs-content__item{
+        margin-left: 10px;
+    }
 
     .stay-in-touch .close-wrapper {
         display: none;
@@ -500,6 +503,7 @@
     .product-content__tabs-item {
         padding: 10px;
         font-size: 14px;
+        margin-left: 10px;
     }
 
     .stay-in-touch__title h2 {
