@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -42,6 +42,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\website-cosmetics" />
       <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\assets\js" />
       <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics" />
       <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\assest\js" />
@@ -114,6 +115,9 @@
       <workItem from="1634819644893" duration="8850000" />
       <workItem from="1634824251810" duration="3257000" />
       <workItem from="1634991898351" duration="6695000" />
+      <workItem from="1635092754959" duration="721000" />
+      <workItem from="1635093586340" duration="286000" />
+      <workItem from="1635093886395" duration="1715000" />
     </task>
     <servers />
   </component>
