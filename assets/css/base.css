@@ -275,3 +275,7 @@ html{
         transform: scale(var(--growth-to));
     }
 }
+
+.white {
+    color: var(--white-color);
+}
