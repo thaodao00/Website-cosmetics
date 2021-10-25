@@ -19,14 +19,19 @@ html{
     font-size: 62.5%;
     line-height: 1.6rem;
     /* Sans-serif : tập hợp chủng font k chân */
-    font-family: Lato,sans-serif;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02rem;
     box-sizing: border-box;
-    /*white-space: nowrap;*/
 }
 @keyframes text {
     0% { color: black; }
     50% { color: rgba(252, 250, 246, 0.82); }
     100% { color: black; }
+}
+@keyframes border {
+    0% {border-color: black; }
+    50% {border-color: rgba(252, 250, 246, 0.82); }
+    100% {border-color: black;}
 }
 /* Common */
     .price {
@@ -143,7 +148,7 @@ html{
     bottom: 30px;
     padding: 23px 33px;
     text-align: left;
-    box-shadow: 2px 2px 8px var(--grey-color);
+    box-shadow: 1px 1px 3px var(--grey-color);
     z-index: 110;
     background-color: var(--white-color);
     display: flex;
@@ -278,4 +283,34 @@ html{
 
 .white {
     color: var(--white-color);
+}
+
+.back-to-top {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: auto;
+    left: auto;
+    right: 15px;
+    bottom: 15px;
+    font-size: 32px;
+    opacity: 0.8;
+    z-index: 9999;
+    cursor: pointer;
+    border: 2px solid var(--black-color);
+    color: var(--black-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: text 2000ms infinite, border 2000ms infinite;
+    display: none;
+}
+
+.back-to-top i {
+    font-size: 32px;
+}
+
+.back-to-top:hover {
+    opacity: 1;
 }
