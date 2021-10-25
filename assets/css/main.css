@@ -1335,11 +1335,9 @@ select.auth-form__input:hover {
     -o-transition: color 0.2s ease-out;
     transition: color 0.2s ease-out;
 }
-
 .product-content__rating-description:hover {
     color: var(--grey-color);
 }
-
 .product-content__details-description {
     position: relative;
     display: block;
@@ -1358,7 +1356,6 @@ select.auth-form__input:hover {
 .product-content__quantity-vs-purchase {
     display: flex;
 }
-
 .purchase-buttons {
     margin-left: 2%;
 }
