@@ -649,8 +649,16 @@
         padding: 24px 5%;
     }
 
-    .filled-cart, .pay__body {
+    .filled-cart {
         padding: 24px 5%;
+    }
+
+    .pay__body {
+        padding: 24px 0;
+    }
+
+    .pay-content {
+        padding: 40px 5%;
     }
 
     .filled-cart__title-bar, .pay__title-bar {
@@ -703,6 +711,7 @@
     }
 
     .filled-cart__item-quantity, .pay__item-quantity {
+        font-size: 12px;
         width: 44%;
         margin-left: 8px;
         color: var(--grey-color);
