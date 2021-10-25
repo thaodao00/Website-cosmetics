@@ -258,8 +258,8 @@
                 </div>
                 <br>
             </div>
-<!--            <div class="grid wide">-->
-                <div class="row sile-content">
+            <!-- Featured Items: end-->
+            <div class="row sile-content">
                     <div class="l-6 m-6 c-12 slide-content__main">
                         <img class="slide-content__img" src="./assets/img/slide-f-11.jpg" alt="" srcset="">
                         <div class="slide-content__text">
@@ -284,8 +284,7 @@
                         </div>
                     </div>
                 </div>
-<!--            </div>-->
-            <!-- Featured Items: end-->
+
             <!-- New Items: begin-->
             <div id="new-items">
                 <h1 class="content__title">
@@ -431,157 +430,231 @@
                 </h1>
                 <div class="grid wide">
                     <div class="row products">
-                        <a href="#" class="col l-2-4 m-3 c-6">
-                            <div class="product__item">
-                                <img class="product__item-img" src="assets/img/Sale/13208972-4174899044945397-1.webp">
-                                <h3 class="product__item-name">
-                                    Real Techniques Poreless Perfection Kit
-                                </h3>
-                                <div class="product__item--prices">
-                                    <h3 class="sale-off product__item-price ">
-                                        $5.00
-                                    </h3>
-                                    <h3 class="product__item-price-sale">
-                                        $3.75
-                                    </h3>
+                        <div class="col l-4">
+                            <!--Slider: begin-->
+                            <div class="products-slidesshow">
+                                <div class="mySlider fadeSlider">
+                                    <img src="assets/img/slide/s1.webp" style="width: 100%;margin-bottom: 15px">
+                                    <div class="mySlider-text">
+                                        Caption1
+                                    </div>
                                 </div>
-
-                                <div class="star-link">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                <div class="mySlider fadeSlider">
+                                    <img src="assets/img/slide/s2.webp" style="width: 100%;margin-bottom: 15px">
+                                    <div class="mySlider-text">
+                                        Caption1
+                                    </div>
                                 </div>
-                                <div class="product__item--describe">
-                                    <i class="fas fa-check"></i>
-                                    <span>Sale</span>
+                                <div class="mySlider fadeSlider">
+                                    <img src="assets/img/slide/s3.webp" style="width: 100%;margin-bottom: 15px">
+                                    <div class="mySlider-text">
+                                        Caption1
+                                    </div>
                                 </div>
+                                <a class="prev" onclick="plusSlider(-1)">
+                                    <i class="fas fa-arrow-circle-left"></i>
+                                </a>
+                                <a class="next" onclick="plusSlider(1)">
+                                    <i class="fas fa-arrow-circle-right"></i>
+                                </a>
                             </div>
-                        </a>
-                        <a href="#" class="col l-2-4 m-3 c-6">
-                            <div class="product__item">
-                                <img class="product__item-img" src="assets/img/Sale/13304521-7264899053209794-2.webp">
-                                <h3 class="product__item-name">
-                                    Morphe X Jaclyn Hill Eyeshadow Palette Vol II
-                                </h3>
-                                <div class="product__item--prices">
-                                    <h3 class="sale-off product__item-price ">
-                                        $26.00
-                                    </h3>
-                                    <h3 class="product__item-price-sale">
-                                        $19.5
-                                    </h3>
-                                </div>
+                            <div style="text-align: center;margin-bottom: 10px" >
+                                <span class="dotSlider"onclick="currentSlider(1)">
+                                </span>
+                                <span class="dotSlider" onclick="currentSlider(2)">
 
-                                <div class="star-link">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                </div>
-                                <div class="product__item--describe">
-                                    <i class="fas fa-check"></i>
-                                    <span>Sale</span>
-                                </div>
+                                </span>
+                                <span class="dotSlider" onclick="currentSlider(3)">
 
+                                </span>
                             </div>
-                        </a>
+                            <script>
+                                var index = 0;
+                                showSliders(index)
+                                function  plusSlider(n){
+                                    showSliders(index+=n);
+                                }
+                                function currentSlider(n){
+                                    showSliders(index=n)
+                                }
+                                function showSliders(n){
+                                    var i;
+                                    var slider =document.getElementsByClassName("mySlider");
+                                    var dotSlider = document.getElementsByClassName("dotSlider");
+                                    if(n>slider.length){
+                                        index=1
+                                    }
+                                    if(n<1){
+                                        index= slider.length;
+                                    }
+                                    for(i =0 ;i<slider.length;i++){
+                                        slider[i].style.display="none";
+                                    }
+                                    for(i =0;i<dotSlider.length;i++){
+                                        dotSlider[i].className=dotSlider[i].className.replace(" active","");
 
-                        <a href="#" class="col l-2-4 m-3 c-6">
-                            <div class="product__item">
-                                <img class="product__item-img" src="assets/img/Sale/12093390-7414868375208060-3.webp">
-                                <h3 class="product__item-name">
-                                    Mio Peachy Cheeks Butt Cream 120ml
-                                </h3>
-                                <div class="product__item--prices">
-                                    <h3 class="sale-off product__item-price ">
-                                        $9.20
-                                    </h3>
-                                    <h3 class="product__item-price-sale">
-                                        $6.90
-                                    </h3>
-                                </div>
+                                    }
+                                    slider[index-1].style.display="block";
+                                    dotSlider[index-1].className +=" active";
+                                }
+                            </script>
+                            <!--Slider: end-->
+                        </div>
+                        <div class="col l-8">
+                            <div class="row">
+                                <a href="#" class="col l-3 m-3 c-6">
+                                    <div class="product__item">
+                                        <img class="product__item-img" src="assets/img/Sale/13208972-4174899044945397-1.webp">
+                                        <h3 class="product__item-name">
+                                            Real Techniques Poreless Perfection Kit
+                                        </h3>
+                                        <div class="product__item--prices">
+                                            <h3 class="sale-off product__item-price ">
+                                                $5.00
+                                            </h3>
+                                            <h3 class="product__item-price-sale">
+                                                $3.75
+                                            </h3>
+                                        </div>
 
-                                <div class="star-link">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                </div>
-                                <div class="product__item--describe">
-                                    <i class="fas fa-check"></i>
-                                    <span>Sale</span>
-                                </div>
-                                <!--                                <div class="product__item-sale-off">-->
-                                <!--                                    <span class="product__item-sale-off-percent">43%</span>-->
-                                <!--                                </div>-->
+                                        <div class="star-link">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="product__item--describe">
+                                            <i class="fas fa-check"></i>
+                                            <span>Sale</span>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="col l-3 m-3 c-6">
+                                    <div class="product__item">
+                                        <img class="product__item-img" src="assets/img/Sale/13304521-7264899053209794-2.webp">
+                                        <h3 class="product__item-name">
+                                            Morphe X Jaclyn Hill Eyeshadow Palette Vol II
+                                        </h3>
+                                        <div class="product__item--prices">
+                                            <h3 class="sale-off product__item-price ">
+                                                $26.00
+                                            </h3>
+                                            <h3 class="product__item-price-sale">
+                                                $19.5
+                                            </h3>
+                                        </div>
+
+                                        <div class="star-link">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="product__item--describe">
+                                            <i class="fas fa-check"></i>
+                                            <span>Sale</span>
+                                        </div>
+
+                                    </div>
+                                </a>
+                                <a href="#" class="col l-3 m-3 c-6">
+                                    <div class="product__item">
+                                        <img class="product__item-img" src="assets/img/Sale/12093390-7414868375208060-3.webp">
+                                        <h3 class="product__item-name">
+                                            Mio Peachy Cheeks Butt Cream 120ml
+                                        </h3>
+                                        <div class="product__item--prices">
+                                            <h3 class="sale-off product__item-price ">
+                                                $9.20
+                                            </h3>
+                                            <h3 class="product__item-price-sale">
+                                                $6.90
+                                            </h3>
+                                        </div>
+
+                                        <div class="star-link">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="product__item--describe">
+                                            <i class="fas fa-check"></i>
+                                            <span>Sale</span>
+                                        </div>
+                                        <!--                                <div class="product__item-sale-off">-->
+                                        <!--                                    <span class="product__item-sale-off-percent">43%</span>-->
+                                        <!--                                </div>-->
+                                    </div>
+                                </a>
+                                <a href="#" class="col l-3 m-3 c-6">
+                                    <div class="product__item">
+                                        <img class="product__item-img" src="assets/img/Sale/Real_Luxury_Intensive_skin_candle_box_and_product_750x750-4.jpg">
+                                        <h3 class="product__item-name">
+                                            NEOM Organics Real Luxury Intensive Skin Treatment Candle (140g)
+                                        </h3>
+                                        <div class="product__item--prices">
+                                            <h3 class="sale-off product__item-price ">
+                                                $40.00
+                                            </h3>
+                                            <h3 class="product__item-price-sale">
+                                                $30.00
+                                            </h3>
+                                        </div>
+
+                                        <div class="star-link">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="product__item--describe">
+                                            <i class="fas fa-check"></i>
+                                            <span>Sale</span>
+                                        </div>
+                                        <!--                                <div class="product__item-sale-off">-->
+                                        <!--                                    <span class="product__item-sale-off-percent">43%</span>-->
+                                        <!--                                </div>-->
+                                    </div>
+                                </a>
+                                <a href="#" class="col l-3 m-3 c-6">
+                                    <div class="product__item">
+                                        <img class="product__item-img" src="assets/img/Sale/12902959-1404866437228220-5.webp">
+                                        <h3 class="product__item-name">
+                                            PMD PMD Personal Microderm Elite Pro 1 kit - Rose
+                                        </h3>
+                                        <div class="product__item--prices">
+                                            <h3 class="sale-off product__item-price ">
+                                                $4.00
+                                            </h3>
+                                            <h3 class="product__item-price-sale">
+                                                $3.00
+                                            </h3>
+                                        </div>
+
+                                        <div class="star-link">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="product__item--describe">
+                                            <i class="fas fa-check"></i>
+                                            <span>Sale</span>
+                                        </div>
+                                        <!--                                <div class="product__item-sale-off">-->
+                                        <!--                                    <span class="product__item-sale-off-percent">43%</span>-->
+                                        <!--                                </div>-->
+                                    </div>
+                                </a>
                             </div>
-                        </a>
-                        <a href="#" class="col l-2-4 m-3 c-6">
-                            <div class="product__item">
-                                <img class="product__item-img" src="assets/img/Sale/Real_Luxury_Intensive_skin_candle_box_and_product_750x750-4.jpg">
-                                <h3 class="product__item-name">
-                                    NEOM Organics Real Luxury Intensive Skin Treatment Candle (140g)
-                                </h3>
-                                <div class="product__item--prices">
-                                    <h3 class="sale-off product__item-price ">
-                                        $40.00
-                                    </h3>
-                                    <h3 class="product__item-price-sale">
-                                        $30.00
-                                    </h3>
-                                </div>
+                        </div>
 
-                                <div class="star-link">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                </div>
-                                <div class="product__item--describe">
-                                    <i class="fas fa-check"></i>
-                                    <span>Sale</span>
-                                </div>
-                                <!--                                <div class="product__item-sale-off">-->
-                                <!--                                    <span class="product__item-sale-off-percent">43%</span>-->
-                                <!--                                </div>-->
-                            </div>
-                        </a>
-                        <a href="#" class="col l-2-4 m-3 c-6">
-                            <div class="product__item">
-                                <img class="product__item-img" src="assets/img/Sale/12902959-1404866437228220-5.webp">
-                                <h3 class="product__item-name">
-                                    PMD PMD Personal Microderm Elite Pro 1 kit - Rose
-                                </h3>
-                                <div class="product__item--prices">
-                                    <h3 class="sale-off product__item-price ">
-                                        $4.00
-                                    </h3>
-                                    <h3 class="product__item-price-sale">
-                                        $3.00
-                                    </h3>
-                                </div>
-
-                                <div class="star-link">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                </div>
-                                <div class="product__item--describe">
-                                    <i class="fas fa-check"></i>
-                                    <span>Sale</span>
-                                </div>
-                                <!--                                <div class="product__item-sale-off">-->
-                                <!--                                    <span class="product__item-sale-off-percent">43%</span>-->
-                                <!--                                </div>-->
-                            </div>
-                        </a>
 
 
                     </div>

@@ -21,7 +21,9 @@
     .product-content__text__title{
         font-size: 2rem;
     }
-}
+    .products-slidesshow {
+        margin-top: 15px;
+    }
 /* Tablet ----------------------------------------------------*/
 
 /* Tablet */
@@ -848,7 +850,7 @@
     .contact-ask-wrapper{
         padding: 25px 10px;
     }
-    .contact-ask .title{
+    .contact-ask .title {
         font-size: 1.6rem;
-    }
+    }}
 }
