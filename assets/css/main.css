@@ -2037,6 +2037,7 @@ select.auth-form__input:hover {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    align-items: center;
 }
 
 .info--background-dark {
@@ -2067,12 +2068,19 @@ select.auth-form__input:hover {
 }
 
 .about-us__info:nth-child(2) .about-us__info-img {
-    background-image: url("../img/admin_info/NguyenHuuKha.jpg");
+    background-image: url("../img/admin_info/NguyenHuuKha2.jpg");
+}
 
+.about-us__info:nth-child(2) > a {
+    order: 2;
+}
+
+.about-us__info:nth-child(2) .about-us__info-content {
+    order: 1;
 }
 
 .about-us__info:last-child .about-us__info-img {
-    background-image: url("../img/admin_info/TrieuHueMan.jpg");
+    background-image: url("../img/admin_info/TrieuHueMan2.jpg");
 }
 
 .about-us__info-content {

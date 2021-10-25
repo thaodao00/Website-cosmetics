@@ -153,7 +153,33 @@
         padding: 4px 18px;
     }
 
-    /* Nguyễn Hữu Kha end */
+    .about-us__header-wrapper {
+        margin-top: 10%;
+    }
+
+    .about-us__info-content {
+        width: 65%;
+        margin-left: 7.5%;
+    }
+
+    .about-us__info:nth-child(2)  .about-us__info-content {
+        margin-left: 0;
+        margin-right: 7.5%;
+    }
+
+    .about-us__info-name,
+    .about-us__info-date,
+    .about-us__info-description {
+        font-size: 16px;
+    }
+
+    .about-us__info-name span,
+    .about-us__info-date span,
+    .about-us__info-description span {
+        font-size: 14px;
+    }
+
+        /* Nguyễn Hữu Kha end */
 }
 
 
@@ -742,6 +768,43 @@
     }
 
     /* Nguyễn Hữu Kha end */
+    .about-us__header-wrapper {
+        margin-top: 17%;
+    }
+
+    .about-us__header {
+        font-size: 30px;
+        line-height: 1.8;
+        margin-left: 5%;
+    }
+
+    .about-us__info-wrapper {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .about-us__info {
+        padding: 42px 0;
+        flex-wrap: wrap;
+    }
+
+    .about-us__info-content {
+        width: 90%;
+        margin: 18px 0;
+    }
+
+    .about-us__info ~ .about-us__info {
+         margin-top: 0;
+    }
+
+    .about-us__info:nth-child(2) > a {
+        order: 1;
+    }
+
+    .about-us__info:nth-child(2) .about-us__info-content {
+        order: 2;
+    }
+
     /* Nguyễn Hữu Kha end*/
     /*Triệu Huệ Mẩn*/
     .branch-item{
