@@ -50,6 +50,7 @@ h1{
     color: var(--white-color);
     font-size: 2rem;
     margin-left: 15px;
+    text-decoration: none;
 }
 .login-link:hover, .cart-link:hover, .search-link:hover, .nav-link:hover {
     opacity: 0.8;
@@ -1498,7 +1499,7 @@ select.auth-form__input:hover {
 
 .product-content__tabs {
     width: 100%;
-    margin: 50px 20px 0;
+    margin:0;
 }
 
 .product-content__tabs-list {
@@ -1508,6 +1509,7 @@ select.auth-form__input:hover {
     justify-content: flex-start;
     list-style: none;
     text-align: center;
+    margin-top: 30px;
 }
 
 .product-content__tabs-item {
@@ -1628,6 +1630,7 @@ select.auth-form__input:hover {
     text-transform: uppercase;
     letter-spacing: 5px;
     line-height: 1.5;
+    margin-bottom: 10px;
 }
 
 .product-recommend-wrapper {
@@ -1910,6 +1913,7 @@ select.auth-form__input:hover {
     margin-top: 16px;
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 
 .pay__user-info {
@@ -2063,7 +2067,156 @@ select.auth-form__input:hover {
     
 }
 
+/*Contact*/
+.contact-content{
+    position: relative;
+    /*width: 100%;*/
 
+}
+.contact-slider-background{
+    position: relative;
+    width: 100%;
+    min-width: 700px;
+    height: calc(100% - 2px);
+    margin: 1px 0;
+    vertical-align: middle;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.contact-branch{
+    background: #fff9f8;
+    display: inline-block;
+    width: 100%;
+}
+.branch-wrapper{
+    margin: auto;
+    width: 1300px;
+}
+.branch-section{
+    overflow: auto;
+    padding-top: 107px;
+    padding-bottom: 145px;
+}
+.branch{
+    float: left;
+    width: calc(100% / 4);
+}
+.branch-item li{
+    list-style-type: none;
+    text-align: center;
+    font-family: -webkit-pictograph;
+    font-size: 17px;
+
+}
+.branch-item li h2{
+    line-height: 2em;
+}
+
+.branch-item li a{
+    text-decoration: none;
+    color: #838383;
+    line-height: 1.8em;
+}
+.branch-item li a:hover{
+    color:black ;
+}
+
+.contact-ask{
+    display: flex;
+    position: relative;
+    height: 100%;
+
+}
+.background-ask{
+    width: 100%;
+    background-repeat:repeat ;
+    height: 100%;
+}
+.contact-ask-wrapper{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.contact-ask-inner{
+    position: absolute;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /*margin-top: 45px;*/
+}
+.contact-ask-item{
+    position: relative;
+    padding: 0px 15% 0px 15%;
+    margin-top: 45px;
+    margin-left: 38px;
+    width: 50%;
+    height: 100%;
+
+}
+.contact-section-inner{
+    width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.contact-ask .tagline{
+    font-family:Mistral;
+    color: #e5e5e5;
+    font-size: 47px;
+    line-height: 27px;
+}
+.contact-ask .title{
+    font-size: 30px;
+    letter-spacing: .05em;
+    margin-bottom: 10px;
+}
+.contact-ask .subtitle{
+    font-size: 18px;
+    padding: 4px 0;
+    color: #5A5A5A;
+    font-weight: 100;
+    line-height: 25px;
+}
+.contact-ask .contact-form{
+    display: table-caption;
+}
+.contact-ask .your-email{
+    margin: 10px 0 21px;
+    width: 100%;
+    padding: 12px 15px;
+    /*border-style: solid;*/
+
+}
+.contact-ask .your-message{
+    padding: 12px 15px;
+    margin-bottom: 21px;
+    border-style:solid ;
+}
+.contact-ask .submit-btn{
+    color: white;
+    background: black;
+    padding: 15px 40px;
+}
+.contact-ask .submit-btn:hover{
+    color: black;
+    background: white;
+    cursor: pointer;
+}
+
+.contact-ask .contact-map{
+    width: 50%;
+    margin-bottom: 15px;
+    position: relative;
+    margin-right: 38px;
+}
+.contact-ask .img-map{
+    background-size: cover;
+    width: 100%;
+}
 
 /**-------------------Triệu Huệ Mẩn - end-----------------------*/
 
