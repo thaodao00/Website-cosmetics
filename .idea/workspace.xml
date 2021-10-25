@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd399ca9-c65c-4840-b483-3b7f6ad9c9dc" name="Changes" comment="" />
+    <list default="true" id="cd399ca9-c65c-4840-b483-3b7f6ad9c9dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/js/JSAbout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -49,7 +55,10 @@
       <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\assest\img" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.product.html">
+  <component name="RunManager" selected="JavaScript Debug.about.html">
+    <configuration name="about.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/website-cosmetics/website-cosmetics-Thao/about.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="cart.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/website-cosmetics/website-cosmetics-Thao/cart.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -62,16 +71,13 @@
     <configuration name="product.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/website-cosmetics/website-cosmetics-Thao/product.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="products.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/website-cosmetics/website-cosmetics-Thao/products.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.about.html" />
         <item itemvalue="JavaScript Debug.product.html" />
         <item itemvalue="JavaScript Debug.cart.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.pay.html" />
-        <item itemvalue="JavaScript Debug.products.html" />
       </list>
     </recent_temporary>
   </component>
@@ -118,6 +124,7 @@
       <workItem from="1635092754959" duration="721000" />
       <workItem from="1635093586340" duration="286000" />
       <workItem from="1635093886395" duration="1715000" />
+      <workItem from="1635144781820" duration="9518000" />
     </task>
     <servers />
   </component>
