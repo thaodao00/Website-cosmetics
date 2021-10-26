@@ -1,29 +1,39 @@
 
 /* Tablet and mobile ---------------------------------------*/
 /* Tablet and mobile */
-@media (max-width:1023px){
-    .my-account__main{
+@media (max-width:1023px) {
+    .my-account__main {
         margin-right: 0;
     }
-    .nav__information-orders{
+
+    .nav__information-orders {
         margin-right: 0;
     }
-    .nav__information-orders-content{
+
+    .nav__information-orders-content {
         margin-right: 0;
     }
-    .contact-ask-item{
+
+    .contact-ask-item {
         margin-bottom: 30px;
     }
-    .product-slider__title{
-        font-size: 2rem;
+
+    .product-slider__title {
+        font-size: 4rem;
         left: 20%;
     }
-    .product-content__text__title{
+
+    .product-content__text__title {
         font-size: 2rem;
     }
+
     .products-slidesshow {
         margin-top: 15px;
     }
+    .mySlider-img{
+        height: 100%;
+    }
+}
 /* Tablet ----------------------------------------------------*/
 
 /* Tablet */
@@ -477,13 +487,16 @@
         height: 250px;
         margin-top: 55px;
     }
+
     .product-container__inner {
         padding-top: 0;
     }
-    .product-slider__title{
-        font-size: 1.5rem;
+
+    .product-slider__title {
+        font-size: 3rem;
         left: 10%;
     }
+
     .product-content__rating {
         margin: 0;
     }
@@ -495,9 +508,11 @@
     .product-content__img {
         height: 300px;
     }
-    .product-frame{
+
+    .product-frame {
         margin-top: 0;
     }
+
     .product-content__text-wrapper {
         padding-left: 3%;
     }
@@ -507,25 +522,32 @@
         margin-bottom: 20px;
         font-size: 2rem;
     }
-    .related-products__title{
+
+    .related-products__title {
         font-size: 2rem;
     }
-    .product-content__tabs-content{
+
+    .product-content__tabs-content {
         margin-top: 10px;
     }
+
     .product-content__details-description p,
     .tabs-content__description {
         font-size: 14px;
     }
+
     .tabs-content__item {
         margin-left: 10px;
     }
+
     .stay-in-touch .close-wrapper {
         display: none;
     }
+
     .stay-in-touch__title {
         margin-top: 36px;
     }
+
     .popup {
         position: fixed;
         left: 0;
@@ -534,6 +556,7 @@
         bottom: 0;
         margin: auto;
     }
+
     .popup-overlay {
         position: fixed;
         left: 0;
@@ -547,6 +570,7 @@
         opacity: 0.4;
         z-index: 110;
     }
+
     .product-content__img-wrapper {
         width: 100%;
         margin-bottom: 30px;
@@ -805,7 +829,7 @@
     }
 
     .about-us__info ~ .about-us__info {
-         margin-top: 0;
+        margin-top: 0;
     }
 
     .about-us__info:nth-child(2) > a {
@@ -818,9 +842,10 @@
 
     /* Nguyễn Hữu Kha end*/
     /*Triệu Huệ Mẩn*/
-    .branch-item{
+    .branch-item {
         margin-bottom: 10px;
     }
+
     .branch-section {
         margin: 25px 0;
     }
@@ -837,6 +862,7 @@
     .contact-ask .tagline {
         font-size: 2.2rem;
     }
+
     .contact-ask .subtitle {
         font-size: 1.2rem;
     }
@@ -852,14 +878,21 @@
     .contact-ask .contact-form {
         display: grid;
     }
-    .contact-slider{
+
+    .contact-slider {
         margin-top: 56px;
         height: 120px;
     }
-    .contact-ask-wrapper{
+
+    .contact-ask-wrapper {
         padding: 25px 10px;
     }
+
     .contact-ask .title {
         font-size: 1.6rem;
-    }}
+    }
+
+    .back-to-top {
+        margin-bottom: 55px;
+    }
 }
