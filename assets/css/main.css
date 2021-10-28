@@ -1041,7 +1041,7 @@ select.auth-form__input:hover {
     position: relative;
     display: none;
 }
-.nav__information-my-account-item{
+.nav__information-my-account-item, .my-account-logout{
     font-size: 1.4rem;
     padding-left: 33px;
     padding-top: 10px;
@@ -1062,6 +1062,14 @@ select.auth-form__input:hover {
     background: transparent;
     display: block;
 
+}
+.my-account-logout{
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    cursor: pointer;
+}
+.my-account-logout:hover{
+    opacity: 0.8;
 }
 /*purchase-order*/
 .purchase-order{

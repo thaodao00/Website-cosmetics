@@ -80,6 +80,10 @@ formReview.addEventListener('click', function (e){
     e.stopPropagation()
 })
 
+const btnLogout = $(".my-account-logout");
+btnLogout.addEventListener("click", showAccount);
+
+
 
 
 

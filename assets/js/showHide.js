@@ -40,6 +40,9 @@ const navMobile = $('.nav-mobile')
 const navBtnMobile = $('.nav-link')
 const forgotBtn = $('.auth-form__help-link')
 const forgotForm = $('.forgot-pass-form')
+
+
+
 function showAccount(){
     modalAccount.classList.add('modal-account__open')
 }
@@ -70,10 +73,12 @@ for(const btn of backBtn){
     btn.addEventListener('click', hideAccount)
 }
 
-for(const authForm of authForms){
-    authForm.addEventListener('click', function (e){
+for(const authForm of authForms) {
+    authForm.addEventListener('click', function (e) {
         e.stopPropagation()
     })
+}
+
 
 const close = $('.close');
 const overlay = $('.popup-overlay');
@@ -82,16 +87,12 @@ const popup = $('.popup');
 popup.onclick = function (e) {
     e.stopPropagation();
 }
-
 close.onclick = function(e) {
     document.querySelector('.stay-in-touch').style.display = 'none';
     overlay.style.display = 'none';
 }
-
 overlay.onclick = function (){
     document.querySelector('.stay-in-touch').style.display = 'none';
     overlay.style.display = 'none';
 }
-}
-
 
