@@ -557,7 +557,7 @@ h1{
     top: 0;
     right: 0;
     bottom: 0;
-    width: 50%;
+    width: 60%;
     z-index: 10;
     background: var(--white-color);
     transform: translateX(100%);
