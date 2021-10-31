@@ -247,8 +247,8 @@
     }
 
     .content__title {
-        font-size: 1.6rem;
-        padding: 15px 0;
+        font-size: 2rem;
+        padding: 17px 0 12px;
     }
 
     .slide-content__right {
@@ -299,9 +299,8 @@
     }
 
     .overview__title {
-        padding-top: 30px;
+        padding: 30px 8px 0;
     }
-
     .product__item--describe span {
         font-size: 1.2rem;
     }
@@ -344,6 +343,7 @@
 
     .search-mobile {
         display: flex;
+        opacity: 0.8;
     }
 
     .cart-link, .login-link {
@@ -671,6 +671,10 @@
 
 
     /* Cart */
+    #cart, #pay-page {
+        margin-top: 56px;
+    }
+
     .cart__title, .pay__title {
         padding: 24px 5%;
     }
@@ -804,7 +808,7 @@
 
     /* Nguyễn Hữu Kha end */
     .about-us__header-wrapper {
-        margin-top: 17%;
+        margin-top: 56px;
     }
 
     .about-us__header {
@@ -894,5 +898,13 @@
 
     .back-to-top {
         margin-bottom: 55px;
+    }
+
+    .products a {
+        padding: 0;
+    }
+
+    .products {
+        padding: 0 5px;
     }
 }
