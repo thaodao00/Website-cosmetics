@@ -923,8 +923,11 @@ select.auth-form__input:hover {
     display: flex;
     justify-content: flex-end;
 }
+.auth-form__controls a{
+    padding: 0;
+}
 .auth-form__controls .buttons{
-    padding: 0 12px;
+    padding: 3.5px 12px;
 }
 
 /*.auth-form__controls-back:focus ~ .modal-account{*/

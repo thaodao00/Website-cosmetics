@@ -96,3 +96,7 @@ overlay.onclick = function (){
     overlay.style.display = 'none';
 }
 
+const submitLink = $(".auth-form__controls a");
+    submitLink.onclick = function (){
+        submitLink.setAttribute("href", "./personalInformation.html");
+}

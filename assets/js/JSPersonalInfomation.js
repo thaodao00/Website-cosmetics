@@ -44,9 +44,9 @@ modalAddress.addEventListener('click',function (){
 addressForm.addEventListener('click', function (e){
     e.stopPropagation();
 })
-backBtn.addEventListener('click',function (){
-    modalAddress.style.display="none"
-})
+// backBtn.addEventListener('click',function (){
+//     modalAddress.style.display="none"
+// })
 
 const statusOrder = $$('.nav__information-orders-item')
 const panesOrder =$$('.nav__information-orders-content')
