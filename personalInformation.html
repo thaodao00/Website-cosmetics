@@ -17,6 +17,53 @@
     <div id="app" style="background: #efe8e8">
         <!--Header: begin-->
         <header class="header">
+            <div class="grid wide ">
+                <div class="row navbar">
+                    <div class="col l-2 m-2 c-6">
+                        <a href="index.html" style="text-decoration: none">
+                            <h1 class="logo"about=""> Cosmetics</h1>
+                        </a>
+                    </div>
+                    <div class="col l-8 m-8 c-0">
+                        <ul class="navbar__list">
+                            <li class="navbar__item">
+                                <a href="./index.html" class="navbar__item-link">
+                                    HOME
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a class="navbar__item-link" href="./products.html">
+                                    PRODUCTS
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a class="navbar__item-link" href="./about.html">
+                                    ABOUT US
+                                </a>
+                            </li>
+                            <li class="navbar__item">
+                                <a class="navbar__item-link" href="./contact.html">
+                                    CONTACT US
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-icon col l-2 m-2 c-0">
+                        <a class="search-link">
+                            <i class="fas fa-search"></i>
+                        </a>
+                        <a href="./cart.html" class="cart-link">
+                            <i class="fa fa-cart-plus"></i>
+                        </a>
+                        <a class="login-link" style="cursor: default; pointer-events: none">
+                            <i class="fa fa-user"></i>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
         <div class="grid wide ">
             <div class="row navbar">
                 <div class="col l-2 m-2 c-6">
@@ -60,6 +107,7 @@
                         <i class="fa fa-user"></i>
                     </a>
 
+
                 </div>
                 <div class="nav-icon col l-0 m-0 c-6">
                     <label for="nav-mobile__label">
@@ -97,6 +145,7 @@
 
             </div>
         </div>
+
         </header>
         <!--Header: end-->
         <!-- Content: begin-->
@@ -123,6 +172,10 @@
                                         <li class="nav__information-my-account-item my-account-passwords">
                                             Change passwords
                                         </li>
+                                        <li href="" class="my-account-logout">
+                                            Log out
+                                        </li>
+
                                     </ul>
                                 </li>
                                 <li class="nav__information-personal-purchase">
@@ -491,16 +544,15 @@
                                     <label class="my-account__form-label">
                                         EMail
                                     </label>
-                                    <div class="my-account__form-content">
-                                        thuthao5624@gmail.com
+                                    <div id="email-text" class="my-account__form-content">
+
                                     </div>
                                 </div>
                                 <div class="my-account__form-name">
                                     <label class="my-account__form-label">
                                         Password
                                     </label>
-                                    <div class="my-account__form-content">
-                                        *******************
+                                    <div id="password-text" class="my-account__form-content">
                                     </div>
                                 </div>
                             </form>
@@ -677,7 +729,7 @@
             <a class="cart-link">
                 <i class="fa fa-cart-plus"></i>
             </a>
-            <a class="login-link " style="padding-right: 10px">
+            <a class="login-link " style="padding-right: 10px; cursor: default; pointer-events: none">
                 <i class="fa fa-user"></i>
             </a>
 
@@ -701,6 +753,138 @@
                     <a href="">Innisfee green tea</a>
                 </li>
             </ul>
+        </div>
+    </div>
+    <!--modal account-->
+    <div class="modal-account">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+            <!--Register form -->
+            <div class="register-form">
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Register</h3>
+                            <span class="login-from__btn auth-form__switch-btn">Login</span>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="mail" class="auth-form__input" placeholder="Email">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Password">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Confirm password">
+                            </div>
+
+                        </div>
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">
+                                By registering, you agree with Cosmetics
+                                <a href="" class="auth-form__text-link">
+                                    Terms of service
+                                </a>&
+                                <a href="" class="auth-form__text-link">
+                                    Privacy policy
+                                </a>
+                            </p>
+                        </div>
+                        <div class="auth-form__controls">
+                            <button class="btn buttons auth-form__controls-back ">
+                                BACK
+                            </button>
+                            <button class="buttons">
+                                REGISTER
+                            </button>
+                        </div>
+                    </div>
+                    <div class="auth-form_socials">
+                        <a href="" class="auth-form_socials--face btn  btn--size-s btn--width-icon">
+                            <i class="auth-form_socials-icon fab fa-facebook-square"></i>
+                            <span class="auth-form__social-title">
+                                    Connect to Facebook</span>
+                        </a>
+                        <a href="" class="auth-form_socials-icon auth-form_socials--google btn btn--size-s btn--width-icon">
+                            <i class="icon-gg fab fa-google-plus-square"></i>
+                            <span class="auth-form__social-title">
+                                    Connect to Google</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--Login form -->
+            <div class="login-form">
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Login</h3>
+                            <span class="register-from__btn auth-form__switch-btn">Register</span>
+
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="mail" class="auth-form__input" placeholder="Email">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Password">
+                            </div>
+
+
+                        </div>
+                        <div class="auth-form__aside">
+                            <div class="auth-form__help">
+                                <span href="" class="auth-form__help-link auth-form__help-link--forgot">Forgot password</span>
+                                <span class="auth-form__help-separate"></span>
+                                <a href="" class="auth-form__help-link">Help?</a>
+                            </div>
+                        </div>
+                        <div class="auth-form__controls">
+                            <button class="btn buttons auth-form__controls-back ">
+                                BACK
+                            </button>
+                            <button class="buttons">
+                                LOGIN
+                            </button>
+                        </div>
+                    </div>
+                    <div class="auth-form_socials">
+                        <a href="" class="auth-form_socials--face btn  btn--size-s btn--width-icon">
+                            <i class="auth-form_socials-icon fab fa-facebook-square"></i>
+                            <span class="auth-form__social-title">
+                                    Kết nối với Facebook</span>
+                        </a>
+                        <a href="" class="auth-form_socials-icon auth-form_socials--google btn btn--size-s btn--width-icon">
+                            <i class="icon-gg fab fa-google-plus-square"></i>
+                            <span class="auth-form__social-title">
+                                    Kết nối với Google</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--Forgot password-->
+            <div class="forgot-pass-form">
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Forgot password</h3>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="mail" class="auth-form__input" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="auth-form__controls">
+                            <button class="btn buttons auth-form__controls-back ">
+                                BACK
+                            </button>
+                            <button class="buttons">
+                                SEND
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!--  modal address  -->
@@ -975,7 +1159,7 @@
                             </div>
                         </div>
                         <div class="auth-form__controls">
-                            <button class="btn buttons auth-form__controls-back">
+                            <button id="back" class="btn buttons auth-form__controls-back">
                                 BACK
                             </button>
                             <button class="buttons">

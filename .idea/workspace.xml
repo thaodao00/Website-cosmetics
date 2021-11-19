@@ -41,6 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Web/apache-tomcat-9.0.54/lib" />
+    <property name="last_opened_file_path" value="E:/LTW/Lab4/Ex2/index.html" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -138,6 +139,9 @@
       <workItem from="1635838515872" duration="496000" />
       <workItem from="1635839078722" duration="3136000" />
       <workItem from="1635855171476" duration="958000" />
+      <workItem from="1635253029744" duration="166000" />
+      <workItem from="1635431177391" duration="2783000" />
+      <workItem from="1635689999460" duration="4126000" />
     </task>
     <servers />
   </component>
@@ -162,6 +166,7 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.html</url>
           <line>445</line>
+          <line>459</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

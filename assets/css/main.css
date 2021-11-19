@@ -953,8 +953,11 @@ select.auth-form__input:hover {
     display: flex;
     justify-content: flex-end;
 }
+.auth-form__controls a{
+    padding: 0;
+}
 .auth-form__controls .buttons{
-    padding: 0 12px;
+    padding: 3.5px 12px;
 }
 
 /*.auth-form__controls-back:focus ~ .modal-account{*/
@@ -1071,7 +1074,7 @@ select.auth-form__input:hover {
     position: relative;
     display: none;
 }
-.nav__information-my-account-item{
+.nav__information-my-account-item, .my-account-logout{
     font-size: 1.4rem;
     padding-left: 33px;
     padding-top: 10px;
@@ -1092,6 +1095,14 @@ select.auth-form__input:hover {
     background: transparent;
     display: block;
 
+}
+.my-account-logout{
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    cursor: pointer;
+}
+.my-account-logout:hover{
+    opacity: 0.8;
 }
 /*purchase-order*/
 .purchase-order{
