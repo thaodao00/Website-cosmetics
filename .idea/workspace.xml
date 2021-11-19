@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd399ca9-c65c-4840-b483-3b7f6ad9c9dc" name="Changes" comment="" />
+    <list default="true" id="cd399ca9-c65c-4840-b483-3b7f6ad9c9dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/WebSocket_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/website-cosmetics-Thao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/website-cosmetics-Thao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +19,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="Tag Library Descriptor" />
       </list>
     </option>
   </component>
@@ -33,12 +38,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Web/apache-tomcat-9.0.54/lib" />
     <property name="last_opened_file_path" value="E:/LTW/Lab4/Ex2/index.html" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -125,6 +136,9 @@
       <workItem from="1635144781820" duration="9824000" />
       <workItem from="1635166483686" duration="2777000" />
       <workItem from="1635233619916" duration="2114000" />
+      <workItem from="1635838515872" duration="496000" />
+      <workItem from="1635839078722" duration="3136000" />
+      <workItem from="1635855171476" duration="958000" />
       <workItem from="1635253029744" duration="166000" />
       <workItem from="1635431177391" duration="2783000" />
       <workItem from="1635689999460" duration="4126000" />
@@ -151,6 +165,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.html</url>
+          <line>445</line>
           <line>459</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
