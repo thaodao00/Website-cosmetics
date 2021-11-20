@@ -27,12 +27,7 @@
         font-size: 2rem;
     }
 
-    .products-slidesshow {
-        margin-top: 15px;
-    }
-    .mySlider-img{
-        height: 100%;
-    }
+
 }
 /* Tablet ----------------------------------------------------*/
 
@@ -190,8 +185,7 @@
     .about-us__info-description span {
         font-size: 14px;
     }
-
-        /* Nguyễn Hữu Kha end */
+ /* Nguyễn Hữu Kha end */
 }
 
 
@@ -573,7 +567,7 @@
 
     .product-content__img-wrapper {
         width: 100%;
-        margin-bottom: 30px;
+        /*margin-bottom: 30px;*/
     }
 
     .product-content__text-wrapper {
