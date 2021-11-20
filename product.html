@@ -259,10 +259,100 @@
                                 </div>
                             </div>
                             <div class="tabs-content__item tabs-content__review">
+                                <!-- review: start -->
+                                <div class="product-review__wrapper">
+                                    <span class="product-review__title">Product reviews</span>
+                                    <div class="product-review__header">
+                                        <div class="product-review__rating-wrapper">
+                                            <span class="product-review__average-rating">5</span>
+                                            /5
+                                            <div class="product-review__rating">
+                                                <i class="fas fa-star star-rating"></i>
+                                                <i class="fas fa-star star-rating"></i>
+                                                <i class="fas fa-star star-rating"></i>
+                                                <i class="fas fa-star star-rating"></i>
+                                                <i class="fas fa-star star-rating"></i>
+                                            </div>
+                                        </div>
+                                        <div class="product-review__body">
+                                            <!-- comment -->
+                                            <div class="product-comment__wrapper">
+                                                <div class="product-comment__user-img">
+                                                    <img src="./assets/img/admin_info/DaoThiThuThao.jpg" alt="avatar">
+                                                </div>
+                                                <div class="product-comment__body">
+                                                    <span class="product-comment__user-name">Thaothao</span>
+                                                    <div class="product-content__rating product-content__user-rating">
+                                                        <i class="fas fa-star star-rating"></i>
+                                                        <i class="fas fa-star star-rating"></i>
+                                                        <i class="fas fa-star star-rating"></i>
+                                                        <i class="fas fa-star star-rating"></i>
+                                                        <i class="fas fa-star star-rating"></i>
+                                                    </div>
+                                                    <div class="product-comment__content-wrapper">
+                                                        <span class="product-commtent__content">Good product</span>
+                                                    </div>
+                                                    <div class="product-comment__created-time-wrapper">
+                                                        <span class="product-comment__created-time">2021-11-16 22:30</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- comment -->
+                                            <div class="product-comment__wrapper">
+                                                <div class="product-comment__user-img">
+                                                    <img src="./assets/img/admin_info/NguyenHuuKha2.jpg" alt="avatar">
+                                                </div>
+                                                <div class="product-comment__body">
+                                                    <span class="product-comment__user-name">Yangheenlw</span>
+                                                    <div class="product-content__rating product-content__user-rating">
+                                                        <i class="fas fa-star star-rating"></i>
+                                                        <i class="fas fa-star star-rating"></i>
+                                                        <i class="fas fa-star star-rating"></i>
+                                                        <i class="fas fa-star star-rating"></i>
+                                                        <i class="fas fa-star star-rating"></i>
+                                                    </div>
+                                                    <div class="product-comment__content-wrapper">
+                                                        <span class="product-commtent__content">Did anyone get pimples after using it?</span>
+                                                    </div>
+                                                    <div class="product-comment__created-time-wrapper">
+                                                        <span class="product-comment__created-time">2021-11-17 2:52</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- comment -->
+                                            <div class="product-comment__wrapper">
+                                                <div class="product-comment__user-img">
+                                                    <img src="./assets/img/admin_info/TrieuHueMan2.jpg" alt="avatar">
+                                                </div>
+                                                <div class="product-comment__body">
+                                                    <span class="product-comment__user-name">Manman</span>
+                                                    <div class="product-content__rating product-content__user-rating">
+                                                        <i class="fas fa-star star-rating"></i>
+                                                        <i class="fas fa-star star-rating"></i>
+                                                        <i class="fas fa-star star-rating"></i>
+                                                        <i class="fas fa-star star-rating"></i>
+                                                        <i class="fas fa-star star-rating"></i>
+                                                    </div>
+                                                    <div class="product-comment__content-wrapper">
+                                                        <span class="product-commtent__content">Looks like this serum doesn't suit my skin :((</span>
+                                                    </div>
+                                                    <div class="product-comment__created-time-wrapper">
+                                                        <span class="product-comment__created-time">2021-11-16 22:30</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="review-load-comment__wrapper">
+                                                <button class="buttons">load more...</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- review: end -->
+                                
                                 <textarea id="your-review-text" type="text" placeholder="Write your review"></textarea>
                                 <input id="your-name-text" type="text" placeholder="Your name" required>
                                 <input id="your-email-text" type="text" placeholder="Your email" required>
-                                <div>
+                                <div class="review-commit__wrapper">
                                     <button class="buttons">submit</button>
                                 </div>
                             </div>
@@ -286,18 +376,28 @@
                                 <h5 class="product__item-name">
                                     Multi-Peptide Serum for Hair Density
                                 </h5>
-                                <h3 class="product__item-price">
-                                    $15.00
-                                </h3>
-                                <div class="star-link">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                <div class="product__item-price-wrapper">
+                                    <h3 class="product__item-price product__item-price--old">
+                                        $15.0
+                                    </h3>
+                                    <h3 class="product__item-price">
+                                        $12.0
+                                    </h3>
                                 </div>
-
-
+                                <div class="star-link-sold-wrapper">
+                                    <div class="star-link">
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="product__sold-number">27 sold</div>
+                                </div>
+                                <div class="product__item-company-wrapper">
+                                    <span class="product__item-company">Ordinary</span>
+                                    <span class="product__item-origin-name">USA</span>
+                                </div>
                             </div>
                         </a>
                         <a href="#" class="col l-2-4 m-4 c-6">
@@ -307,18 +407,28 @@
                                 <h5 class="product__item-name">
                                     Glycolic Acid 7% Toning Solution
                                 </h5>
-                                <h3 class="product__item-price">
-                                    $8.70
-                                </h3>
-                                <div class="star-link">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                <div class="product__item-price-wrapper">
+                                    <h3 class="product__item-price product__item-price--old">
+                                        $8.7
+                                    </h3>
+                                    <h3 class="product__item-price">
+                                        $7.1
+                                    </h3>
                                 </div>
-
-
+                                <div class="star-link-sold-wrapper">
+                                    <div class="star-link">
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="product__sold-number">36 sold</div>
+                                </div>
+                                <div class="product__item-company-wrapper">
+                                    <span class="product__item-company">Ordinary</span>
+                                    <span class="product__item-origin-name">USA</span>
+                                </div>
                             </div>
                         </a>
                         <a href="#" class="col l-2-4 m-4 c-6">
@@ -328,18 +438,28 @@
                                 <h5 class="product__item-name">
                                     Caffeine Solution 5% + EGCG
                                 </h5>
-                                <h3 class="product__item-price">
-                                    $6.70
-                                </h3>
-                                <div class="star-link">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                <div class="product__item-price-wrapper">
+                                    <h3 class="product__item-price product__item-price--old">
+                                        $6.7
+                                    </h3>
+                                    <h3 class="product__item-price">
+                                        $5.5
+                                    </h3>
                                 </div>
-
-
+                                <div class="star-link-sold-wrapper">
+                                    <div class="star-link">
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="product__sold-number">42 sold</div>
+                                </div>
+                                <div class="product__item-company-wrapper">
+                                    <span class="product__item-company">Ordinary</span>
+                                    <span class="product__item-origin-name">USA</span>
+                                </div>
                             </div>
                         </a>
                         <a href="#" class="col l-2-4 m-4 c-6">
@@ -349,18 +469,28 @@
                                 <h5 class="product__item-name">
                                     Niacinamide 10% + Zinc 1%
                                 </h5>
-                                <h3 class="product__item-price">
-                                    $5.90
-                                </h3>
-                                <div class="star-link">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                <div class="product__item-price-wrapper">
+                                    <h3 class="product__item-price product__item-price--old">
+                                        $5.9
+                                    </h3>
+                                    <h3 class="product__item-price">
+                                        $5.2
+                                    </h3>
                                 </div>
-
-
+                                <div class="star-link-sold-wrapper">
+                                    <div class="star-link">
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="product__sold-number">65 sold</div>
+                                </div>
+                                <div class="product__item-company-wrapper">
+                                    <span class="product__item-company">Ordinary</span>
+                                    <span class="product__item-origin-name">USA</span>
+                                </div>
                             </div>
                         </a>
                         <a href="#" class="col l-2-4 m-4 c-6">
@@ -370,21 +500,30 @@
                                 <h5 class="product__item-name">
                                     Natural Moisturizing Factors + HA
                                 </h5>
-                                <h3 class="product__item-price">
-                                    $5.80
-                                </h3>
-                                <div class="star-link">
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
-                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                <div class="product__item-price-wrapper">
+                                    <h3 class="product__item-price product__item-price--old">
+                                        $5.8
+                                    </h3>
+                                    <h3 class="product__item-price">
+                                        $5.0
+                                    </h3>
                                 </div>
-
-
+                                <div class="star-link-sold-wrapper">
+                                    <div class="star-link">
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star star--fill" aria-hidden="true"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="product__sold-number">12 sold</div>
+                                </div>
+                                <div class="product__item-company-wrapper">
+                                    <span class="product__item-company">Ordinary</span>
+                                    <span class="product__item-origin-name">USA</span>
+                                </div>
                             </div>
                         </a>
-
                     </div>
 
 
