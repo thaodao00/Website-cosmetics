@@ -303,23 +303,55 @@ h1{
     justify-content: space-between;
 }
 .product__item-price{
-    font-size: 1.6rem;
-    margin: 10px 10px;
-    color: #717171;
-
+    font-size: 2.2rem;
+    margin: 0 0 6px 10px;
+    color: #b70921f7;
+    font-family: 'Estonia', cursive;
+}
+.product__item-price-wrapper {
+    display: flex;
+    justify-content: flex-start;
 }
 .sale-off.product__item-price{
     text-decoration: line-through;
+}
+.product__item-price.product__item-price--old {
+    text-decoration: line-through;
+    color: #717171;
 }
 .product__item-price-sale{
     font-size: 1.6rem;
     margin: 10px 10px;
     color: #b70921f7;
-
 }
-.star-link{
+.star-link-sold-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.star-link {
     font-size: 1rem;
-    margin: 0 10px 10px 10px;
+    margin: 0 8px 10px 0;
+    color: var(--light-grey);
+}
+.star-link .star--fill {
+    color: var(--star-gold-color);
+}
+.product__sold-number {
+    font-size: 1.0rem;
+    color: #717171;
+}
+.product__item-company-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 10px 4px;
+}
+.product__item-origin-name, .product__item-company {
+    font-size: 1.2rem;
+    color: #717171;
+}
+.product__item-company {
+    text-transform: uppercase;
 }
 /*sale product*/
 #discount-items{
@@ -340,9 +372,7 @@ h1{
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.6rem;
-    padding-right: 15px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding: 4px 24px 4px 8px;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 
