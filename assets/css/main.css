@@ -176,6 +176,7 @@ h1{
     float: right;
     margin-right: 90px;
     margin-top: 60px;
+    cursor: pointer;
 }
 .modal__input{
     outline: none;
@@ -187,7 +188,7 @@ h1{
     font-size: 3.5rem;
     padding-top: 20%;
     border-bottom: 1px solid var(--border-color);
-
+    font-family: 'Patrick Hand', cursive;
 }
 /*Content*/
 .content{
@@ -1704,24 +1705,127 @@ select.auth-form__input:hover {
     flex-wrap: wrap;
 }
 
+.product-review__wrapper {
+    width: 100%;
+    padding: 32px 16px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border-radius: 2px;
+    border: 1px solid var(--border-color);
+}
+
+.product-review__title {
+    width: 100%;
+    font-size: 28px;
+    color: var(--text-color);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    line-height: 1.4;
+}
+
+.product-review__header {
+    width: 100%;
+}
+
+.product-review__rating-wrapper {
+    width: 100%;
+    padding: 24px;
+    margin: 16px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-color);
+    background-color: #faf9f9;
+    line-height: 1.2;
+}
+
+.product-review__average-rating {
+    font-size: 28px;
+}
+
+.product-review__rating i {
+    color: var(--black-color);
+}
+
+.product-review__body {
+    width: 100%;
+    padding: 16px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-comment__wrapper {
+    width: 100%;
+    padding: 16px 0;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+}
+
+.product-comment__wrapper ~ .product-comment__wrapper {
+    border-top: none;
+}
+
+.product-comment__user-img {
+    margin: 0 16px;
+}
+
+.product-comment__user-img img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.product-comment__user-name {
+    font-size: 13px;
+}
+
+.product-content__user-rating {
+    font-size: 8px;
+    margin: 0;
+}
+
+.product-comment__content-wrapper {
+    width: 100%;
+    margin: 8px 0;
+    font-size: 28px;
+    color: var(--text-color);
+    font-family: 'Tangerine', cursive;
+    font-weight: 500;
+}
+
+.product-comment__created-time-wrapper {
+    width: 100%;
+    font-size: 10px;
+    color: var(--text-color);
+}
+
+.review-load-comment__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
 .tabs-content__review input,
 .tabs-content__review textarea {
     width: 80%;
     margin-top: 20px;
     line-height: 2;
     font-style: italic;
-    font-size: 16px;
+    font-size: 28px;
     color: var(--grey-color);
     padding: 10px 20px;
     border-radius: 2px;
     border: 1px solid var(--border-color);
     outline: none;
     font-weight: 300;
-    font-family: Cormorant,serif;
+    font-family: 'Tangerine', cursive;
     text-align: left;
 }
 
-.tabs-content__review div {
+.tabs-content__review .review-commit__wrapper {
     width: 80%;
     margin-top: 20px;
 }
