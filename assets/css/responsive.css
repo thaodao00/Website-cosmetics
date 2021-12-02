@@ -189,6 +189,10 @@
     .about-us__info-description span {
         font-size: 14px;
     }
+
+    .product-review__rating-wrapper {
+        font-size: 16px;
+    }
  /* Nguyễn Hữu Kha end */
 }
 
@@ -806,6 +810,28 @@
 
     .popup-confirm-pay {
         width: 90%;
+    }
+
+    .pay__total-price {
+        font-size: 14px;
+    }
+
+    .product-review__wrapper {
+        padding: 16px 0;
+        border: none;
+    }
+
+    .product-review__rating-wrapper {
+        font-size: 14px;
+        width: 95%;
+    }
+
+    .product-review__title {
+        font-size: 20px;
+    }
+
+    .product-comment__wrapper {
+        width: 95%;
     }
 
     /* Nguyễn Hữu Kha end */

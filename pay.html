@@ -459,16 +459,21 @@
     </div>
 
     <!-- Confirm pay popup -->
-    <div class="popup-confirm-pay__layout"></div>
-    <div class="popup-confirm-pay">
-        <div class="popup-confirm-pay__header">
-            <div class="popup-confirm-pay__title">
-                Confirm pay
+    <div class="popup-confirm-pay__wrapper">
+        <div class="popup-confirm-pay__layout"></div>
+        <div class="popup-confirm-pay">
+            <div class="popup-confirm-pay__header">
+                <div class="popup-confirm-pay__title">
+                    Confirm pay
+                </div>
             </div>
-        </div>
-        <div class="popup-confirm-pay__body">
-            <button class="buttons buttons--cancel buttons--smaller">Cancel</button>
-            <button class="buttons buttons--smaller">Confirm</button>
+            <div class="popup-confirm-pay__body confirm-purchase-js">
+                <button class="buttons buttons--cancel buttons--smaller cancel-purchase-js">Cancel</button>
+                <button class="buttons buttons--smaller">Confirm</button>
+            </div>
+            <div class="popup-confirm-pay__body--done">
+                Successful transaction!
+            </div>
         </div>
     </div>
 
