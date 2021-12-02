@@ -1758,7 +1758,7 @@ select.auth-form__input:hover {
     width: 100%;
     padding: 16px 0;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     border-top: 2px solid #eee;
     border-bottom: 2px solid #eee;
 }
@@ -1793,6 +1793,10 @@ select.auth-form__input:hover {
     color: var(--text-color);
     font-family: 'Tangerine', cursive;
     font-weight: 500;
+}
+
+.product-comment__content {
+    line-height: 0.9;
 }
 
 .product-comment__created-time-wrapper {
@@ -2236,6 +2240,10 @@ select.auth-form__input:hover {
 }
 
 /* Popup confirm pay */
+.popup-confirm-pay__wrapper {
+    display: none;
+}
+
 .popup-confirm-pay__layout {
     position: fixed;
     top: 0;
@@ -2249,17 +2257,6 @@ select.auth-form__input:hover {
     /* display: none; */
 }
 
-@keyframes payPopupGrow {
-    from {
-        transform: scale(0);
-        opacity: 0;
-    }
-    to {
-        transform: scale(1);
-        opacity: 1;
-    }
-}
-
 .popup-confirm-pay {
     width: 30%;
     position: fixed;
@@ -2270,8 +2267,8 @@ select.auth-form__input:hover {
     border-radius: 3px;
     z-index: 101;
     overflow: hidden;
-    transform-origin: 0 0;
-    animation: payPopupGrow ease-in 0.2s;
+    transform-origin: center center;
+    animation: appear ease-in 0.2s;
     will-change: opacity, transform;
 }
 
@@ -2294,6 +2291,16 @@ select.auth-form__input:hover {
     margin: 16px 0;
     display: flex;
     justify-content: space-evenly;
+}
+
+.popup-confirm-pay__body--done {
+    color: var(--text-color);
+    font-size: 28px;
+    line-height: 1.5;
+    margin: 16px 0;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    display: none;
 }
 
 /** About us */
