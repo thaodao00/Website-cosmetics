@@ -110,6 +110,10 @@
         padding: 10px 5% 10px 0;
     }
 
+    .popup-confirm-pay {
+        width: 50%;
+    }
+
     .filled-cart__item-img, .pay__item-img {
         width: 80px;
         height: 80px;
@@ -798,6 +802,10 @@
     .pay__user-info__body-change .buttons {
         padding: 4px 18px;
         width: 100%;
+    }
+
+    .popup-confirm-pay {
+        width: 90%;
     }
 
     /* Nguyễn Hữu Kha end */

@@ -2093,7 +2093,8 @@ select.auth-form__input:hover {
 .pay__item-quantity {
     width: 15%;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
+    font-family: emoji;
 }
 
 .filled-cart__item-totalPrice {
@@ -2217,6 +2218,82 @@ select.auth-form__input:hover {
 
 .pay__user-info__body-change .buttons {
     padding: 6px 24px;
+}
+
+.pay__total-price {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    color: var(--text-color);
+    font-weight: 600;
+    font-family: emoji;
+}
+
+.pay__total-price span {
+    padding: 0 6px;
+    padding-right: 5%;
+}
+
+/* Popup confirm pay */
+.popup-confirm-pay__layout {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--black-color);
+    opacity: 0.6;
+    z-index: 100;
+    cursor: pointer;
+    /* display: none; */
+}
+
+@keyframes payPopupGrow {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.popup-confirm-pay {
+    width: 30%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--white-color);
+    border-radius: 3px;
+    z-index: 101;
+    overflow: hidden;
+    transform-origin: 0 0;
+    animation: payPopupGrow ease-in 0.2s;
+    will-change: opacity, transform;
+}
+
+.popup-confirm-pay__header {
+    width: 100%;
+    background-color: var(--black-color);
+    padding: 8px 16px;
+    text-align: left;
+    font-family: 'Tangerine', cursive;
+}
+
+.popup-confirm-pay__title {
+    color: var(--white-color);
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.popup-confirm-pay__body {
+    width: 100%;
+    margin: 16px 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /** About us */
