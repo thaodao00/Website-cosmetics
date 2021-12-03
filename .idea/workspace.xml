@@ -22,6 +22,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pay.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/assets/css/responsive.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/assets/css/main.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/contact.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/products.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/product.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/about.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/personalInformation.html" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1z5k9M5HyFsrPRcc03A2suftz5W" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -36,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/LTW/Lab4/Ex2/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -145,6 +156,11 @@
       <workItem from="1637331218523" duration="4192000" />
       <workItem from="1637381931175" duration="4723000" />
       <workItem from="1637392450659" duration="2816000" />
+      <workItem from="1637411193090" duration="89000" />
+      <workItem from="1638432938096" duration="2041000" />
+      <workItem from="1638449994816" duration="9635000" />
+      <workItem from="1638507800512" duration="7390000" />
+      <workItem from="1638536416418" duration="3625000" />
     </task>
     <servers />
   </component>
@@ -168,7 +184,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.html</url>
-          <line>459</line>
+          <line>471</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

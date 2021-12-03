@@ -107,7 +107,7 @@
 
             <!-- Pay -->
             <div class="pay-content">
-                <div class="pay__user-info">
+                <div class="pay__user-info active-tab">
                     <div class="pay__user-info__header">
                         <div class="pay__user-info__title">
                             <span>Delivery Address</span>
@@ -127,6 +127,56 @@
                         </div>
                     </div>
                 </div>
+                <div class="pay__user-info ">
+                        <div class="pay__user-info__body-content-wrapper">
+                            <div class="radio-group" role ="radiogroup">
+                                <div class="radio">
+                                    <input type="radio" id="address-1" name="radio" checked="true">
+                                    <label for="address-1" class="radio-content">
+                                        <div class="pay__user-info__body">
+                                            <div class="pay__user-info__body-content-wrapper">
+                                                <div class="pay__user-info__body-content">
+                                                    <span class="tt pay__user-info__name">Triệu Huệ Mẩn</span>
+                                                    <span class="pay__user-info__phone">0522959244</span>
+                                                    <span class="pay__user-info__address">Trường ĐH Nông Lâm, Phường Linh Trung, Thành Phố Thủ Đức, TP. Hồ Chí Minh</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <input type="radio" id="address-2" name="radio">
+                                    <label for="address-2" class="radio-content">
+                                        <div class="pay__user-info__body">
+                                            <div class="pay__user-info__body-content-wrapper">
+                                                <div class="pay__user-info__body-content">
+                                                    <span class="pay__user-info__name">Đào Thị Thu Thảo</span>
+                                                    <span class="pay__user-info__phone">0345567324</span>
+                                                    <span class="pay__user-info__address">Trường ĐH Nông Lâm, Phường Linh Trung, Thành Phố Thủ Đức, TP. Hồ Chí Minh</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="pay__user-info__body-add">
+                                <button class="buttons">Add</button>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="radio-btn">
+                            <button class="buttons radio-btn__complete">
+                                COMPLETE
+                            </button>
+                            <button class="btn buttons radio-btn__back">
+                                BACK
+                            </button>
+                        </div>
+                    </div>
 
                 <!--  modal address  -->
                 <div class="modal-address">
@@ -450,6 +500,45 @@
             </div>
         </div>
     </div>
+    <div class="pay-content">
+        <div class="pay__user-info active-tab">
+            <div class="pay__user-info__header">
+                <div class="pay__user-info__title">
+                    <span>Delivery Address</span>
+                </div>
+            </div>
+            <div class="pay__user-info__content">
+                <select class="pay__user-info__body pay__user-info__body-select">
+                    <option class="pay__user-info__body-content-wrapper">
+                        <div class="pay__user-info__body-content">
+                            <span class="pay__user-info__name">Nguyen Huu Kha</span>
+                            <span class="pay__user-info__phone">0522959244</span>
+                            <span class="pay__user-info__address">Trường ĐH Nông Lâm, Phường Linh Trung, Thành Phố Thủ Đức, TP. Hồ Chí Minh</span>
+                        </div>
+
+                    </option>
+                    <option class="pay__user-info__body-content-wrapper">
+                        <div class="pay__user-info__body-content">
+                            <span class="pay__user-info__name">Đào Thị Thu Thảo</span>
+                            <span class="pay__user-info__phone">0522959244</span>
+                            <span class="pay__user-info__address">Trường ĐH Nông Lâm, Phường Linh Trung, Thành Phố Thủ Đức, TP. Hồ Chí Minh</span>
+                        </div>
+
+                    </option>
+                </select>
+                <div class="pay__user-info__body-change">
+                    <button class="buttons">ADD</button>
+                </div>
+            </div>
+
+
+
+<!--            <div class="pay__user-info__body-change">-->
+<!--                <button class="buttons">Change</button>-->
+<!--            </div>-->
+        </div>
+    </div>
+
 
     <!--Footer: begin-->
     <div class="footer">
