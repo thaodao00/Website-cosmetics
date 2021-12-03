@@ -110,6 +110,10 @@
         padding: 10px 5% 10px 0;
     }
 
+    .popup-confirm-pay {
+        width: 50%;
+    }
+
     .filled-cart__item-img, .pay__item-img {
         width: 80px;
         height: 80px;
@@ -184,6 +188,10 @@
     .about-us__info-date span,
     .about-us__info-description span {
         font-size: 14px;
+    }
+
+    .product-review__rating-wrapper {
+        font-size: 16px;
     }
  /* Nguyễn Hữu Kha end */
 }
@@ -800,6 +808,32 @@
         width: 100%;
     }
 
+    .popup-confirm-pay {
+        width: 90%;
+    }
+
+    .pay__total-price {
+        font-size: 14px;
+    }
+
+    .product-review__wrapper {
+        padding: 16px 0;
+        border: none;
+    }
+
+    .product-review__rating-wrapper {
+        font-size: 14px;
+        width: 95%;
+    }
+
+    .product-review__title {
+        font-size: 20px;
+    }
+
+    .product-comment__wrapper {
+        width: 95%;
+    }
+
     /* Nguyễn Hữu Kha end */
     .about-us__header-wrapper {
         margin-top: 56px;
@@ -858,7 +892,7 @@
     }
 
     .contact-ask .tagline {
-        font-size: 2.2rem;
+        font-size: 3.5rem;
     }
 
     .contact-ask .subtitle {

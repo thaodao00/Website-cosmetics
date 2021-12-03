@@ -133,6 +133,24 @@ html{
         transition: color ease-in-out 0.1s;
         transition: background-color ease-in-out 0.1s;
     }
+
+    .buttons--cancel {
+        color: var(--black-color);
+        background-color: var(--white-color);
+    }
+
+    .buttons--cancel:hover{
+        color: var(--white-color);
+        background-color: var(--black-color);
+        border: 1px solid #000;
+        transition: color ease-in-out 0.1s;
+        transition: background-color ease-in-out 0.1s;
+    }
+
+    .buttons.buttons--smaller {
+        padding: 6px 24px;
+    }
+
 .my-account__top-btn:hover{
     color: #000;
     background-color: transparent;

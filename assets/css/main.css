@@ -707,8 +707,6 @@ h1{
     display: flex;
     align-items: center;
     padding: 12px 22px;
-
-
 }
 .home-filter__lable{
     font-size: 1.4rem;
@@ -772,7 +770,7 @@ h1{
     height: 34px;
     padding: 0 12px;
     background-color: var(--white-color);
-    min-width: 110px;
+    min-width: 120px;
     border-radius: 2px;
     align-items: center;
     justify-content: space-between;
@@ -787,7 +785,7 @@ h1{
     position: absolute;
     left: 0;
     right: 0;
-    top: 25px;
+    top: 35px;
     background-color: var(--white-color);
     border-radius: 2px;
     list-style: none;
@@ -1758,7 +1756,7 @@ select.auth-form__input:hover {
     width: 100%;
     padding: 16px 0;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     border-top: 2px solid #eee;
     border-bottom: 2px solid #eee;
 }
@@ -1793,6 +1791,10 @@ select.auth-form__input:hover {
     color: var(--text-color);
     font-family: 'Tangerine', cursive;
     font-weight: 500;
+}
+
+.product-comment__content {
+    line-height: 0.9;
 }
 
 .product-comment__created-time-wrapper {
@@ -2093,7 +2095,8 @@ select.auth-form__input:hover {
 .pay__item-quantity {
     width: 15%;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
+    font-family: emoji;
 }
 
 .filled-cart__item-totalPrice {
@@ -2217,6 +2220,85 @@ select.auth-form__input:hover {
 
 .pay__user-info__body-change .buttons {
     padding: 6px 24px;
+}
+
+.pay__total-price {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    color: var(--text-color);
+    font-weight: 600;
+    font-family: emoji;
+}
+
+.pay__total-price span {
+    padding: 0 6px;
+    padding-right: 5%;
+}
+
+/* Popup confirm pay */
+.popup-confirm-pay__wrapper {
+    display: none;
+}
+
+.popup-confirm-pay__layout {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--black-color);
+    opacity: 0.6;
+    z-index: 100;
+    cursor: pointer;
+    /* display: none; */
+}
+
+.popup-confirm-pay {
+    width: 30%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--white-color);
+    border-radius: 3px;
+    z-index: 101;
+    overflow: hidden;
+    transform-origin: center center;
+    animation: appear ease-in 0.2s;
+    will-change: opacity, transform;
+}
+
+.popup-confirm-pay__header {
+    width: 100%;
+    background-color: var(--black-color);
+    padding: 8px 16px;
+    text-align: left;
+    font-family: 'Tangerine', cursive;
+}
+
+.popup-confirm-pay__title {
+    color: var(--white-color);
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.popup-confirm-pay__body {
+    width: 100%;
+    margin: 16px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.popup-confirm-pay__body--done {
+    color: var(--text-color);
+    font-size: 28px;
+    line-height: 1.5;
+    margin: 16px 0;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    display: none;
 }
 
 /** About us */
@@ -2492,9 +2574,10 @@ select.auth-form__input:hover {
 }
 .contact-ask .tagline{
     color: #e5e5e5;
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     line-height: 3rem;
-    margin-bottom: 10px;
+    margin-bottom: -25px;
+    font-family: 'Nothing You Could Do', sans-serif;
 }
 .contact-ask .title{
     font-size: 2rem;
@@ -2523,26 +2606,23 @@ select.auth-form__input:hover {
     margin-bottom: 21px;
     border-style:solid ;
 }
-.contact-ask .submit-btn{
+.contact-ask .submit-btn {
     color: white;
     background: black;
     padding: 15px 40px;
+    border: none;
+    border-radius: 1px;
 }
 .contact-ask .submit-btn:hover{
     color: black;
     background: white;
+    border: 1px solid var(--black-color);
     cursor: pointer;
-}
-
-.contact-ask .contact-map{
-    /*width: 50%;*/
-    /*margin-bottom: 15px;*/
-    /*position: relative;*/
-    /*margin-right: 38px;*/
 }
 .contact-ask .img-map{
     background-size: cover;
     width: 100%;
+    border-radius: 1px;
 }
 
 /**-------------------Triệu Huệ Mẩn - end-----------------------*/
