@@ -2228,26 +2228,6 @@ select.auth-form__input:hover {
 .pay__user-info__body-add .buttons {
     padding: 6px 24px;
 }
-.radio{
-    display: flex;
-    align-items: center;
-    margin-bottom: 35px;
-}
-.radio input{
-    margin-right: 20px;
-}
-.radio__body-content{
-    height: 24px;
-    font-size: 15px;
-    color: var(--text-color);
-    text-align: left;
-    line-height: 1.6;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
-    overflow: hidden;
-    display: flex;
-}
 .pay__user-info__body-select{
     height: 50px;
     outline: none;
@@ -2257,30 +2237,16 @@ select.auth-form__input:hover {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 1;
+    padding: 0 12px;
+    font-size: 1.5rem;
+    border-radius: 2px;
+    outline: none;
 }
 .pay__user-info__content{
     display: flex;
     align-items: center;
 }
-.radio__body-content span{
-    margin-right: 30px;
-}
-.radio-btn .buttons{
-    padding: 3.5px 12px;
 
-
-}
-.radio-btn__back{
-    border: 1px solid rgb(199, 190, 190);margin-left: 20px;
-}
-/*.pay__user-info__content{*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*}*/
-.radio-btn__add{
-    height: 50%;
-    margin-right: 90px;
-}
 
 .pay__total-price {
     width: 100%;
@@ -2296,6 +2262,7 @@ select.auth-form__input:hover {
     padding: 0 6px;
     padding-right: 5%;
 }
+
 
 /* Popup confirm pay */
 .popup-confirm-pay__wrapper {
@@ -2360,7 +2327,6 @@ select.auth-form__input:hover {
     font-family: 'Tangerine', cursive;
     display: none;
 }
-
 
 /** About us */
 .about-us__header-wrapper {
