@@ -2446,6 +2446,127 @@ select.auth-form__input:hover {
     line-height: 1.4;
 }
 
+/* cart list */
+.search-link__wrapper, .cart-link__wrapper, .login-link__wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.cart-list {
+    position: absolute;
+    min-width: 380px;
+    top: 40px;
+    right: -20px;    
+    background-color: var(--white-color);
+    box-shadow: 1px 1px 5px var(--grey-color);
+    border-radius: 2px;
+    text-align: center;
+    z-index: 110;
+}
+
+.cart-list__empty-cart {
+    padding: 8px 16px;
+    color: var(--text-color);
+    font-family: 'Patrick Hand', cursive;
+    display: none;
+}
+
+.cart-list__empty-cart-img {
+    width: 100%;
+}
+
+.cart-list__empty-cart-title {
+    font-size: 2.2rem;
+    line-height: 1.6;
+}
+
+.cart-list__empty-cart-message {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    padding-bottom: 16px;
+}
+
+.cart-list__filled-cart {
+    width: 100%;
+
+}
+
+.filled-cart__header {
+    width: 100%;
+    padding: 16px;
+    text-align: left;
+    font-size: 1.8rem;
+    color: var(--text-color);
+    letter-spacing: 1px;
+}
+
+.cart-list__filled-cart__items-list {
+    width: 100%;
+}
+
+.cart-list__filled-cart__item {
+    width: 100%;
+    padding: 8px 16px;
+    display: flex;
+}
+
+.filled-cart__item-img {
+    width: 80px;
+    height: 80px;
+    margin-right: 8px;
+    border-radius: 2px;
+}
+
+.cart-list__filled-cart__item-info {
+    width: calc(100% - 80px);
+    padding: 8px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cart-list__filled-cart__item-info-head, .cart-list__filled-cart__item-info-body {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-list__filled-cart__item-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-color);
+    line-height: 2rem;
+    max-height: 4rem;
+    overflow: hidden;
+    padding-right: 16px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-align: left;
+}
+
+.cart-list__filled-cart__price-wrapper {
+    display: flex;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    opacity: 0.8;
+    line-height: 2rem;
+}
+
+.cart-list__filled-cart__price-wrapper div {
+    margin-right: 4px;
+}
+
+.cart-list__filled-cart__item-category {
+    font-size: 1.3rem;
+    color: var(--text-color);
+}
+
+.cart-list__filled-cart__remove {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
 
 /**---------------Nguyễn Hữu Kha - end---------------------*/
 
