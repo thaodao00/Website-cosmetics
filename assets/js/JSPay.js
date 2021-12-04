@@ -1,9 +1,8 @@
-let changeButton = document.querySelector(".pay__user-info__body-change");
-
-changeButton.onclick = function () {
+let addButton = document.querySelector(".pay__user-info__body-add");
+addButton.onclick = function () {
     document.querySelector(".modal-address").style.display = "flex";
-}
 
+}
 let backButton = document.querySelector(".auth-form__controls-back")
 
 backButton.onclick = function () {

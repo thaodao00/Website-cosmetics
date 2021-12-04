@@ -345,7 +345,6 @@
 
     .search-mobile {
         display: flex;
-        opacity: 0.8;
     }
 
     .cart-link, .login-link {
@@ -692,7 +691,15 @@
     .pay-content {
         padding: 40px 5%;
     }
-
+    .pay__user-info__body-select{
+       margin: 4px 20px;
+    }
+    .pay__user-info__content{
+        flex-direction: column;
+    }
+    .radio{
+        margin-bottom: 20px;
+    }
     .filled-cart__title-bar, .pay__title-bar {
         display: none;
     }
@@ -799,13 +806,25 @@
         -webkit-line-clamp: 2;
     }
 
-    .pay__user-info__body-change {
+    .pay__user-info__body-change ,.pay__user-info__body-add{
         width: 100%;
     }
 
     .pay__user-info__body-change .buttons {
         padding: 4px 18px;
         width: 100%;
+    }
+    .pay__user-info__body-add .buttons {
+        padding: 4px 18px;
+        width: 100%;
+    }
+    .radio-btn{
+        margin-top: 30px;
+        justify-content: center;
+        display: flex;
+    }
+    .radio__body-content{
+        display: contents;
     }
 
     .popup-confirm-pay {

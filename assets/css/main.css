@@ -1116,7 +1116,7 @@ select.auth-form__input:hover {
 }
 .nav__information-orders-list{
     display: flex;
-    background: white;
+  /*/  background: white;*/
     justify-content: space-between;
     text-align: center;
 }
@@ -1124,7 +1124,7 @@ select.auth-form__input:hover {
     padding: 20px 20px;
 }
 .nav__information-orders-content{
-    background: white;
+    /*/background: white;*/
     margin: 20px 30px 20px 0;
     display: none;
 }
@@ -1233,10 +1233,11 @@ select.auth-form__input:hover {
 .nav__information-orders-content-item{
     display: none;
     margin-bottom: 20px;
-    background: white;
+    /*background: white;*/
 }
 .nav__information-orders-content-item-product{
     margin-bottom: 20px;
+    background: white;
 }
 .order-status{
     width: 100%;
@@ -2143,8 +2144,8 @@ select.auth-form__input:hover {
 }
 
 .pay__user-info {
-    display: flex;
-    flex-wrap: wrap;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
     width: 100%;
     padding: 24px 0 24px 3%;
     margin-bottom: 72px;
@@ -2152,6 +2153,7 @@ select.auth-form__input:hover {
     border-top: 3px solid var(--black-color);
     box-shadow: 0px 1px 5px var(--grey-color);
     border-radius: 3px;
+    display: none;
 }
 
 .pay__user-info__header {
@@ -2172,7 +2174,7 @@ select.auth-form__input:hover {
 }
 
 .pay__user-info__body-content-wrapper {
-    width: 100%;
+    /*width: 100%;*/
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -2182,45 +2184,69 @@ select.auth-form__input:hover {
 .pay__user-info__body-content {
     display: flex;
     flex-wrap: nowrap;
-    width: 80%;
+    /*width: 80%;*/
 }
 
 .pay__user-info__body-content span {
-    width: 15%;
+    /*width: 15%;*/
     height: 24px;
     font-size: 15px;
     color: var(--text-color);
     text-align: left;
     line-height: 1.6;
     display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
-    overflow: hidden;
+    /*-webkit-box-orient: vertical;*/
+    /*-webkit-line-clamp: 1;*/
+    /*overflow: hidden;*/
+    margin-right: 20px;
 }
 
 .pay__user-info__body-content .pay__user-info__phone {
-    width: 12.5%;
+    /*width: 12.5%;*/
 }
 
 .pay__user-info__body-content .pay__user-info__address {
-    width: 70%;
+    /*width: 70%;*/
 }
 
 .pay__user-info__body-content span ~ span {
-    margin-left: 2%;
+    /*margin-left: 2%;*/
 }
 
 .pay__user-info__name, .pay__user-info__phone {
     font-weight: 600;
 }
 
-.pay__user-info__body-change {
+.pay__user-info__body-change ,
+.pay__user-info__body-add{
     width: 16%;
 }
 
 .pay__user-info__body-change .buttons {
     padding: 6px 24px;
 }
+.pay__user-info__body-add .buttons {
+    padding: 6px 24px;
+}
+.pay__user-info__body-select{
+    height: 50px;
+    outline: none;
+    border: double;
+    margin-right: 30px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    padding: 0 12px;
+    font-size: 1.5rem;
+    border-radius: 2px;
+    outline: none;
+}
+.pay__user-info__content{
+    display: flex;
+    align-items: center;
+}
+
 
 .pay__total-price {
     width: 100%;
@@ -2236,6 +2262,7 @@ select.auth-form__input:hover {
     padding: 0 6px;
     padding-right: 5%;
 }
+
 
 /* Popup confirm pay */
 .popup-confirm-pay__wrapper {
