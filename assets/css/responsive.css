@@ -742,7 +742,7 @@
     .pay__item-price,
     .pay__item-totalPrice {
         width: 20%;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .filled-cart__item-price, .pay__item-price {
