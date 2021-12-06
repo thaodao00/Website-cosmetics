@@ -100,3 +100,22 @@ const submitLink = $(".auth-form__controls a");
     submitLink.onclick = function (){
         submitLink.setAttribute("href", "./personalInformation.html");
 }
+
+const navMobileOverlay = $('.nav-mobile__overlay');
+
+navBtnMobile.onclick = function() {
+    navMobile.style.display = "block";
+    navMobileOverlay.style.display = "block";
+}
+
+const iconExit = $('.icon-exit');
+
+iconExit.onclick = function () {
+    navMobile.style.display = "none";
+    navMobileOverlay.style.display = "none";
+}
+
+navMobileOverlay.onclick = function() {
+    navMobile.style.display = "none";
+    navMobileOverlay.style.display = "none"; 
+}
