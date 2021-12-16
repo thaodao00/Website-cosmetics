@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd399ca9-c65c-4840-b483-3b7f6ad9c9dc" name="Changes" comment="" />
+    <list default="true" id="cd399ca9-c65c-4840-b483-3b7f6ad9c9dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/insert-account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/base.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +18,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="Tag Library Descriptor" />
+        <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -24,6 +30,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/pay.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/assets/css/base.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/assets/js/JSPay.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/assets/css/responsive.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/assets/css/main.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/contact.html" root0="FORCE_HIGHLIGHTING" />
@@ -31,6 +39,7 @@
     <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/product.html" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/about.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/assets/js/JSPersonalInfomation.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/personalInformation.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1z5k9M5HyFsrPRcc03A2suftz5W" />
@@ -48,6 +57,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -59,24 +69,29 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\admin" />
+      <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\assets\css" />
+      <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics" />
       <recent name="C:\Users\Admin\Documents\website-cosmetics" />
       <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\assets\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics" />
-      <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\assest\js" />
-      <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\assest\img" />
+      <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\assets" />
+      <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\assets\js" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="about.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/website-cosmetics/website-cosmetics-Thao/about.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="cart.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/website-cosmetics/website-cosmetics-Thao/cart.html" useBuiltInWebServerPort="true">
+    <configuration name="admin-account.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/personalInformation.html/website-cosmetics-Thao/admin/admin-account.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/personalInformation.html/website-cosmetics-Thao/admin/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/website-cosmetics/website-cosmetics-Thao/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="pay.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/website-cosmetics/website-cosmetics-Thao/pay.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="product.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/website-cosmetics/website-cosmetics-Thao/product.html" useBuiltInWebServerPort="true">
@@ -85,10 +100,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.admin-account.html" />
         <item itemvalue="JavaScript Debug.about.html" />
         <item itemvalue="JavaScript Debug.product.html" />
-        <item itemvalue="JavaScript Debug.cart.html" />
-        <item itemvalue="JavaScript Debug.pay.html" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +175,16 @@
       <workItem from="1638432938096" duration="2041000" />
       <workItem from="1638449994816" duration="9635000" />
       <workItem from="1638507800512" duration="7390000" />
-      <workItem from="1638536416418" duration="6679000" />
+      <workItem from="1638536416418" duration="7093000" />
+      <workItem from="1638586972126" duration="591000" />
+      <workItem from="1639403262519" duration="9048000" />
+      <workItem from="1639482524505" duration="10952000" />
+      <workItem from="1639575413749" duration="8472000" />
+      <workItem from="1639585665531" duration="628000" />
+      <workItem from="1639623606165" duration="7786000" />
+      <workItem from="1639632755286" duration="240000" />
+      <workItem from="1639633016308" duration="1229000" />
+      <workItem from="1639635938245" duration="293000" />
     </task>
     <servers />
   </component>
