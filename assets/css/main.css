@@ -2079,7 +2079,7 @@ select.auth-form__input:hover {
 .pay__item-price,
 .pay__item-totalPrice {
     width: 10%;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     text-align: center;
     color: var(--text-color);
@@ -2089,6 +2089,7 @@ select.auth-form__input:hover {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
+    font-family: emoji;
 }
 
 .pay__item-price,
@@ -2446,6 +2447,184 @@ select.auth-form__input:hover {
     line-height: 1.4;
 }
 
+/* cart list */
+.search-link__wrapper, .cart-link__wrapper, .login-link__wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.cart-link__wrapper:hover .cart-list {
+    display: block;
+}
+
+.cart-list::after {
+    cursor: pointer;
+    position: absolute;
+    content: "";
+    right: 15px;
+    top: -30px;
+    border-width: 15px 18px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+}
+
+.cart-list::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2rem;
+    /* background-color: blue; */
+    top: -2rem;
+    right: 0;
+}
+
+.cart-list {
+    position: absolute;
+    min-width: 380px;
+    top: 40px;
+    right: -25px;    
+    background-color: var(--white-color);
+    box-shadow: 0 1px 2px var(--grey-color);
+    border-radius: 2px;
+    text-align: center;
+    z-index: 110;
+    animation: appear linear 0.15s;
+    display: none;
+}
+
+.cart-list__empty-cart {
+    padding: 8px 16px;
+    color: var(--text-color);
+    font-family: 'Patrick Hand', cursive;
+    display: none;
+}
+
+.cart-list__empty-cart-img {
+    width: 100%;
+}
+
+.cart-list__empty-cart-title {
+    font-size: 2.2rem;
+    line-height: 1.6;
+}
+
+.cart-list__empty-cart-message {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    padding-bottom: 16px;
+}
+
+.cart-list__filled-cart {
+    width: 100%;
+
+}
+
+.filled-cart__header {
+    width: 100%;
+    padding: 18px 16px;
+    text-align: left;
+    font-size: 1.8rem;
+    color: var(--text-color);
+    letter-spacing: 1px;
+}
+
+.cart-list__filled-cart__items-list {
+    width: 100%;
+    max-height: 36vh;
+    overflow-y: auto;
+}
+
+.cart-list__filled-cart__item {
+    width: 100%;
+    min-height: 90px;
+    padding: 4px 16px;
+    display: flex;
+    align-items: center;
+}
+
+.cart-list__filled-cart__item:hover {
+    cursor: pointer;
+    background-color: var(--border-color);
+}
+
+.filled-cart__item-img {
+    width: 60px;
+    height: 60px;
+    margin-right: 8px;
+    border-radius: 2px;
+}
+
+.cart-list__filled-cart__item-info {
+    width: calc(100% - 80px);
+    padding: 8px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cart-list__filled-cart__item-info-head, 
+.cart-list__filled-cart__item-info-body {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.cart-list__filled-cart__item-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-color);
+    line-height: 2rem;
+    max-height: 4rem;
+    overflow: hidden;
+    padding-right: 16px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-align: left;
+}
+
+.cart-list__filled-cart__price-wrapper {
+    display: flex;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    opacity: 0.8;
+    line-height: 2rem;
+    font-family: emoji;
+}
+
+.cart-list__filled-cart__price-wrapper div {
+    margin-right: 4px;
+}
+
+.cart-list__filled-cart__item-category {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: var(--text-color);
+}
+
+.cart-list__filled-cart__remove {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-top: 12px;
+}
+
+.cart-list__filled-cart__remove:hover {
+    color: #b70921f7;
+}
+
+.cart-list__filled-cart__footer {
+    padding: 12px;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    background-color: #e7e7e7;
+}
+
+#cart-list__view-button {
+    margin-right: 16px;
+}
 
 /**---------------Nguyễn Hữu Kha - end---------------------*/
 
