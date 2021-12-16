@@ -592,6 +592,7 @@ h1{
     z-index: 10;
     background: var(--white-color);
     transform: translateX(100%);
+    box-shadow: 0px 0px 4px var(--grey-color);
 }
 .nav-mobile__list{
     display: flex;
@@ -2624,6 +2625,46 @@ select.auth-form__input:hover {
 
 #cart-list__view-button {
     margin-right: 16px;
+}
+
+@keyframes overlay_appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.6;
+    }
+}
+
+/* Navbar mobile */
+.nav-mobile__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--black-color);
+    opacity: 0.6;
+    z-index: 9;
+    cursor: pointer;
+    animation: overlay_appear linear 0.2s;
+    display: none;
+}
+
+@keyframes rightToLeft {
+    from {
+        right: -60%;
+        opacity: 0;
+    }
+    to {
+        right: 0;
+        opacity: 1;
+    }
+}
+
+.nav-mobile {
+    animation: rightToLeft ease-in 0.2s;
+    display: none;
 }
 
 /**---------------Nguyễn Hữu Kha - end---------------------*/
