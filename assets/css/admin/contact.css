@@ -29,12 +29,12 @@
     color: var(--white);
 }
 
-.account {
+.contact {
     margin-top: 10px;
     border: 1px solid var(--gray-dark);
     border-bottom: none;
 }
-.account__header {
+.contact__header {
     display: flex;
     background-color: var(--light);
     border-bottom: 1px solid var(--gray-dark);
@@ -52,43 +52,38 @@
     border-right: 1px solid var(--gray-dark);
 }
 
-.account__body-choose {
+.contact__body-choose {
     width: 5%;
 }
-.account__body-id{
-    width: 11%;
-}
-.account__body-name {
-    width: 12%;
-}
-.account__body-mail {
-    width: 17%;
-}
-.account__body-password {
+
+.contact__body-name {
     width: 15%;
 }
-.account__body-update {
+.contact__body-mail {
+    width: 20%;
+}
+.contact__body-update {
     width: 10%;
 }
-.account__body-phone{
-    width: 12%;
+.contact__body-phone{
+    width: 20%;
 }
-.account__body-address{
-    width: 18%;
+.contact__body-address{
+    width:30%;
 }
 .contact__body-column{
     word-break: break-word;
 
 }
 /**** body *****/
-.account__body {
+.contact__body {
     display: flex;
     border-bottom: 1px solid var(--gray-dark);
 }
-.account__body:nth-of-type(odd) {
+.contact__body:nth-of-type(odd) {
     background-color: var(--white);
 }
-.account__body:nth-of-type(even) {
+.contact__body:nth-of-type(even) {
     background-color: var(--light);
 }
 .contact__body-column {
@@ -102,7 +97,7 @@
 .contact__body-column:not(:last-child) {
     border-right: 1px solid var(--gray-dark);
 }
-.account__body-name ul{
+.contact__body-name ul{
     padding-left: 2px;
     list-style-type: none;
     text-align: left;
@@ -111,37 +106,33 @@
 .contact__header-choose {
     width: 5%;
 }
-.account__header-id{
-    width: 11%;
-}
-.account__header-name {
-    width: 12%;
-}
 
-.account__header-mail {
-    width: 17%;
-}
-.account__header-password {
+.contact__header-name {
     width: 15%;
 }
-.account__header-update {
+
+.contact__header-mail {
+    width: 20%;
+}
+
+.contact__header-update {
     width: 10%;
 }
-.account__header-phone{
-    width: 12%;
+.contact__header-phone{
+    width: 20%;
 }
-.account__header-address{
-    width: 18%;
+.contact__header-address{
+    width: 30%;
 }
 .check-delete {
     outline: none;
     cursor: pointer;
 }
-.account__body-icon {
+.contact__body-icon {
     font-size: 1.4rem;
     color: var(--gray-dark);
     cursor: pointer;
 }
-.account__body-icon:hover {
+.contact__body-icon:hover {
     color: var(--orange);
 }
