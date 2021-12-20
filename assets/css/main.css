@@ -2103,7 +2103,7 @@ select.auth-form__input:hover {
 }
 
 .filled-cart__item-totalPrice {
-    margin-left: 16px;
+    margin-left: 5%;
 }
 
 .filled-cart__item-quantity  {
@@ -2222,6 +2222,7 @@ select.auth-form__input:hover {
 .pay__user-info__body-change ,
 .pay__user-info__body-add{
     width: 16%;
+    margin-right: 2%;
 }
 
 .pay__user-info__body-change .buttons {
@@ -2231,7 +2232,7 @@ select.auth-form__input:hover {
     padding: 6px 24px;
 }
 .pay__user-info__body-select{
-    height: 50px;
+    height: 40px;
     outline: none;
     border: double;
     margin-right: 30px;
@@ -2247,6 +2248,7 @@ select.auth-form__input:hover {
 .pay__user-info__content{
     display: flex;
     align-items: center;
+    margin: 12px 0;
 }
 
 
