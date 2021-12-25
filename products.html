@@ -636,6 +636,9 @@
                     </div>
                     <div class="auth-form__form">
                         <div class="auth-form__group">
+                            <input type="mail" class="auth-form__input" placeholder="User name">
+                        </div>
+                        <div class="auth-form__group">
                             <input type="mail" class="auth-form__input" placeholder="Email">
                         </div>
                         <div class="auth-form__group">
@@ -670,12 +673,13 @@
                     <a href="" class="auth-form_socials--face btn  btn--size-s btn--width-icon">
                         <i class="auth-form_socials-icon fab fa-facebook-square"></i>
                         <span class="auth-form__social-title">
-                                    Connect to Facebook</span>
+                                Connect to Facebook</span>
                     </a>
-                    <a href="" class="auth-form_socials-icon auth-form_socials--google btn btn--size-s btn--width-icon">
+                    <a href=""
+                       class="auth-form_socials-icon auth-form_socials--google btn btn--size-s btn--width-icon">
                         <i class="icon-gg fab fa-google-plus-square"></i>
                         <span class="auth-form__social-title">
-                                    Connect to Google</span>
+                                Connect to Google</span>
                     </a>
                 </div>
             </div>
@@ -691,17 +695,18 @@
                     </div>
                     <div class="auth-form__form">
                         <div class="auth-form__group">
-                            <input type="mail" class="auth-form__input" placeholder="Email">
+                            <input id="mail" type="email" class="auth-form__input" placeholder="User name">
                         </div>
                         <div class="auth-form__group">
-                            <input type="password" class="auth-form__input" placeholder="Password">
+                            <input id="password" type="password" class="auth-form__input" placeholder="Password">
                         </div>
 
 
                     </div>
                     <div class="auth-form__aside">
                         <div class="auth-form__help">
-                            <a href="" class="auth-form__help-link auth-form__help-link--forgot">Forgot password</a>
+                                <span href="" class="auth-form__help-link auth-form__help-link--forgot">Forgot
+                                    password</span>
                             <span class="auth-form__help-separate"></span>
                             <a href="" class="auth-form__help-link">Help?</a>
                         </div>
@@ -710,22 +715,45 @@
                         <button class="btn buttons auth-form__controls-back ">
                             BACK
                         </button>
-                        <button class="buttons">
-                            LOGIN
-                        </button>
+                        <a><input id="submit" type="submit" class="buttons" name="Login"> </a>
+
                     </div>
                 </div>
                 <div class="auth-form_socials">
                     <a href="" class="auth-form_socials--face btn  btn--size-s btn--width-icon">
                         <i class="auth-form_socials-icon fab fa-facebook-square"></i>
                         <span class="auth-form__social-title">
-                                    Kết nối với Facebook</span>
+                                Kết nối với Facebook</span>
                     </a>
-                    <a href="" class="auth-form_socials-icon auth-form_socials--google btn btn--size-s btn--width-icon">
+                    <a href=""
+                       class="auth-form_socials-icon auth-form_socials--google btn btn--size-s btn--width-icon">
                         <i class="icon-gg fab fa-google-plus-square"></i>
                         <span class="auth-form__social-title">
-                                    Kết nối với Google</span>
+                                Kết nối với Google</span>
                     </a>
+                </div>
+            </div>
+        </div>
+        <!--Forgot password-->
+        <div class="forgot-pass-form">
+            <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Forgot password</h3>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="mail" class="auth-form__input" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="auth-form__controls">
+                        <button class="btn buttons auth-form__controls-back ">
+                            BACK
+                        </button>
+                        <button class="buttons">
+                            SEND
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

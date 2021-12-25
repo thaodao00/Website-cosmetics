@@ -5,21 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd399ca9-c65c-4840-b483-3b7f6ad9c9dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/contact-admin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/insert-contact-admin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/admin/chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/admin/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/user.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/admin-account.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin-account.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/insert-account.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/insert-account.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/insert-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/insert-category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/insert-product.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/insert-product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/order.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/admin/account.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/admin/account.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/admin/sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/admin/sidebar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/pay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalInformation.html" beforeDir="false" afterPath="$PROJECT_DIR$/personalInformation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -80,11 +77,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\assets\img" />
       <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\assets\css\admin" />
       <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\admin" />
       <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\assets\css" />
       <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics" />
-      <recent name="C:\Users\Admin\Documents\website-cosmetics" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics" />
@@ -198,7 +195,9 @@
       <workItem from="1639635938245" duration="2206000" />
       <workItem from="1639710774612" duration="8000" />
       <workItem from="1639830356589" duration="55000" />
-      <workItem from="1640006074462" duration="6781000" />
+      <workItem from="1640006074462" duration="7047000" />
+      <workItem from="1640348721578" duration="36000" />
+      <workItem from="1640442451915" duration="2563000" />
     </task>
     <servers />
   </component>
