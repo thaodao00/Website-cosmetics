@@ -16,7 +16,7 @@
     border-radius: 4px;
 }
 .action__add {
-    background-color: var(--green);
+    background-color: var(--green-pastel);
 }
 .action__delete {
     background-color: var(--danger);
