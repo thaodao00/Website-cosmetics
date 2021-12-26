@@ -89,7 +89,7 @@
     background-color: var(--light);
 }
 .order__body-column {
-    padding: 10px 0;
+    padding: 10px 8px;
     display: flex;
     justify-content: center;
     align-items: center;
