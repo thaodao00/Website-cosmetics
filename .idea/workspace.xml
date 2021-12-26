@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd399ca9-c65c-4840-b483-3b7f6ad9c9dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/insert-account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/user.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/pay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalInformation.html" beforeDir="false" afterPath="$PROJECT_DIR$/personalInformation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +28,8 @@
       <list>
         <option value="JavaScript File" />
         <option value="Tag Library Descriptor" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -56,7 +64,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -69,11 +77,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\assets\img" />
+      <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\assets\css\admin" />
       <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\admin" />
       <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\assets\css" />
       <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics" />
-      <recent name="C:\Users\Admin\Documents\website-cosmetics" />
-      <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics\assets\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ASUS\Documents\GitHub\website-cosmetics" />
@@ -184,7 +192,12 @@
       <workItem from="1639623606165" duration="7786000" />
       <workItem from="1639632755286" duration="240000" />
       <workItem from="1639633016308" duration="1229000" />
-      <workItem from="1639635938245" duration="293000" />
+      <workItem from="1639635938245" duration="2206000" />
+      <workItem from="1639710774612" duration="8000" />
+      <workItem from="1639830356589" duration="55000" />
+      <workItem from="1640006074462" duration="7047000" />
+      <workItem from="1640348721578" duration="36000" />
+      <workItem from="1640442451915" duration="2563000" />
     </task>
     <servers />
   </component>
@@ -208,7 +221,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.html</url>
-          <line>471</line>
+          <line>641</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

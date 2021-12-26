@@ -1065,6 +1065,7 @@ select.auth-form__input:hover {
 .nav__information-personal-img{
     height: 2.5rem;
     width: 2.5rem;
+    border-radius: 50%;
 }
 .nav__information-personal-name{
     font-size: 1.6rem;
