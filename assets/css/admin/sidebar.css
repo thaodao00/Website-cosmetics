@@ -1,5 +1,5 @@
 .sidebar__chooses {
-    padding: 5px 0 5px 10px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     background-color: var(--light);
@@ -23,16 +23,16 @@
     color: var(--white);
 }
 .sidebar__chooses-item:nth-of-type(1) {
-    background-color: var(--green);
+    background-color: var(--green-pastel);
 }
 .sidebar__chooses-item:nth-of-type(2) {
-    background-color: var(--blue);
+    background-color: var(--turquoise-color);
 }
 .sidebar__chooses-item:nth-of-type(3) {
-    background-color: var(--orange);
+    background-color: var(--yellow-orange);
 }
 .sidebar__chooses-item:nth-of-type(4) {
-    background-color: var(--red);
+    background-color: var(--red-pastel);
 }
 .sidebar {
     margin-bottom: 20px;
@@ -42,7 +42,7 @@
 .sidebar__item {
     display: flex;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 16px;
     cursor: pointer;
     border-bottom: 1px solid #ccc;
 }
@@ -60,7 +60,7 @@
     display: block;
     padding: 10px 0;
     color: var(--gray-dark);
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 .sidebar__list-item__link:hover {
     background-color: #ccc;
@@ -70,9 +70,9 @@
 }
 .sidebar__item-link {
     display: block;
-    padding: 10px 0;
+    padding: 16px 0;
     flex-grow: 1;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: var(--gray-dark);
 }
 .sidebar__item-icon {
@@ -80,12 +80,11 @@
     color: var(--gray);
     margin-right: 10px;
 }
-/******************** phần bên trái ************/
 .direct {
-    padding: 10px 0 0px 10px;
+    padding: 10px 0 10px 10px;
     display: flex;
     align-items: center;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: var(--gray-dark);
     background-color: var(--light);
 }

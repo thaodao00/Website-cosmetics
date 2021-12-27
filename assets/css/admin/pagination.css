@@ -1,6 +1,7 @@
 .pagination {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 20px;
 }
 .pagination__list {
@@ -18,13 +19,13 @@
     font-size: 1.4rem;
     color: var(--gray-dark);
     background-color: #ccc;
-    border-radius: 5px;
+    border-radius: 2px;
     transition: all ease-in 0.1s;
     text-decoration: none;
 }
 .pagination__list-item__link.active,
 .pagination__list-item__link:hover {
-    background-color: var(--blue);
+    background-color: var(--black-color);
     color: var(--white);
 }
 .pagination__list-item__link i {
